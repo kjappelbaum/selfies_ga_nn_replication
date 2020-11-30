@@ -50,10 +50,11 @@
 #
 
 
+import gzip
 import math
 import os.path as op
 import pickle
-import gzip
+
 from rdkit import Chem
 from rdkit.Chem import rdMolDescriptors
 
