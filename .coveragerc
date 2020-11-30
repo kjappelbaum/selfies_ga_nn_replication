@@ -1,0 +1,23 @@
+# .coveragerc to control coverage.py
+
+[run]
+omit =
+        *__init__*
+        */usr/local/lib*
+        *test*
+        *_version
+        *versioneer
+        *setup*
+        *examples/*
+        *_hypervolume.py*
+
+[report]
+omit =
+        *__init__*
+        */usr/local/lib*
+        *test*
+        *_version*
+        *versioneer*
+        *setup*
+        *examples/*
+        *_hypervolume.py*
