@@ -539,3 +539,7 @@ MigrationBackup/
 *.pkl
 *.npy
 *.joblib
+*.txt
+*.png
+*tfevents*
+saved_models*/
