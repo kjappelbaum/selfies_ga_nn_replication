@@ -1,10 +1,9 @@
-import os
-
-from . import evolution_functions as evo
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+from . import evolution_functions as evo
 
 
 class Net(torch.nn.Module):
@@ -114,10 +113,6 @@ def do_predictions(discriminator, data_x, device):
     outputs = discriminator(data_x)
     predictions = outputs.detach().cpu().numpy()  # Return as a numpy array
     return predictions
-
-
-def _make_dir(directory):
-    os.makedirs(directory)
 
 
 def save_model(model, generation_index, dir_name):

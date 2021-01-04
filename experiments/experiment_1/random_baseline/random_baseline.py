@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import concurrent.futures
 import os
 
 import numpy as np
@@ -6,12 +7,11 @@ from rdkit.Chem import Descriptors
 from rdkit.Chem import MolFromSmiles as smi2mol
 from rdkit.Chem import MolToSmiles as mol2smi
 from selfies import decoder, encoder
-import concurrent.futures
-import wandb
 from tqdm import tqdm
 
-from ...sa_scorer.sascorer import calculate_score
+import wandb
 
+from ...sa_scorer.sascorer import calculate_score
 
 wandb.init(project="ga_replication_study", tags=["baseline", "experiment_1"])
 table = wandb.Table(columns=["run", "SMILES", "J"])

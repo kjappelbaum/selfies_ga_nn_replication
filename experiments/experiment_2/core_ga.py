@@ -1,14 +1,17 @@
 import multiprocessing
-import time
-import wandb
 import os
-from ...net import discriminator as D
-from ...net import evolution_functions as evo
-from . import generation_props as gen_func
+import time
+
 import torch
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
+
+import wandb
+
 from ...datasets.prepare_data import read_dataset_encoding
+from ...net import discriminator as D
+from ...net import evolution_functions as evo
+from . import generation_props as gen_func
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 

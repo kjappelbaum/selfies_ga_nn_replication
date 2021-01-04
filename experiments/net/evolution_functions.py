@@ -1,10 +1,9 @@
 import inspect
-from logging import root
 import multiprocessing
 import os
 import shutil
 from collections import OrderedDict
-import wandb
+
 import numpy as np
 import rdkit
 from rdkit import Chem

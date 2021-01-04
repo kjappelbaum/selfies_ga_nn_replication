@@ -5,11 +5,11 @@ import multiprocessing
 import os
 from random import randrange
 
-from ...net import discriminator as D
-from ...net import evolution_functions as evo
 import numpy as np
 from rdkit import Chem
 
+from ...net import discriminator as D
+from ...net import evolution_functions as evo
 from ...sa_scorer.sascorer import calculate_score
 
 manager = multiprocessing.Manager()

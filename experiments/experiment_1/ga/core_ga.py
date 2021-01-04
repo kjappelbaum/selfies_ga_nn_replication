@@ -1,13 +1,16 @@
 import multiprocessing
 import time
-import wandb
-from ...net import discriminator as D
-from ...net import evolution_functions as evo
-from . import generation_props as gen_func
+
 import torch
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
+
+import wandb
+
 from ...datasets.prepare_data import read_dataset_encoding
+from ...net import discriminator as D
+from ...net import evolution_functions as evo
+from . import generation_props as gen_func
 
 
 def initiate_ga(
