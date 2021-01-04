@@ -171,7 +171,7 @@ def main(desired_delta):
     disc_epochs_per_generation = 10
     disc_enc_type = "properties_rdkit"
     disc_layers = [100, 10]
-    training_start_gen = 0
+    training_start_gen = 200
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
     properties_calc_ls = ["logP", "SAS", "RingP", "SIMILR"]
 
@@ -268,6 +268,6 @@ def main(desired_delta):
                     print("IMPROVEMENT: ", improvement)
                     handle.write("{} \n".format(improvement))
 
+
 if __name__ == "__main__":
     main()
- 

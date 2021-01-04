@@ -1,1 +1,0 @@
-# Modification of hyperparameter beta
