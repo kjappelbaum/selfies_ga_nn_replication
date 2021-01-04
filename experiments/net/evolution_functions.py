@@ -33,7 +33,7 @@ def make_clean_results_dir(path):
     if path is not None:
         root_folder = os.path.join(path, "results")
     else:
-        root_folder = os.Path("./results")
+        root_folder = os.Path(os.getcwd(), "results")
     if not os.path.exists(root_folder):
         os.makedirs(root_folder)
     else:
@@ -72,7 +72,7 @@ def make_clean_directories(beta, root_folder, iteration):
         if len(os.listdir(models_dir)) > 0:
             os.system("rm -r %s/*" % (models_dir))
 
-    data_dir = os.path.join(root_folder, "/results_" + str(beta) + "_" + str(iteration))
+    data_dir = os.path.join(root_folder, "results_" + str(beta) + "_" + str(iteration))
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
     else:

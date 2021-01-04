@@ -223,9 +223,8 @@ def fitness(
             ):  # Check if there is a sagnation for 10 generations!
                 beta = 1000
                 print("BETA CUTTOFF IMPOSED index: ", generation_index)
-                f = open("{}/beta_change_log.txt".format(data_dir), "a+")
-                f.write(str(generation_index) + "\n")
-                f.close()
+                with open("{}/beta_change_log.txt".format(data_dir), "a+") as handle:
+                    handle.write(str(generation_index) + "\n")
 
         # max fitness without discriminator
         with open("{}/max_fitness_no_discr.txt".format(data_dir), "a+") as handle:
@@ -235,21 +234,6 @@ def fitness(
         with open("{}/avg_fitness_no_discr.txt".format(data_dir), "a+") as handle:
             handle.write(str(fitness.mean()) + "\n")
 
-        fitness = (beta * discriminator_predictions) + fitness
-
-        # Plot fitness with discriminator
-        writer.add_scalar("max fitness with discrm", max(fitness), generation_index)
-        writer.add_scalar("avg fitness with discrm", fitness.mean(), generation_index)
-
-        # max fitness with discriminator
-        with open("{}/max_fitness_discr.txt".format(data_dir), "a+") as handle:
-            handle.write(str(max(fitness)[0]) + "\n")
-
-        # avg fitness with discriminator
-        with open("{}/avg_fitness_discr.txt".format(data_dir), "a+") as handle:
-            handle.write(str(fitness.mean()) + "\n")
-
-        print("beta value: ", beta)
         fitness = (beta * discriminator_predictions) + fitness
 
         # Plot fitness with discriminator

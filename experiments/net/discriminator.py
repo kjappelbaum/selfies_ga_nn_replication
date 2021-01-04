@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import torch
 import torch.nn as nn
@@ -9,8 +10,6 @@ from . import evolution_functions as evo
 class Net(torch.nn.Module):
     def __init__(self, n_feature, h_sizes, n_output):
         super(Net, self).__init__()
-
-        # Layers
         self.hidden = nn.ModuleList()
         for k in range(len(h_sizes) - 1):
             self.hidden.append(nn.Linear(h_sizes[k], h_sizes[k + 1]))
@@ -116,20 +115,26 @@ def do_predictions(discriminator, data_x, device):
 
 
 def save_model(model, generation_index, dir_name):
-    out_dir = "./{}/".format(dir_name)
-    modelpath = "{}/{}".format(out_dir, generation_index)
+    modelpath = os.path.join(dir_name, str(generation_index))
     torch.save(model, modelpath)
     return modelpath
 
 
-def load_saved_model(model_number):
-    model = torch.load("./saved_models/{}".format(model_number))
+def load_saved_model(dir_name, model_number):
+    model = torch.load(os.path.join(dir_name, str(model_number)))
     model = model.eval()
     return model
 
 
 def check_discr_improvement(
-    g_data, data_y, generation_index, ga_discr_lookback, loss_func, writer, device
+    g_data,
+    data_y,
+    generation_index,
+    ga_discr_lookback,
+    loss_func,
+    writer,
+    device,
+    dir_name,
 ):
     """Algorithm written by @Mario:
 
@@ -143,8 +148,8 @@ def check_discr_improvement(
 
     @type data_y: Labels for g_data
     """
-    old_D = load_saved_model(generation_index - ga_discr_lookback)
-    new_D = load_saved_model(generation_index)
+    old_D = load_saved_model(generation_index - ga_discr_lookback, dir_name)
+    new_D = load_saved_model(generation_index, dir_name)
 
     # Set models to evaluation mode
     old_D = old_D.eval()
@@ -160,4 +165,4 @@ def check_discr_improvement(
     outputs = new_D(g_data)
     loss_new = loss_func(outputs, data_y)
     # Note: If (loss_old - loss_new) is +ve: Discriminator improved (i.e. loss_old > loss_new )
-    writer.add_scalar("check_discr_imporovement", loss_old - loss_new, generation_index)
+    writer.add_scalar("check_discr_improvement", loss_old - loss_new, generation_index)
