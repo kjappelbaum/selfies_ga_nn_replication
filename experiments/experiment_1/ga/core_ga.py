@@ -1,3 +1,4 @@
+import os
 import multiprocessing
 import time
 
@@ -11,6 +12,8 @@ from ...datasets.prepare_data import read_dataset_encoding
 from ...net import discriminator as D
 from ...net import evolution_functions as evo
 from . import generation_props as gen_func
+
+THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 def initiate_ga(
@@ -153,18 +156,18 @@ def initiate_ga(
 
 if __name__ == "__main__":
 
-    beta_preference = [0]
-    results_dir = evo.make_clean_results_dir()
+    beta_preference = [0, 1, 2, 8, 16, 32, 64, 1000]
+    results_dir = evo.make_clean_results_dir(THIS_DIR)
 
     exper_time = time.time()
-    num_generations = 100
+    num_generations = 500
     generation_size = 500
     max_molecules_len = 81
     disc_epochs_per_generation = 10
     disc_enc_type = "properties_rdkit"
     disc_layers = [100, 10]
     training_start_gen = 0
-    device = "cuda:0" if torch.cuda.is_available() else "cpu"
+    device = "cuda:1" if torch.cuda.is_available() else "cpu"
     properties_calc_ls = [
         "logP",
         "SAS",

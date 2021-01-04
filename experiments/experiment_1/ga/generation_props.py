@@ -505,7 +505,7 @@ def show_generation_image(
 
         evo.create_100_mol_image(
             A,
-            "./{}/{}_ga.png".format(image_dir, generation_index),
+            os.path.join(image_dir, "{}_ga.png".format(generation_index)),
             fitness,
             logP,
             SAS,

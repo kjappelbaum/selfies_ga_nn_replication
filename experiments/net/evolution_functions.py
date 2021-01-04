@@ -142,8 +142,8 @@ def create_100_mol_image(
             subImgSize=(200, 200),
             legends=[x.GetProp("_Name") for x in mol_list],
         ).save(file_name)
-    except:
-        print("Failed to produce image!")
+    except Exception as e:
+        print("Failed to produce image due to {}".format(e))
     return
 
 
