@@ -270,6 +270,7 @@ def main(results_dir):
             #    break
         labels_sorted = np.array(labels_sorted)
         np.savetxt(labels_path, labels_sorted)
+        run.log_artifact(labels_path, type="k_means_derived_labels")
         time1 = time.time()
         print("labels done in %.1f seconds" % (time1 - time0))
     else:
@@ -293,6 +294,7 @@ def main(results_dir):
     plt.ylabel("Molecule")
     plt.tight_layout()
     plt.savefig("families.pdf", bbox_inches="tight")
+    wandb.log({"families_plot": plt})
     plt.close()
 
 
