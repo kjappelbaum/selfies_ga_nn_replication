@@ -12,7 +12,7 @@ Standardized Values:
 import evolution_functions as evo
 from rdkit import Chem
 
-from ..sa_scorer.sascorer import calculateScore
+# from ..sa_scorer.sascorer import calculate_score
 
 
 def calc_prop_RingP(unseen_smile_ls):

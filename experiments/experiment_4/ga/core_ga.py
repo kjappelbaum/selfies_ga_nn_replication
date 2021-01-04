@@ -1,7 +1,7 @@
 import multiprocessing
 import os
 import time
-
+import click
 import torch
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
@@ -30,7 +30,9 @@ def initiate_ga(
     num_processors,
     beta,
     run,
-    max_fitness_collector,
+    starting_smile,
+    desired_delta,
+    save_curve,
 ):
 
     # Obtain starting molecule
@@ -93,7 +95,9 @@ def initiate_ga(
             beta,
             image_dir,
             data_dir,
-            max_fitness_collector,
+            starting_smile,
+            desired_delta,
+            save_curve,
         )
 
         run.log({"fitness": fitness_ordered[0]})
@@ -156,18 +160,12 @@ def initiate_ga(
     return smiles_all_counter
 
 
-if __name__ == "__main__":
-
-    
-    starting_smile = f.readlines()
-    starting_smile = [x.strip() for x in starting_smile] 
-
-
+@click.command("cli")
+@click.argument("desired_delta", type=float)
+def main(desired_delta):
     beta_preference = [0]
-    results_dir = evo.make_clean_results_dir(THIS_DIR)
 
-    exper_time = time.time()
-    num_generations = 1000
+    num_generations = 20
     generation_size = 500
     max_molecules_len = 81
     disc_epochs_per_generation = 10
@@ -175,19 +173,32 @@ if __name__ == "__main__":
     disc_layers = [100, 10]
     training_start_gen = 0
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
-    properties_calc_ls = [
-        "logP",
-        "SAS",
-        "RingP",
-    ]
+    properties_calc_ls = ["logP", "SAS", "RingP", "SIMILR"]
 
-    for i in range(10):
+    run = wandb.init(
+        project="ga_replication_study",
+        tags=["ga", "experiment_4", "constrained_optimization"],
+        job_type="load_data",
+        reinit=True,
+    )
+    artifact = run.use_artifact("low_perfm_data_dearom:latest")
+    artifact_dir = artifact.download()
+    with run:
+        with open(os.path.join(artifact_dir, "low_800.txt"), "r") as fh:
+            lines = fh.readlines()
+            starting_smile = [x.strip() for x in lines]
+
+    for smile in starting_smile:
+        exper_time = time.time()
+        print(f"Working on {smile}")
+        results_dir = evo.make_clean_results_dir(THIS_DIR)
         for beta in beta_preference:
+            save_curve = []
             run = wandb.init(
                 project="ga_replication_study",
-                tags=["ga", "experiment_2", "adaptive_penalty"],
+                tags=["ga", "experiment_4", "constrained_optimization"],
                 config={
-                    "run": i,
+                    "starting_smile": starting_smile,
                     "beta": beta,
                     "num_generations": num_generations,
                     "generation_size": generation_size,
@@ -197,18 +208,20 @@ if __name__ == "__main__":
                     "disc_layers": disc_layers,
                     "training_start_gen": training_start_gen,
                     "properties_calc_ls": properties_calc_ls,
+                    "desired_delta": desired_delta,
                 },
                 reinit=True,
+                job_type="ga",
             )
 
             with run:
-                max_fitness_collector = []
+
                 table = wandb.Table(
                     columns=["generation", "SMILES", "SELFIES", "fitness"]
                 )
 
                 image_dir, saved_models_dir, data_dir = evo.make_clean_directories(
-                    beta, results_dir, i
+                    beta, results_dir, 0
                 )  # clear directories
 
                 # Initialize new TensorBoard writers
@@ -219,7 +232,7 @@ if __name__ == "__main__":
                 smiles_all_counter = initiate_ga(
                     num_generations=num_generations,
                     generation_size=generation_size,
-                    starting_selfies=[encoder("C")],
+                    starting_selfies=[encoder(smile)],
                     max_molecules_len=max_molecules_len,
                     disc_epochs_per_generation=disc_epochs_per_generation,
                     disc_enc_type=disc_enc_type,  # 'selfies' or 'smiles' or 'properties_rdkit'
@@ -230,8 +243,31 @@ if __name__ == "__main__":
                     num_processors=multiprocessing.cpu_count(),
                     beta=beta,
                     run=run,
-                    max_fitness_collector=max_fitness_collector,
+                    starting_smile=smile,
+                    desired_delta=desired_delta,
+                    save_curve=save_curve,
                 )
                 run.log({"Table of best SMILES": table})
 
-    print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
+            print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
+            with open(os.path.join(THIS_DIR, "improvement.txt"), "a+") as handle:
+                A = save_curve[1:]
+                improvement = max(A) - save_curve[0]
+                run.log(
+                    {
+                        "improvement": improvement,
+                        "original_score": save_curve[0],
+                        "new_score": max(A),
+                    }
+                )
+
+                if max(A) < -100:
+                    handle.write("Failed improvement {} \n".format(starting_smile))
+                else:
+
+                    print("IMPROVEMENT: ", improvement)
+                    handle.write("{} \n".format(improvement))
+
+if __name__ == "__main__":
+    main()
+ 
