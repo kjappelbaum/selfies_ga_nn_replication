@@ -1,4 +1,5 @@
 import inspect
+from logging import root
 import multiprocessing
 import os
 import shutil
@@ -28,9 +29,12 @@ def get_logP(mol):
     return Descriptors.MolLogP(mol)
 
 
-def make_clean_results_dir():
+def make_clean_results_dir(path):
     # Create the results folder
-    root_folder = "./results"
+    if path is not None:
+        root_folder = os.path.join(path, "results")
+    else:
+        root_folder = os.Path("./results")
     if not os.path.exists(root_folder):
         os.makedirs(root_folder)
     else:
@@ -51,21 +55,25 @@ def make_clean_directories(beta, root_folder, iteration):
     Returns:
     None    : Folders in current directory modified
     """
-    image_dir = root_folder + "/images_generation_" + str(beta) + "_" + str(iteration)
+    image_dir = os.path.join(
+        root_folder, "images_generation_" + str(beta) + "_" + str(iteration)
+    )
     if not os.path.exists(image_dir):
         os.makedirs(image_dir)
     else:
         if len(os.listdir(image_dir)) > 0:
             os.system("rm -r %s/*" % (image_dir))
 
-    models_dir = root_folder + "/saved_models_" + str(beta) + "_" + str(iteration)
+    models_dir = os.path.join(
+        root_folder, "saved_models_" + str(beta) + "_" + str(iteration)
+    )
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
     else:
         if len(os.listdir(models_dir)) > 0:
             os.system("rm -r %s/*" % (models_dir))
 
-    data_dir = root_folder + "/results_" + str(beta) + "_" + str(iteration)
+    data_dir = os.path.join(root_folder, "/results_" + str(beta) + "_" + str(iteration))
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
     else:
