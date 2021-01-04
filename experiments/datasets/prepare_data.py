@@ -1,5 +1,5 @@
 import os
-
+import click
 import wandb
 
 
@@ -52,5 +52,21 @@ def create_artifacts():
     run.log_artifact(selfies_zinc_raw)
 
 
+def upload_low_perfm_data():
+    run = wandb.init(project="ga_replication_study", job_type="upload")
+    low_perm_data = wandb.Artifact("low_perfm_data_dearom", type="raw_data")
+    low_perm_data.add_file("low_800.txt")
+    run.log_artifact(low_perm_data)
+
+
+@click.command("cli")
+@click.option("--lowperf", is_flag=True)
+def main(lowperf):
+    if lowperf:
+        upload_low_perfm_data()
+    else:
+        create_artifacts()
+
+
 if __name__ == "__main__":
-    create_artifacts()
+    main()
