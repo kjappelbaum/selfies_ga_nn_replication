@@ -286,44 +286,38 @@ def fitness(
     )
 
 
-def obtained_standardized_properties(
-    molecules_here, logP_results, SAS_results, ringP_results
-):
-    """Obtain calculated properties of molecules in molecules_here, and standardize
-    values base on properties of the Zinc Data set.
-    """
-    logP_calculated = []
-    SAS_calculated = []
+def obtained_standardized_properties(molecules_here,  logP_results, SAS_results, ringP_results, QED_results):
+    ''' Obtain calculated properties of molecules in molecules_here, and standardize
+    values base on properties of the Zinc Data set. 
+    '''
+    logP_calculated  = []
+    SAS_calculated   = []
     RingP_calculated = []
+    QED_calculated = []
 
     for smi in molecules_here:
         logP_calculated.append(logP_results[smi])
         SAS_calculated.append(SAS_results[smi])
         RingP_calculated.append(ringP_results[smi])
-    logP_calculated = np.array(logP_calculated)
-    SAS_calculated = np.array(SAS_calculated)
+        QED_calculated.append(QED_results[smi])
+    logP_calculated  = np.array(logP_calculated)
+    SAS_calculated   = np.array(SAS_calculated)
     RingP_calculated = np.array(RingP_calculated)
-
+    QED_calculated   = np.array(QED_calculated)
+    
     # Standardize logP based on zinc logP (mean: 2.4729421499641497 & std : 1.4157879815362406)
     logP_norm = (logP_calculated - 2.4729421499641497) / 1.4157879815362406
-    logP_norm = logP_norm.reshape((logP_calculated.shape[0], 1))
-
+    logP_norm = logP_norm.reshape((logP_calculated.shape[0], 1))  
+    
     # Standardize SAS based on zinc SAS(mean: 3.0470797085649894    & std: 0.830643172314514)
     SAS_norm = (SAS_calculated - 3.0470797085649894) / 0.830643172314514
-    SAS_norm = SAS_norm.reshape((SAS_calculated.shape[0], 1))
-
+    SAS_norm = SAS_norm.reshape((SAS_calculated.shape[0], 1))  
+    
     # Standardiize RingP based on zinc RingP(mean: 0.038131530820234766 & std: 0.2240274735210179)
     RingP_norm = (RingP_calculated - 0.038131530820234766) / 0.2240274735210179
-    RingP_norm = RingP_norm.reshape((RingP_calculated.shape[0], 1))
-
-    return (
-        logP_calculated,
-        SAS_calculated,
-        RingP_calculated,
-        logP_norm,
-        SAS_norm,
-        RingP_norm,
-    )
+    RingP_norm = RingP_norm.reshape((RingP_calculated.shape[0], 1))  
+    
+    return logP_calculated, SAS_calculated, RingP_calculated, logP_norm, SAS_norm, RingP_norm, QED_calculated
 
 
 def obtain_fitness(

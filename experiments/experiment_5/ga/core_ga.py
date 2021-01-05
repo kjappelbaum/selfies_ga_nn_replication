@@ -158,9 +158,6 @@ def initiate_ga(
 
 if __name__ == "__main__":
 
-    starting_smile = f.readlines()
-    starting_smile = [x.strip() for x in starting_smile]
-
     beta_preference = [0]
     results_dir = evo.make_clean_results_dir(THIS_DIR)
 
@@ -197,6 +194,7 @@ if __name__ == "__main__":
                     "properties_calc_ls": properties_calc_ls,
                 },
                 reinit=True,
+                job_type='ga'
             )
 
             with run:
