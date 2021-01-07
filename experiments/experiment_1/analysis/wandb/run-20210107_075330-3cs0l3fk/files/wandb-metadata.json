@@ -1,0 +1,24 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.6",
+    "heartbeatAt": "2021-01-07T06:53:37.273391",
+    "startedAt": "2021-01-07T06:53:30.244859",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/kevinmaikjablonka/Library/Jupyter/runtime/kernel-ab8f0547-2108-4d6b-8881-6204a7f5525a.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:kjappelbaum/selfies_ga_nn_replication.git",
+        "commit": "d64ca87c5739708ac9308f3cf5095ca4a5761bfb"
+    },
+    "email": "kevin.jablonka@epfl.ch",
+    "root": "/Users/kevinmaikjablonka/Dropbox (LSMO)/replication_challenge_ga_alan/selfies_ga_nn_replication",
+    "host": "Kevins-MacBook-Pro.local",
+    "username": "kevinmaikjablonka",
+    "executable": "/Users/kevinmaikjablonka/opt/miniconda3/envs/ga_replication/bin/python"
+}
