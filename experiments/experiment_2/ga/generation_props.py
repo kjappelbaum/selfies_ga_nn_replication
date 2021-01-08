@@ -162,6 +162,7 @@ def fitness(
     discriminator_predictions (np.array) : The predictions made by the discrimantor
 
     """
+    beta_ = 0
     dataset_x = evo.obtain_discr_encoding(
         molecules_here,
         disc_enc_type,
@@ -221,8 +222,8 @@ def fitness(
             if (
                 len(set(max_fitness_collector[-5:])) == 1
             ):  # Check if there is a sagnation for 10 generations!
-                beta = 1000
-                print("BETA CUTTOFF IMPOSED index: ", generation_index)
+                beta_ = beta
+                print(f"BETA CUTTOFF IMPOSED {beta_} index: ", generation_index)
                 with open("{}/beta_change_log.txt".format(data_dir), "a+") as handle:
                     handle.write(str(generation_index) + "\n")
 
@@ -234,7 +235,7 @@ def fitness(
         with open("{}/avg_fitness_no_discr.txt".format(data_dir), "a+") as handle:
             handle.write(str(fitness.mean()) + "\n")
 
-        fitness = (beta * discriminator_predictions) + fitness
+        fitness = (beta_ * discriminator_predictions) + fitness
 
         # Plot fitness with discriminator
         writer.add_scalar("max fitness with discrm", max(fitness), generation_index)
@@ -494,7 +495,19 @@ def obtain_fitness(
         discriminator_predictions,
     )
 
-    return fitness_here, order, fitness_ordered, smiles_ordered, selfies_ordered
+    fitness_no_discriminator = (
+        logP_calculated[0] - SAS_calculated[0] - RingP_calculated[0]
+    )
+
+    return (
+        fitness_here,
+        order,
+        fitness_ordered,
+        smiles_ordered,
+        selfies_ordered,
+        fitness_no_discriminator,
+        discriminator_predictions[0][0],
+    )
 
 
 def show_generation_image(

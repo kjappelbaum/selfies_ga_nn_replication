@@ -476,8 +476,18 @@ def obtain_fitness(
         RingP_calculated,
         discriminator_predictions,
     )
-
-    return fitness_here, order, fitness_ordered, smiles_ordered, selfies_ordered
+    fitness_no_discriminator = (
+        logP_calculated[0] - SAS_calculated[0] - RingP_calculated[0]
+    )
+    return (
+        fitness_here,
+        order,
+        fitness_ordered,
+        smiles_ordered,
+        selfies_ordered,
+        fitness_no_discriminator,
+        discriminator_predictions
+    )
 
 
 def show_generation_image(

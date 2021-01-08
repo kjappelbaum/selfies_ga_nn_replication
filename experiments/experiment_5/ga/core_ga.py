@@ -194,7 +194,7 @@ if __name__ == "__main__":
                     "properties_calc_ls": properties_calc_ls,
                 },
                 reinit=True,
-                job_type='ga'
+                job_type="ga",
             )
 
             with run:

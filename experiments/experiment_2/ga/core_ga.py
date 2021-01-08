@@ -1,6 +1,7 @@
 import multiprocessing
 import os
 import time
+import click
 
 import torch
 from selfies import decoder, encoder
@@ -78,6 +79,8 @@ def initiate_ga(
             fitness_ordered,
             smiles_ordered,
             selfies_ordered,
+            fitness_no_discriminator,
+            discriminator_predictions,
         ) = gen_func.obtain_fitness(
             disc_enc_type,
             smiles_here,
@@ -96,9 +99,20 @@ def initiate_ga(
             max_fitness_collector,
         )
 
-        run.log({"fitness": fitness_ordered[0]})
+        run.log(
+            {
+                "fitness": fitness_ordered[0],
+                "fitness_no_discr": fitness_no_discriminator,
+                "discriminator": discriminator_predictions,
+            }
+        )
         table.add_data(
-            generation_index, smiles_ordered[0], selfies_ordered[0], fitness_ordered[0]
+            generation_index,
+            smiles_ordered[0],
+            selfies_ordered[0],
+            fitness_ordered[0],
+            fitness_no_discriminator,
+            discriminator_predictions,
         )
         # Obtain molecules that need to be replaced & kept
         to_replace, to_keep = gen_func.apply_generation_cutoff(order, generation_size)
@@ -156,15 +170,16 @@ def initiate_ga(
     return smiles_all_counter
 
 
-if __name__ == "__main__":
+@click.command("cli")
+@click.argument("beta")
+def main(beta):
 
-    
-    starting_smile = f.readlines()
-    starting_smile = [x.strip() for x in starting_smile] 
+    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}")
+    beta = float(beta)
 
+    os.mkdir(beta_dir)
 
-    beta_preference = [0]
-    results_dir = evo.make_clean_results_dir(THIS_DIR)
+    results_dir = evo.make_clean_results_dir(beta_dir)
 
     exper_time = time.time()
     num_generations = 1000
@@ -181,57 +196,71 @@ if __name__ == "__main__":
         "RingP",
     ]
 
-    for i in range(10):
-        for beta in beta_preference:
-            run = wandb.init(
-                project="ga_replication_study",
-                tags=["ga", "experiment_2", "adaptive_penalty"],
-                config={
-                    "run": i,
-                    "beta": beta,
-                    "num_generations": num_generations,
-                    "generation_size": generation_size,
-                    "max_molecules_len": max_molecules_len,
-                    "disc_epochs_per_generation": disc_epochs_per_generation,
-                    "disc_enc_type": disc_enc_type,
-                    "disc_layers": disc_layers,
-                    "training_start_gen": training_start_gen,
-                    "properties_calc_ls": properties_calc_ls,
-                },
-                reinit=True,
+    for i in range(5):
+        run = wandb.init(
+            project="ga_replication_study",
+            tags=["ga", "experiment_2", "adaptive_penalty"],
+            config={
+                "run": i,
+                "beta": beta,
+                "num_generations": num_generations,
+                "generation_size": generation_size,
+                "max_molecules_len": max_molecules_len,
+                "disc_epochs_per_generation": disc_epochs_per_generation,
+                "disc_enc_type": disc_enc_type,
+                "disc_layers": disc_layers,
+                "training_start_gen": training_start_gen,
+                "properties_calc_ls": properties_calc_ls,
+            },
+            reinit=True,
+        )
+
+        with run:
+            max_fitness_collector = []
+            global table
+            table = wandb.Table(
+                columns=[
+                    "generation",
+                    "SMILES",
+                    "SELFIES",
+                    "fitness",
+                    "fitness_no_discr",
+                    "discriminator",
+                ]
             )
+            global image_dir
+            global saved_models_dir
+            global data_dir
+            image_dir, saved_models_dir, data_dir = evo.make_clean_directories(
+                beta, results_dir, i
+            )  # clear directories
 
-            with run:
-                max_fitness_collector = []
-                table = wandb.Table(
-                    columns=["generation", "SMILES", "SELFIES", "fitness"]
-                )
+            # Initialize new TensorBoard writers
+            torch.cuda.empty_cache()
+            global writer
+            writer = SummaryWriter()
 
-                image_dir, saved_models_dir, data_dir = evo.make_clean_directories(
-                    beta, results_dir, i
-                )  # clear directories
-
-                # Initialize new TensorBoard writers
-                torch.cuda.empty_cache()
-                writer = SummaryWriter()
-
-                # Initiate the Genetic Algorithm
-                smiles_all_counter = initiate_ga(
-                    num_generations=num_generations,
-                    generation_size=generation_size,
-                    starting_selfies=[encoder("C")],
-                    max_molecules_len=max_molecules_len,
-                    disc_epochs_per_generation=disc_epochs_per_generation,
-                    disc_enc_type=disc_enc_type,  # 'selfies' or 'smiles' or 'properties_rdkit'
-                    disc_layers=disc_layers,
-                    training_start_gen=training_start_gen,  # generation index to start training discriminator
-                    device=device,
-                    properties_calc_ls=properties_calc_ls,  # None: No properties ; 'logP', 'SAS', 'RingP'
-                    num_processors=multiprocessing.cpu_count(),
-                    beta=beta,
-                    run=run,
-                    max_fitness_collector=max_fitness_collector,
-                )
-                run.log({"Table of best SMILES": table})
+            # Initiate the Genetic Algorithm
+            smiles_all_counter = initiate_ga(
+                num_generations=num_generations,
+                generation_size=generation_size,
+                starting_selfies=[encoder("C")],
+                max_molecules_len=max_molecules_len,
+                disc_epochs_per_generation=disc_epochs_per_generation,
+                disc_enc_type=disc_enc_type,  # 'selfies' or 'smiles' or 'properties_rdkit'
+                disc_layers=disc_layers,
+                training_start_gen=training_start_gen,  # generation index to start training discriminator
+                device=device,
+                properties_calc_ls=properties_calc_ls,  # None: No properties ; 'logP', 'SAS', 'RingP'
+                num_processors=multiprocessing.cpu_count(),
+                beta=beta,
+                run=run,
+                max_fitness_collector=max_fitness_collector,
+            )
+            run.log({"Table of best SMILES": table})
 
     print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
+
+
+if __name__ == "__main__":
+    main()
