@@ -16,6 +16,8 @@ from . import generation_props as gen_func
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
+
+
 def initiate_ga(
     num_generations,
     generation_size,
@@ -78,6 +80,8 @@ def initiate_ga(
             fitness_ordered,
             smiles_ordered,
             selfies_ordered,
+            logP_norm,
+            QED_results,
         ) = gen_func.obtain_fitness(
             disc_enc_type,
             smiles_here,
@@ -96,9 +100,20 @@ def initiate_ga(
             max_fitness_collector,
         )
 
-        run.log({"fitness": fitness_ordered[0]})
+        run.log(
+            {
+                "fitness": fitness_ordered[0],
+                "logP_norm": logP_norm[0],
+                "QED": QED_results[0],
+            }
+        )
         table.add_data(
-            generation_index, smiles_ordered[0], selfies_ordered[0], fitness_ordered[0]
+            generation_index,
+            smiles_ordered[0],
+            selfies_ordered[0],
+            fitness_ordered[0],
+            logP_norm[0],
+            QED_results[0],
         )
         # Obtain molecules that need to be replaced & kept
         to_replace, to_keep = gen_func.apply_generation_cutoff(order, generation_size)
@@ -200,7 +215,14 @@ if __name__ == "__main__":
             with run:
                 max_fitness_collector = []
                 table = wandb.Table(
-                    columns=["generation", "SMILES", "SELFIES", "fitness"]
+                    columns=[
+                        "generation",
+                        "SMILES",
+                        "SELFIES",
+                        "fitness",
+                        "logP_norm",
+                        "QED",
+                    ]
                 )
 
                 image_dir, saved_models_dir, data_dir = evo.make_clean_directories(

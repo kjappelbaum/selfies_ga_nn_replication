@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.4.0-58-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-01-09T05:02:14.359689",
+    "startedAt": "2021-01-09T05:02:13.028723",
+    "docker": null,
+    "gpu": "Quadro RTX 6000",
+    "gpu_count": 2,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "0.4"
+    ],
+    "state": "running",
+    "codePath": "experiments/experiment_4/ga/core_ga.py",
+    "program": "/home/kjablonk/documents/replication_study/selfies_ga_nn_replication/experiments/experiment_4/ga/core_ga.py",
+    "git": {
+        "remote": "git@github.com:kjappelbaum/selfies_ga_nn_replication.git",
+        "commit": "d79d469a3b23882fcd1aeae48b1b877173e7d9ae"
+    },
+    "email": "kevin.jablonka@epfl.ch",
+    "root": "/home/kjablonk/documents/replication_study/selfies_ga_nn_replication",
+    "host": "lsmopc4",
+    "username": "kjablonk",
+    "executable": "/home/kjablonk/anaconda3/envs/replication_study/bin/python"
+}

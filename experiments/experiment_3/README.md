@@ -4,3 +4,5 @@ First, all molecules are fingerprinted using the [RDKit fingerprint](https://www
 
 K-means clustering (k=20) is performed for the 50 best structures and the 
 k-means clustering is then used to analyze which cluster is explored in which generations of the GA.
+
+The script is a CLI that take the path to a results folder.

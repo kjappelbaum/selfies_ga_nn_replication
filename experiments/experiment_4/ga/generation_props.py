@@ -264,6 +264,7 @@ def fitness(
 
         # Plot fitness without discriminator
         writer.add_scalar("max fitness without discr", max(fitness), generation_index)
+        save_curve.append(max(fitness))
         writer.add_scalar("avg fitness without discr", fitness.mean(), generation_index)
 
         # max fitness without discriminator
@@ -324,6 +325,7 @@ def fitness(
         SAS_calculated,
         RingP_calculated,
         discriminator_predictions,
+        similarity_calculated,
     )
 
 
@@ -386,7 +388,9 @@ def obtain_fitness(
     beta,
     image_dir,
     data_dir,
-    max_fitness_collector,
+    starting_smile,
+    desired_delta,
+    save_curve,
 ):
     """Obtain fitness of generation based on choices of disc_enc_type.
     Essentially just calls 'fitness'
@@ -399,6 +403,7 @@ def obtain_fitness(
             SAS_calculated,
             RingP_calculated,
             discriminator_predictions,
+            similarity_calculated,
         ) = fitness(
             smiles_here,
             properties_calc_ls,
@@ -411,7 +416,9 @@ def obtain_fitness(
             writer,
             beta,
             data_dir,
-            max_fitness_collector,
+            starting_smile,
+            desired_delta,
+            save_curve,
         )
     elif disc_enc_type == "selfies":
         (
@@ -420,6 +427,7 @@ def obtain_fitness(
             SAS_calculated,
             RingP_calculated,
             discriminator_predictions,
+            similarity_calculated,
         ) = fitness(
             selfies_here,
             properties_calc_ls,
@@ -432,7 +440,9 @@ def obtain_fitness(
             writer,
             beta,
             data_dir,
-            max_fitness_collector,
+            starting_smile,
+            desired_delta,
+            save_curve,
         )
 
     fitness_here = fitness_here.reshape((generation_size,))
@@ -445,6 +455,7 @@ def obtain_fitness(
     SAS_calculated = [SAS_calculated[idx] for idx in order]
     RingP_calculated = [RingP_calculated[idx] for idx in order]
     discriminator_predictions = [discriminator_predictions[idx] for idx in order]
+    similarity_calculated = [similarity_calculated[idx] for idx in order]
 
     os.makedirs("{}/{}".format(data_dir, generation_index))
     #  Write ordered smiles in a text file
@@ -524,7 +535,14 @@ def obtain_fitness(
         discriminator_predictions,
     )
 
-    return fitness_here, order, fitness_ordered, smiles_ordered, selfies_ordered
+    return (
+        fitness_here,
+        order,
+        fitness_ordered,
+        smiles_ordered,
+        selfies_ordered,
+        similarity_calculated,
+    )
 
 
 def show_generation_image(
