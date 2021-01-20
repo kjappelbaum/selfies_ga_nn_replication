@@ -78677,3 +78677,66 @@ Best best molecule in generation  2
     discrm :  [0.46085936]
 Generation time:  84.17  seconds
 ###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  1.1740472159273727
+    logP   :  4.261200000000004
+    sas    :  3.262419831247672
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  85.65  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC(C)(SC1CCCC1)C(O)c1ccc(Cl)s1
+    fitness:  1.3143961097082613
+    logP   :  4.889300000000004
+    sas    :  3.514346412170716
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  88.23  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCCCSC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  1.3336534553939101
+    logP   :  4.746800000000004
+    sas    :  3.4147456428687644
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  85.9  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  1.5765022973424891
+    logP   :  4.6513000000000035
+    sas    :  3.156995035877122
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  84.79  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  1.9338841098430704
+    logP   :  5.041400000000004
+    sas    :  3.0890100435843273
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  85.02  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  1.5765022973424891
+    logP   :  4.6513000000000035
+    sas    :  3.156995035877122
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  84.23  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  1.5765022973424891
+    logP   :  4.6513000000000035
+    sas    :  3.156995035877122
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  86.06  seconds
+###   On generation 10 of 20
