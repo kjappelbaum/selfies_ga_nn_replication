@@ -2187,3 +2187,357 @@ Best best molecule in generation  115
     sas    :  4.8948282716136635
     ringP  :  0
     discrm :  [0.00990564]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.04413
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.04368
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.04293
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.04229
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.04199
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.04201
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.04214
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.04217
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.04196
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.04159
+Generation time:  52.97  seconds
+###   On generation 116 of 1000
+Best best molecule in generation  116
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSC=CCSF
+    fitness:  12.482332045995646
+    logP   :  23.164000000000048
+    sas    :  4.959547860440212
+    ringP  :  0
+    discrm :  [0.01002783]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03459
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03446
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03445
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03448
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03446
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03436
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03420
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03404
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03391
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03385
+Generation time:  50.23  seconds
+###   On generation 117 of 1000
+Best best molecule in generation  117
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSC=CCSF
+    fitness:  12.482332045995646
+    logP   :  23.164000000000048
+    sas    :  4.959547860440212
+    ringP  :  0
+    discrm :  [0.00981508]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03375
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03378
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03365
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03342
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03318
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03298
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03284
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03273
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03258
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03239
+Generation time:  48.72  seconds
+###   On generation 118 of 1000
+Best best molecule in generation  118
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSC=CCSF
+    fitness:  12.482332045995646
+    logP   :  23.164000000000048
+    sas    :  4.959547860440212
+    ringP  :  0
+    discrm :  [0.00954995]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03488
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03459
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03433
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03420
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03421
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03426
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03423
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03411
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03396
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03385
+Generation time:  48.7  seconds
+###   On generation 119 of 1000
+Best best molecule in generation  119
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSC=CCSF
+    fitness:  12.482332045995646
+    logP   :  23.164000000000048
+    sas    :  4.959547860440212
+    ringP  :  0
+    discrm :  [0.00953822]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03443
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03445
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03445
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03441
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03430
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03419
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03409
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03403
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03398
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03392
+Generation time:  47.32  seconds
+###   On generation 120 of 1000
+Best best molecule in generation  120
+    smile  :  CC(=CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSC=CCSF)CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1
+    fitness:  12.49459073669404
+    logP   :  23.16400000000004
+    sas    :  4.949365262710073
+    ringP  :  0
+    discrm :  [0.00944086]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02986
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02979
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02971
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02965
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02961
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02957
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02952
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02945
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02936
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02928
+Generation time:  50.06  seconds
+###   On generation 121 of 1000
+Best best molecule in generation  121
+    smile  :  CC(=CCCCC=CSSC=C=CCCCCCCCc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCCCCC=CSC=CCSF
+    fitness:  12.617400467192013
+    logP   :  23.204400000000046
+    sas    :  4.8710568889520935
+    ringP  :  0
+    discrm :  [0.00910025]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03053
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03044
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03036
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03030
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03027
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03023
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03017
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03009
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03000
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02992
+Generation time:  49.37  seconds
+###   On generation 122 of 1000
+Best best molecule in generation  122
+    smile  :  CC(=CCCCC=CSSC=C=CCCCCCCCc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCCCCC=CSC=CCSF
+    fitness:  12.617400467192013
+    logP   :  23.204400000000046
+    sas    :  4.8710568889520935
+    ringP  :  0
+    discrm :  [0.00900837]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03413
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03367
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03322
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03302
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03306
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03317
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03309
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03279
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03241
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03213
+Generation time:  49.87  seconds
+###   On generation 123 of 1000
+Best best molecule in generation  123
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCCCC=CSCSCSF
+    fitness:  12.839943548353538
+    logP   :  23.522500000000054
+    sas    :  4.872832349721422
+    ringP  :  0
+    discrm :  [0.00891653]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02954
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02882
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02833
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02828
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02860
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02894
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02898
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02867
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02825
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02797
+Generation time:  48.67  seconds
+###   On generation 124 of 1000
+Best best molecule in generation  124
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSCSCSSF
+    fitness:  12.978304581696868
+    logP   :  23.94670000000006
+    sas    :  5.0067819509868325
+    ringP  :  0
+    discrm :  [0.00906621]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.04118
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.04125
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.04138
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.04143
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.04136
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.04118
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.04099
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.04086
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.04084
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.04088
+Generation time:  51.57  seconds
+###   On generation 125 of 1000
+Best best molecule in generation  125
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSCSCSSF
+    fitness:  12.978304581696868
+    logP   :  23.94670000000006
+    sas    :  5.0067819509868325
+    ringP  :  0
+    discrm :  [0.00916204]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03371
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03321
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03240
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03183
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03180
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03216
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03247
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03240
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03198
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03155
+Generation time:  49.85  seconds
+###   On generation 126 of 1000
+Best best molecule in generation  126
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSCSCSSF
+    fitness:  12.978304581696868
+    logP   :  23.94670000000006
+    sas    :  5.0067819509868325
+    ringP  :  0
+    discrm :  [0.00864986]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03062
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02983
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02958
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02983
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03024
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03041
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03015
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02966
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02925
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02909
+Generation time:  50.3  seconds
+###   On generation 127 of 1000
+Best best molecule in generation  127
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCC=CC=CSCSCSSF
+    fitness:  12.978304581696868
+    logP   :  23.94670000000006
+    sas    :  5.0067819509868325
+    ringP  :  0
+    discrm :  [0.00871027]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03337
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03363
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03357
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03323
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03291
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03280
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03290
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03299
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03289
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03266
+Generation time:  48.52  seconds
+###   On generation 128 of 1000
+Best best molecule in generation  128
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCCCCC=CSCSCSF
+    fitness:  13.106088872922156
+    logP   :  23.912600000000058
+    sas    :  4.88063232319527
+    ringP  :  0
+    discrm :  [0.00852822]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03210
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03181
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03174
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03186
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03200
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03200
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03184
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03162
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03148
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03145
+Generation time:  49.75  seconds
+###   On generation 129 of 1000
+Best best molecule in generation  129
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCSSC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCCCC=CSCSCSF
+    fitness:  13.255334598652212
+    logP   :  24.471300000000063
+    sas    :  5.084451813583923
+    ringP  :  0
+    discrm :  [0.0085268]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03350
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03337
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03333
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03333
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03326
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03310
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03293
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03283
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03277
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03271
+Generation time:  49.1  seconds
+###   On generation 130 of 1000
+Best best molecule in generation  130
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCSSC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSC=CCCCCCCCCC=CSCSCSF
+    fitness:  13.255334598652212
+    logP   :  24.471300000000063
+    sas    :  5.084451813583923
+    ringP  :  0
+    discrm :  [0.00844995]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02959
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02952
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02942
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02933
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02926
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02922
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02919
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02915
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02909
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02901
+Generation time:  49.75  seconds
+###   On generation 131 of 1000
+Best best molecule in generation  131
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSSC=CCCCCCCCCCC=CSCSCSF
+    fitness:  13.48519461239536
+    logP   :  24.560800000000068
+    sas    :  4.946029835561944
+    ringP  :  0
+    discrm :  [0.00803459]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03808
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03804
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03798
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03791
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03783
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03774
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03767
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03759
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03751
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03743
+Generation time:  50.27  seconds
+###   On generation 132 of 1000
+Best best molecule in generation  132
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSSC=CCCCCCCCCCC=CSCSCSF
+    fitness:  13.48519461239536
+    logP   :  24.560800000000068
+    sas    :  4.946029835561944
+    ringP  :  0
+    discrm :  [0.00788491]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02791
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02782
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02772
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02765
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02759
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02751
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02740
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02727
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02716
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02706
+Generation time:  50.4  seconds
+###   On generation 133 of 1000
+Best best molecule in generation  133
+    smile  :  CC(=CCCCC=CSSSC=CCCCCCC=Cc1cccc(Sc2ccccc2)c1)CCCC=C(C)SSSSSSC=CCCCCCCCCCC=CSCSCSF
+    fitness:  13.48519461239536
+    logP   :  24.560800000000068
+    sas    :  4.946029835561944
+    ringP  :  0
+    discrm :  [0.00778484]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02360
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02345
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02330
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02320
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02315
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02314
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02314
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02311
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02305
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02296
+Generation time:  49.93  seconds
+###   On generation 134 of 1000
