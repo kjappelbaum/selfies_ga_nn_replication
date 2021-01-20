@@ -78561,3 +78561,48 @@ Best best molecule in generation  14
     discrm :  [0.5714993]
 Generation time:  84.46  seconds
 ###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  [NH3+]C1(C2CCCC3(CCSC3)C2)CCCC1
+    fitness:  -2.039306969511583
+    logP   :  2.8546000000000005
+    sas    :  5.106317964422901
+    ringP  :  0
+    discrm :  [0.5714993]
+Generation time:  86.77  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  [NH3+]C1(C2CCCC3(CCSC3)C2)CCCC1
+    fitness:  -2.039306969511583
+    logP   :  2.8546000000000005
+    sas    :  5.106317964422901
+    ringP  :  0
+    discrm :  [0.5714993]
+Generation time:  98.57  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  [NH3+]C1(C2CCCC3(CCSC3)C2)CCCC1
+    fitness:  -2.039306969511583
+    logP   :  2.8546000000000005
+    sas    :  5.106317964422901
+    ringP  :  0
+    discrm :  [0.5714993]
+Generation time:  97.23  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  [NH3+]C1(C2CCCC3(CCSC3)C2)CCCC1
+    fitness:  -2.039306969511583
+    logP   :  2.8546000000000005
+    sas    :  5.106317964422901
+    ringP  :  0
+    discrm :  [0.5714993]
+Generation time:  85.7  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  [NH3+]C1(C2CCCC3(CCSC3)C2)CCCC1
+    fitness:  -2.039306969511583
+    logP   :  2.8546000000000005
+    sas    :  5.106317964422901
+    ringP  :  0
+    discrm :  [0.5714993]
+Generation time:  83.35  seconds
+###   On generation 20 of 20
