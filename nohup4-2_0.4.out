@@ -78794,3 +78794,39 @@ Best best molecule in generation  15
     discrm :  [0.46085936]
 Generation time:  84.79  seconds
 ###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CCCCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  2.2581536683628247
+    logP   :  5.431500000000004
+    sas    :  3.0485295189806507
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  86.26  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCCCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  2.2581536683628247
+    logP   :  5.431500000000004
+    sas    :  3.0485295189806507
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  88.22  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CCCCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  2.2581536683628247
+    logP   :  5.431500000000004
+    sas    :  3.0485295189806507
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  85.5  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CCCCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  2.2581536683628247
+    logP   :  5.431500000000004
+    sas    :  3.0485295189806507
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  85.61  seconds
+###   On generation 20 of 20
