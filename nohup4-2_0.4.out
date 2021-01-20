@@ -78899,3 +78899,30 @@ Best best molecule in generation  2
     sas    :  5.24812206513142
     ringP  :  0
     discrm :  [0.40826923]
+Generation time:  85.66  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC(C)NC1(C#N)CCC(CCCC2CC[NH+](C)C2)C1
+    fitness:  -2.98896731005654
+    logP   :  1.7517800000000001
+    sas    :  5.24812206513142
+    ringP  :  0
+    discrm :  [0.40826923]
+Generation time:  91.16  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC(C)NC1(C#N)CCC(CCCC2CC[NH+](C)C2)C1
+    fitness:  -2.98896731005654
+    logP   :  1.7517800000000001
+    sas    :  5.24812206513142
+    ringP  :  0
+    discrm :  [0.40826923]
+Generation time:  87.16  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CC(C)NC1(C#N)CCC(CCCC2CC[NH+](C)C2)C1
+    fitness:  -2.98896731005654
+    logP   :  1.7517800000000001
+    sas    :  5.24812206513142
+    ringP  :  0
+    discrm :  [0.40826923]
