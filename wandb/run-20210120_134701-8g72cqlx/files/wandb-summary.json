@@ -1,0 +1,1 @@
+{"fitness": 12.51297926661161, "fitness_no_discr": 17.973704533293322, "discriminator": 0.0216973889619112, "_step": 89, "_runtime": 4521, "_timestamp": 1611151343, "graph_0": {"_type": "graph-file", "path": "media/graph/graph_0_summary_fc308faf.graph.json", "sha256": "fc308faf375c560da2cec18f7e30123c8b4ad467434cbc4eb7b18a723c241bf4", "size": 723}}

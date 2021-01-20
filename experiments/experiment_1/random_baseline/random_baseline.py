@@ -13,7 +13,9 @@ import wandb
 
 from ...sa_scorer.sascorer import calculate_score
 
-wandb.init(project="ga_replication_study", tags=["baseline", "experiment_1"])
+wandb.init(
+    project="ga_replication_study", tags=["baseline", "experiment_1", "old_selfies"]
+)
 table = wandb.Table(columns=["run", "SMILES", "J"])
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -113,6 +115,7 @@ def get_random_selfie_mol():
         # check if smile string is recognized by rdkit
         mol, smiles_canon, done = sanitize_smiles(decoded_smile_str)
         if mol == None or smiles_canon == "" or len(smiles_canon) > 81:
+            print(f"Invalid SELFIES: {selfie_str} decoded to {decoded_smile_str}")
             valid = False
             continue
 
@@ -135,7 +138,7 @@ def run_random_experiment(i):
     for item in A:
         mol, smiles_canon, done = sanitize_smiles(item)
         if mol == None or done == False:
-            raise Exception("A molecule is incorrect! Test Failed")
+            raise Exception("A molecule is incorrect! Test Failed {item}")
 
         logP_scores.append(get_logP(mol))
         SA_scores.append(get_SA(mol))

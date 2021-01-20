@@ -48,7 +48,7 @@ def main(desired_delta):
         print(f"Working on {smile}")
 
         delta_dir = os.path.join(
-            THIS_DIR, f"results_beta_{desired_delta}_{smile_number}"
+            THIS_DIR, f"results_beta_{desired_delta}_{smile_number}_1"
         )
 
         os.mkdir(delta_dir)
@@ -116,7 +116,7 @@ def main(desired_delta):
 
             print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
             with open(
-                os.path.join(THIS_DIR, f"improvement_{desired_delta}.txt"), "a+"
+                os.path.join(THIS_DIR, f"improvement_{desired_delta}_1.txt"), "a+"
             ) as handle:
                 A = save_curve[1:]
                 improvement = max(A) - save_curve[0]

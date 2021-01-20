@@ -12,7 +12,7 @@ from rdkit.Chem import MolFromSmiles as smi2mol
 from rdkit.Chem import MolToSmiles as mol2smi
 from rdkit.Chem import rdMolDescriptors
 from rdkit import DataStructs
-from selfies import decoder
+from selfies import decoder, get_semantic_robust_alphabet
 
 manager = multiprocessing.Manager()
 lock = multiprocessing.Lock()
@@ -267,6 +267,9 @@ def smiles_alphabet(disc_enc_type):
             "[F]",
             "[O]",
         ]  # SELFIES Alphabets in zinc
+
+    elif disc_enc_type == "extended_selfies":
+        ALPHABET = list(get_semantic_robust_alphabet())
     else:
         exit("Invalid choice. Only possible choices are: smiles/selfies.")
 

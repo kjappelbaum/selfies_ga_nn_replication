@@ -199,7 +199,7 @@ def main(beta):
     for i in range(5):
         run = wandb.init(
             project="ga_replication_study",
-            tags=["ga", "experiment_2", "adaptive_penalty"],
+            tags=["ga", "experiment_2", "adaptive_penalty", "extended_alphabet"],
             config={
                 "run": i,
                 "beta": beta,
