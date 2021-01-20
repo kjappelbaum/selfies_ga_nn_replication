@@ -1,1 +1,1 @@
-{"fitness": -2.1026454907668173, "similarity": 0, "_step": 18, "_runtime": 3367, "_timestamp": 1611153263}
+{"fitness": -2.1026454907668173, "similarity": 0, "_step": 21, "_runtime": 3582, "_timestamp": 1611153478, "Table of best SMILES": {"_type": "table-file", "path": "media/table/Table of best SMILES_20_5d8fab64.table.json", "sha256": "5d8fab64e1a4ee38163603aeb0b005e65089fbf333596e6f12afc8a95d01a498", "size": 4982, "ncols": 5, "nrows": 20}, "improvement": 2.2954951108263986, "original_score": -4.398140601593216, "new_score": -2.1026454907668173, "improved": true}
