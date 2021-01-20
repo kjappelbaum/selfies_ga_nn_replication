@@ -32,6 +32,8 @@ def initiate_ga(
     beta,
     run,
     max_fitness_collector,
+    watchtime=5,
+    similarity_threshold=0.2,
 ):
 
     # Obtain starting molecule
@@ -97,6 +99,8 @@ def initiate_ga(
             image_dir,
             data_dir,
             max_fitness_collector,
+            watchtime,
+            similarity_threshold,
         )
 
         run.log(
@@ -195,6 +199,8 @@ def main(beta):
         "SAS",
         "RingP",
     ]
+    watchtime = 5
+    similarity_threshold = 0.2
 
     for i in range(5):
         run = wandb.init(
@@ -211,6 +217,8 @@ def main(beta):
                 "disc_layers": disc_layers,
                 "training_start_gen": training_start_gen,
                 "properties_calc_ls": properties_calc_ls,
+                "similarity_threshold": similarity_threshold,
+                "watchtime": watchtime,
             },
             reinit=True,
         )
@@ -256,6 +264,8 @@ def main(beta):
                 beta=beta,
                 run=run,
                 max_fitness_collector=max_fitness_collector,
+                watchtime=watchtime,
+                similarity_threshold=similarity_threshold,
             )
             run.log({"Table of best SMILES": table})
 

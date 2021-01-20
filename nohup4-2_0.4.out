@@ -78254,3 +78254,95 @@ Best best molecule in generation  5
     sas    :  3.2717180645684287
     ringP  :  0
     discrm :  [0.55014366]
+Generation time:  95.42  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  85.74  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  93.29  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  95.82  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  96.68  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  97.64  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  94.43  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  84.13  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C=CCC=CC=CC=C(CC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.4468731401267227
+    logP   :  6.079100000000007
+    sas    :  3.2717180645684287
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  87.06  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CCCCC=C(CCC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.8897825022383077
+    logP   :  5.9709000000000065
+    sas    :  2.840337459192579
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  86.62  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CCCCC=C(CCC1(C)CCN(C(=O)c2ccon2)CC1)c1ccccc1
+    fitness:  2.8897825022383077
+    logP   :  5.9709000000000065
+    sas    :  2.840337459192579
+    ringP  :  0
+    discrm :  [0.55014366]
+Generation time:  86.49  seconds
+###   On generation 16 of 20

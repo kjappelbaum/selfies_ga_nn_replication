@@ -156,6 +156,8 @@ def fitness(
     beta,
     data_dir,
     max_fitness_collector,
+    watchtime: int = 5,
+    similarity_threshold: float = 0.2,
 ):
     """Calculate fitness fo a generation in the GA
 
@@ -238,7 +240,8 @@ def fitness(
         # Impose the beta cuttoff!
         if generation_index > 100:
             if (
-                get_pairwise_similarities(max_fitness_collector[-5:]) > 0.2
+                get_pairwise_similarities(max_fitness_collector[-watchtime:])
+                > similarity_threshold
             ):  # Check if there is a sagnation for 10 generations!
                 beta_ = beta
                 print(f"BETA CUTTOFF IMPOSED {beta_} index: ", generation_index)
@@ -376,6 +379,8 @@ def obtain_fitness(
     image_dir,
     data_dir,
     max_fitness_collector,
+    watchtime: int = 5,
+    similarity_threshold: float = 0.2,
 ):
     """Obtain fitness of generation based on choices of disc_enc_type.
     Essentially just calls 'fitness'
@@ -401,6 +406,8 @@ def obtain_fitness(
             beta,
             data_dir,
             max_fitness_collector,
+            watchtime,
+            similarity_threshold,
         )
     elif disc_enc_type == "selfies":
         (
@@ -422,6 +429,8 @@ def obtain_fitness(
             beta,
             data_dir,
             max_fitness_collector,
+            watchtime,
+            similarity_threshold,
         )
 
     fitness_here = fitness_here.reshape((generation_size,))
