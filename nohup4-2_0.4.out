@@ -78830,3 +78830,72 @@ Best best molecule in generation  19
     discrm :  [0.46085936]
 Generation time:  85.61  seconds
 ###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CCCCCCC(C)(C)C(O)c1ccc(Cl)s1
+    fitness:  2.2581536683628247
+    logP   :  5.431500000000004
+    sas    :  3.0485295189806507
+    ringP  :  0
+    discrm :  [0.46085936]
+Generation time:  85.7  seconds
+Total time:  27.37  mins
+Total number of unique molecules:  3840
+Total Experiment time:  27.417380690574646  mins
+IMPROVEMENT:  4.472882196753233
+wandb: Waiting for W&B process to finish, PID 63725
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210120_155328-2ogfsgph/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210120_155328-2ogfsgph/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 2.25815
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1645
+wandb:             _timestamp 1611156053
+wandb:            improvement 4.47288
+wandb:         original_score -2.21473
+wandb:              new_score 2.25815
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▆▆▇▇▇▇▇▇▇▇▇▇▇▇█████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced tough-sunset-1281: https://wandb.ai/kjappelbaum/ga_replication_study/runs/2ogfsgph
+
+Working on CC(C)N[C@@]1(C#N)CC[C@@H](N(C)C[C@@H]2CC[NH+](C)C2)C1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run robust-totem-1282
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/2pbwfg52
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210120_162056-2pbwfg52
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC(C)NC1(C#N)CCC(N(C)CC2CC[NH+](C)C2)C1
+    fitness:  -4.263329914287419
+    logP   :  0.26568000000000214
+    sas    :  5.4347674097867635
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  18.52  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC(C)NC1(C#N)CCC(CCCC2CC[NH+](C)C2)C1
+    fitness:  -2.98896731005654
+    logP   :  1.7517800000000001
+    sas    :  5.24812206513142
+    ringP  :  0
+    discrm :  [0.40826923]
