@@ -2168,3 +2168,80 @@ Best best molecule in generation  114
     sas    :  1.1385171811594077
     ringP  :  0
     discrm :  [0.03917178]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02857
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02851
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02845
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02841
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02837
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02833
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02830
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02826
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02822
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02817
+Generation time:  48.48  seconds
+###   On generation 115 of 1000
+Best best molecule in generation  115
+    smile  :  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+    fitness:  10.263177442341833
+    logP   :  13.509399999999973
+    sas    :  1.1385171811594077
+    ringP  :  0
+    discrm :  [0.03860685]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03062
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03020
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02951
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02891
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02890
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02918
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02938
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02935
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02910
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02872
+Generation time:  48.58  seconds
+###   On generation 116 of 1000
+Best best molecule in generation  116
+    smile  :  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+    fitness:  10.263177442341833
+    logP   :  13.509399999999973
+    sas    :  1.1385171811594077
+    ringP  :  0
+    discrm :  [0.03803987]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.03186
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.03137
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.03095
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.03073
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.03073
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.03088
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.03104
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.03107
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.03089
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.03059
+Generation time:  47.79  seconds
+###   On generation 117 of 1000
+Best best molecule in generation  117
+    smile  :  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+    fitness:  10.263177442341833
+    logP   :  13.509399999999973
+    sas    :  1.1385171811594077
+    ringP  :  0
+    discrm :  [0.03770007]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.02866
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.02856
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.02851
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.02849
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.02848
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.02848
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.02847
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.02844
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.02840
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.02835
+Generation time:  50.06  seconds
+###   On generation 118 of 1000
+BETA CUTTOFF IMPOSED 100.0 index:  118
+Best best molecule in generation  118
+    smile  :  CCCCCCCCCCCCNCCCC#N
+    fitness:  20.093598548841975
+    logP   :  4.800680000000004
+    sas    :  2.0673737100155822
+    ringP  :  0
+    discrm :  [0.17099805]
