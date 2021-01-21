@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 import ast
-
-import ccbmlib.models as ccbm
-
-import wandb
-
-api = wandb.Api()
 import sys
-
-sys.path.append("..")
 from collections import OrderedDict
 
+import ccbmlib.models as ccbm
 import numpy as np
+
+import wandb
 from net import evolution_functions as evo
 from sa_scorer.sascorer import calculate_score
+
+api = wandb.Api()
+
+sys.path.append("..")
+
 
 
 def get_pairwise_similarities(mols):
