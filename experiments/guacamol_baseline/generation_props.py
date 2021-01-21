@@ -139,7 +139,8 @@ def fitness(
 
 
 def obtain_fitness(
-    molecules_here,
+    smiles_here,
+    selfies_here,
     properties_calc_ls,
     discriminator,
     disc_enc_type,
@@ -164,7 +165,7 @@ def obtain_fitness(
             discriminator_predictions,
             molecules_here_unique
         ) = fitness(
-             molecules_here,
+             smiles_here,
     properties_calc_ls,
     discriminator,
     disc_enc_type,
@@ -185,16 +186,13 @@ def obtain_fitness(
     order, fitness_ordered, smiles_ordered, selfies_ordered = order_based_on_fitness(
         fitness_here, smiles_here, selfies_here
     )
-
+    scores_ordered = scores[order]
     
 
     # print statement for the best molecule in the generation
     print("Best best molecule in generation ", generation_index)
     print("    smile  : ", smiles_ordered[0])
     print("    fitness: ", fitness_ordered[0])
-    print("    logP   : ", logP_calculated[0])
-    print("    sas    : ", SAS_calculated[0])
-    print("    ringP  : ", RingP_calculated[0])
     print("    discrm : ", discriminator_predictions[0])
 
     with open("{}/best_in_generations.txt".format(data_dir), "a+") as handle:
@@ -215,17 +213,13 @@ def obtain_fitness(
         discriminator_predictions,
     )
 
-    fitness_no_discriminator = (
-        logP_calculated[0] - SAS_calculated[0] - RingP_calculated[0]
-    )
-
     return (
         fitness_here,
         order,
         fitness_ordered,
         smiles_ordered,
         selfies_ordered,
-        fitness_no_discriminator,
+        scores_ordered,
         discriminator_predictions[0][0],
     )
 

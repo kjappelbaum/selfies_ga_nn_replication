@@ -15,6 +15,10 @@ from . import generation_props as gen_func
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
+from guacamol.assess_goal_directed_generation import assess_goal_directed_generation
+from guacamol.goal_directed_generator import GoalDirectedGenerator
+from guacamol.scoring_function import ScoringFunction
+
 
 def initiate_ga(
     num_generations,
@@ -27,7 +31,6 @@ def initiate_ga(
     training_start_gen,
     device,
     properties_calc_ls,
-    num_processors,
     beta,
     run,
     table,
@@ -35,6 +38,7 @@ def initiate_ga(
     max_fitness_collector,
     watchtime=5,
     similarity_threshold=0.2,
+    num_processors=1,
 ):
 
     # Obtain starting molecule
@@ -75,14 +79,14 @@ def initiate_ga(
             smiles_all,
         )
 
-        # Calculate fitness of previous generation (shape: (generation_size, ))
+        # Calculate fitness of previous generation
         (
             fitness_here,
             order,
             fitness_ordered,
             smiles_ordered,
             selfies_ordered,
-            fitness_no_discriminator,
+            scores_ordered,
             discriminator_predictions,
         ) = gen_func.obtain_fitness(
             disc_enc_type,
@@ -107,7 +111,7 @@ def initiate_ga(
         run.log(
             {
                 "fitness": fitness_ordered[0],
-                "fitness_no_discr": fitness_no_discriminator,
+                "score": scores_ordered[0],
                 "discriminator": discriminator_predictions,
             }
         )
@@ -116,7 +120,7 @@ def initiate_ga(
             smiles_ordered[0],
             selfies_ordered[0],
             fitness_ordered[0],
-            fitness_no_discriminator,
+            scores_ordered[0],
             discriminator_predictions,
         )
         # Obtain molecules that need to be replaced & kept
@@ -172,12 +176,12 @@ def initiate_ga(
 
     print("Total time: ", round((time.time() - total_time) / 60, 2), " mins")
     print("Total number of unique molecules: ", len(smiles_all_counter))
-    return smiles_all
+    return smiles_ordered
 
 
 class ChemGEGenerator(GoalDirectedGenerator):
 
-    def __init__(self, beta=0, watchtime=5, starting_smiles="C", similarity_threshold=0.4,num_generations=500,  generation_size=1000, max_molecule_len=81, disc_epoch_per_gen=10, disc_enc_type='properties_rdkit', disc_layers=[100,51], training_start_gen=0, device='cpu', properties_calc_ls=None):
+    def __init__(self, run, beta=0, watchtime=5, starting_smiles="C", similarity_threshold=0.4,num_generations=500,  generation_size=1000, max_molecule_len=81, disc_epoch_per_gen=10, disc_enc_type='properties_rdkit', disc_layers=[100,51], training_start_gen=0, device='cpu', properties_calc_ls=None):
         self.starting_selfies = [encoder(starting_smile)]
         self.num_generation = num_generations
         self.generation_size = generation_size
@@ -191,8 +195,25 @@ class ChemGEGenerator(GoalDirectedGenerator):
         self.beta=beta
         self.watchtime=watchtime
         self.similarity_threshold =similarity_threshold 
+        self.num_processors = 1
+        self.run = run 
+        self.table = wandb.Table(
+                columns=[
+                    "generation",
+                    "SMILES",
+                    "SELFIES",
+                    "fitness",
+                    "score",
+                    "discriminator",
+                ]
+            )
+        self.results_dir = evo.make_clean_results_dir(beta_dir)
+        self.image_dir, self.saved_models_dir, self.data_dir = evo.make_clean_directories(
+                beta, results_dir, ""
+            )
 
-    def top_k(self, smiles, scoring_function, k):
+
+    def top_k(self, smiles, scoring_function:, k):
         joblist = (delayed(scoring_function.score)(s) for s in smiles)
         scores = self.pool(joblist)
         scored_smiles = list(zip(scores, smiles))
@@ -200,8 +221,26 @@ class ChemGEGenerator(GoalDirectedGenerator):
         return [smile for score, smile in scored_smiles][:k]
 
 
-    def generate_optimized_molecules(self, scoring_function: ScoringFunction, number_molecules: int,
-                                    starting_population: Optional[List[str]] = None) -> List[str]:
+    def generate_optimized_molecules(self, scoring_function: ScoringFunction, number_molecules: int,) -> List[str]:
 
         """Returns a list of SMILES"""
-        best_smiles = initiate_ga()
+        best_smiles = initiate_ga( self.num_generations,
+    self.generation_size,
+    self.starting_selfies,
+    self.max_molecules_len,
+    self.disc_epochs_per_generation,
+    self.disc_enc_type,
+    self.disc_layers,
+    self.training_start_gen,
+    self.device,
+    self.properties_calc_ls,
+    self.beta,
+    self.run,
+    self.table,
+    scoring_function,
+    self.max_fitness_collector,
+    self.watchtime,
+    self.similarity_threshold,
+    self.num_processors,
+)
+    return best_smiles[:number_molecules] 
