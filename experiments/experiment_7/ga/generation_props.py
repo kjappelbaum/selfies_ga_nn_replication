@@ -12,7 +12,7 @@ from rdkit import Chem
 from ...net import discriminator as D
 from ...net import evolution_functions as evo
 from ...sa_scorer.sascorer import calculate_score
-import ccbmlib.models as ccbmb
+import ccbmlib.models as ccbm
 
 manager = multiprocessing.Manager()
 lock = multiprocessing.Lock()
@@ -140,7 +140,7 @@ def get_pairwise_similarities(mols):
                 m1 = ccbm.morgan(mol1, radius=2)
                 pair_wise_similarities_random_baseline.append(ccbm.tc(m0, m1))
 
-    return pair_wise_similarities_random_baseline
+    return np.mean(pair_wise_similarities_random_baseline)
 
 
 def fitness(
@@ -232,13 +232,15 @@ def fitness(
         writer.add_scalar("max fitness without discr", max(fitness), generation_index)
         writer.add_scalar("avg fitness without discr", fitness.mean(), generation_index)
 
-        # now appending fingerprint of best molecule
         order = np.argsort(fitness)[::-1]
+        print(molecules_here[int(order[0])])
 
-        max_fitness_collector.append(molecules_here[order[0]])
+        mol, _, _ = evo.sanitize_smiles(molecules_here[int(order[0])])
 
-        # Impose the beta cuttoff!
-        if generation_index > 100:
+        max_fitness_collector.append(mol)
+
+        # Impose the beta cutoff!
+        if generation_index > 20:
             if (
                 get_pairwise_similarities(max_fitness_collector[-watchtime:])
                 > similarity_threshold

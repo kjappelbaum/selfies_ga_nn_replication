@@ -25,7 +25,6 @@ def main(desired_delta):
     max_molecules_len = 81
     disc_epochs_per_generation = 10
     disc_enc_type = "properties_rdkit"
-    disc_layers = [100, 10]
     training_start_gen = 200
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
     properties_calc_ls = ["logP", "SAS", "RingP", "SIMILR"]
@@ -44,11 +43,12 @@ def main(desired_delta):
             starting_smile = [x.strip() for x in lines]
 
     for smile_number, smile in enumerate(starting_smile):
+        disc_layers = [100, 10]
         exper_time = time.time()
         print(f"Working on {smile}")
 
         delta_dir = os.path.join(
-            THIS_DIR, f"results_beta_{desired_delta}_{smile_number}_1"
+            THIS_DIR, f"results_beta_{desired_delta}_{smile_number}_restart"
         )
 
         os.mkdir(delta_dir)
@@ -92,7 +92,7 @@ def main(desired_delta):
             torch.cuda.empty_cache()
             global writer
             writer = SummaryWriter()
-
+            assert disc_layers == [100, 10]
             # Initiate the Genetic Algorithm
             smiles_all_counter = initiate_ga(
                 num_generations=num_generations,
@@ -116,7 +116,7 @@ def main(desired_delta):
 
             print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
             with open(
-                os.path.join(THIS_DIR, f"improvement_{desired_delta}_1.txt"), "a+"
+                os.path.join(THIS_DIR, f"improvement_{desired_delta}_RESTART.txt"), "a+"
             ) as handle:
                 A = save_curve[1:]
                 improvement = max(A) - save_curve[0]

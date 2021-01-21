@@ -176,9 +176,11 @@ def initiate_ga(
 
 @click.command("cli")
 @click.argument("beta")
-def main(beta):
+@click.argument("tolerance")
+@click.argument("watchtime")
+def main(beta, tolerance, watchtime):
 
-    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}")
+    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{tolerance}_{watchtime}")
     beta = float(beta)
 
     os.mkdir(beta_dir)
@@ -186,7 +188,7 @@ def main(beta):
     results_dir = evo.make_clean_results_dir(beta_dir)
 
     exper_time = time.time()
-    num_generations = 1000
+    num_generations = 500
     generation_size = 500
     max_molecules_len = 81
     disc_epochs_per_generation = 10
@@ -199,13 +201,13 @@ def main(beta):
         "SAS",
         "RingP",
     ]
-    watchtime = 5
-    similarity_threshold = 0.2
+    watchtime = int(watchtime)
+    similarity_threshold = float(tolerance)
 
     for i in range(5):
         run = wandb.init(
             project="ga_replication_study",
-            tags=["ga", "experiment_2", "adaptive_penalty"],
+            tags=["ga", "experiment_7", "adaptive_penalty"],
             config={
                 "run": i,
                 "beta": beta,
