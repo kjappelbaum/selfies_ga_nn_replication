@@ -18430,3 +18430,31 @@ Best best molecule in generation  388
 -- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.10352
 Generation time:  50.86  seconds
 ###   On generation 389 of 500
+C=C=CC=CC=CCC=CC=CSCN(F)C(=O)c1cc(OCc2cccc(F)c2)c(C)nc1C
+Best best molecule in generation  389
+    smile  :  COc1cccc(Oc2cc(C)c(C)cc2C)c1
+    fitness:  3.18094109254647
+    logP   :  4.412760000000003
+    sas    :  1.6843274259919134
+    ringP  :  0
+    discrm :  [0.09966573]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.09409
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.09209
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.08987
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.08760
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.08540
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.08326
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.08112
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.07899
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.07693
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.07502
+Generation time:  50.16  seconds
+###   On generation 390 of 500
+COc1cccc(Oc2cc(C)c(C)cc2C)c1
+Best best molecule in generation  390
+    smile  :  COc1cccc(Oc2cc(C)c(C)cc2C)c1
+    fitness:  3.18094109254647
+    logP   :  4.412760000000003
+    sas    :  1.6843274259919134
+    ringP  :  0
+    discrm :  [0.06412569]

@@ -16854,3 +16854,23 @@ Best best molecule in generation  853
 -- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00276
 Generation time:  20.36  seconds
 ###   On generation 854 of 1000
+BETA CUTTOFF IMPOSED 0.0 index:  854
+Best best molecule in generation  854
+    smile  :  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=C(C)CCCCCCCCCCCC=C(C)CCCCCCC
+    fitness:  19.142436581615957
+    logP   :  29.055500000000084
+    sas    :  2.883922063850507
+    ringP  :  0
+    discrm :  [0.00030816]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.00299
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.00288
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.00256
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.00240
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.00251
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.00259
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.00243
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.00219
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.00208
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00209
+Generation time:  53.34  seconds
+###   On generation 855 of 1000

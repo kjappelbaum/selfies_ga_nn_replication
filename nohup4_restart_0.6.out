@@ -6795,3 +6795,12 @@ Best best molecule in generation  6
     sas    :  2.99576989142931
     ringP  :  0
     discrm :  [0.5818902]
+Generation time:  57.04  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCS(=O)(=O)NC(C)Cn1ccnc1
+    fitness:  -1.365746260424954
+    logP   :  0.21089999999999942
+    sas    :  2.99576989142931
+    ringP  :  0
+    discrm :  [0.5818902]

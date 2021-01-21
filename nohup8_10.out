@@ -735,3 +735,29 @@ Best best molecule in generation  38
 -- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.71367
 Generation time:  50.06  seconds
 ###   On generation 39 of 500
+Best best molecule in generation  39
+    smile  :  O=Nc1cccnc1Oc1ccccc1Nc1ccccn1
+    fitness:  8.193435097263144
+    logP   :  4.410400000000002
+    sas    :  2.3964627654707815
+    ringP  :  0
+    discrm :  [0.5871491]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.72269
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.72115
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.71959
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.71802
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.71644
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.71487
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.71330
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.71175
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.71020
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.70867
+Generation time:  49.31  seconds
+###   On generation 40 of 500
+Best best molecule in generation  40
+    smile  :  O=Nc1cccnc1Oc1ccccc1Nc1ccccn1
+    fitness:  7.917914295718955
+    logP   :  4.410400000000002
+    sas    :  2.3964627654707815
+    ringP  :  0
+    discrm :  [0.559597]

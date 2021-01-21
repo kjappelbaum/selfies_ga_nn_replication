@@ -6887,3 +6887,14 @@ Best best molecule in generation  259
     sas    :  3.686536578340604
     ringP  :  2
     discrm :  [0.64448214]
+Generation time:  14.18  seconds
+###   On generation 260 of 500
+Best best molecule in generation  260
+    smile  :  N#SC=CC1=CCCC1=CCc1cccccc2cc(N)c1-2
+    fitness:  -0.4486201401237539
+    logP   :  5.288980000000004
+    sas    :  3.686536578340604
+    ringP  :  2
+    discrm :  [0.64448214]
+Generation time:  48.3  seconds
+###   On generation 261 of 500
