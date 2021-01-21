@@ -1,0 +1,45 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.12
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+beta:
+  desc: null
+  value: -1.0
+disc_enc_type:
+  desc: null
+  value: properties_rdkit
+disc_epochs_per_generation:
+  desc: null
+  value: 10
+disc_layers:
+  desc: null
+  value:
+  - 100
+  - 10
+generation_size:
+  desc: null
+  value: 500
+max_molecules_len:
+  desc: null
+  value: 81
+num_generations:
+  desc: null
+  value: 1000
+properties_calc_ls:
+  desc: null
+  value:
+  - logP
+  - SAS
+  - RingP
+run:
+  desc: null
+  value: 0
+training_start_gen:
+  desc: null
+  value: 0

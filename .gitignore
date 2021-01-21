@@ -544,3 +544,5 @@ MigrationBackup/
 *tfevents*
 saved_models*/
 nohup.out
+*.wandb
+wandb/

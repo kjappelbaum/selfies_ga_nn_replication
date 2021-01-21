@@ -283,11 +283,13 @@ def fitness(
         SAS_calculated,
         RingP_calculated,
         discriminator_predictions,
+        logP_norm,
+        QED_results,
     )
 
 
 def obtained_standardized_properties(
-    molecules_here, logP_results, SAS_results, ringP_results
+    molecules_here, logP_results, SAS_results, ringP_results, QED_results
 ):
     """Obtain calculated properties of molecules in molecules_here, and standardize
     values base on properties of the Zinc Data set.
@@ -295,14 +297,17 @@ def obtained_standardized_properties(
     logP_calculated = []
     SAS_calculated = []
     RingP_calculated = []
+    QED_calculated = []
 
     for smi in molecules_here:
         logP_calculated.append(logP_results[smi])
         SAS_calculated.append(SAS_results[smi])
         RingP_calculated.append(ringP_results[smi])
+        QED_calculated.append(QED_results[smi])
     logP_calculated = np.array(logP_calculated)
     SAS_calculated = np.array(SAS_calculated)
     RingP_calculated = np.array(RingP_calculated)
+    QED_calculated = np.array(QED_calculated)
 
     # Standardize logP based on zinc logP (mean: 2.4729421499641497 & std : 1.4157879815362406)
     logP_norm = (logP_calculated - 2.4729421499641497) / 1.4157879815362406
@@ -323,6 +328,7 @@ def obtained_standardized_properties(
         logP_norm,
         SAS_norm,
         RingP_norm,
+        QED_calculated,
     )
 
 
@@ -354,6 +360,8 @@ def obtain_fitness(
             SAS_calculated,
             RingP_calculated,
             discriminator_predictions,
+            logP_norm,
+            QED_results,
         ) = fitness(
             smiles_here,
             properties_calc_ls,
@@ -400,6 +408,8 @@ def obtain_fitness(
     SAS_calculated = [SAS_calculated[idx] for idx in order]
     RingP_calculated = [RingP_calculated[idx] for idx in order]
     discriminator_predictions = [discriminator_predictions[idx] for idx in order]
+    logP_norm = [logP_norm[idx] for idx in order]
+    QED_results = [QED_results[idx] for idx in order]
 
     os.makedirs("{}/{}".format(data_dir, generation_index))
     #  Write ordered smiles in a text file
@@ -479,7 +489,15 @@ def obtain_fitness(
         discriminator_predictions,
     )
 
-    return fitness_here, order, fitness_ordered, smiles_ordered, selfies_ordered
+    return (
+        fitness_here,
+        order,
+        fitness_ordered,
+        smiles_ordered,
+        selfies_ordered,
+        logP_norm,
+        QED_results,
+    )
 
 
 def show_generation_image(

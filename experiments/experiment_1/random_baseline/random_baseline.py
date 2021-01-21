@@ -13,8 +13,12 @@ import wandb
 
 from ...sa_scorer.sascorer import calculate_score
 
-wandb.init(project="ga_replication_study", tags=["baseline", "experiment_1"])
+wandb.init(
+    project="ga_replication_study", tags=["baseline", "experiment_1", "old_selfies"]
+)
 table = wandb.Table(columns=["run", "SMILES", "J"])
+
+THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 def sanitize_smiles(smi):
@@ -111,6 +115,7 @@ def get_random_selfie_mol():
         # check if smile string is recognized by rdkit
         mol, smiles_canon, done = sanitize_smiles(decoded_smile_str)
         if mol == None or smiles_canon == "" or len(smiles_canon) > 81:
+            print(f"Invalid SELFIES: {selfie_str} decoded to {decoded_smile_str}")
             valid = False
             continue
 
@@ -118,8 +123,8 @@ def get_random_selfie_mol():
 
 
 def run_random_experiment(i):
+    np.random.seed()
     A = []
-    np.random.seed(i)
     for j in range(50000):
         A.append(get_random_selfie_mol())
 
@@ -133,14 +138,16 @@ def run_random_experiment(i):
     for item in A:
         mol, smiles_canon, done = sanitize_smiles(item)
         if mol == None or done == False:
-            raise Exception("A molecule is incorrect! Test Failed")
+            raise Exception("A molecule is incorrect! Test Failed {item}")
 
         logP_scores.append(get_logP(mol))
         SA_scores.append(get_SA(mol))
         RingP_scores.append(calc_RingP(mol))
 
         # Save all the smile codes of this data set
-        with open("./results/results_{}.txt".format(i), "a+") as handle:
+        with open(
+            os.path.join(THIS_DIR, "results/results_{}.txt".format(i)), "a+"
+        ) as handle:
             handle.write("smile: {} \n".format(smiles_canon))
 
     # Calculate J(m)
@@ -156,20 +163,20 @@ def run_random_experiment(i):
     print("smile: ", A[J.index(max(J))], max(J))
 
     # Save result in text file
-    with open("results.txt", "a+") as fh:
+    with open(os.path.join(THIS_DIR, "results.txt"), "a+") as fh:
         fh.write("smile: {}, J: {} \n".format(A[J.index(max(J))], max(J)))
 
-    return A[J.index(max(J))], max(J)
+    return A[J.index(max(J))], max(J), A
 
 
 if __name__ == "__main__":
-    num_runs = 20
+    num_runs = 10
     counter = 0
-    if not os.path.exists("results"):
-        os.mkdir("results")
+    if not os.path.exists(os.path.join(THIS_DIR, "results")):
+        os.mkdir(os.path.join(THIS_DIR, "results"))
 
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        for smiles, j in tqdm(
+        for smiles, j, all_smiles in tqdm(
             executor.map(run_random_experiment, range(num_runs)), total=num_runs
         ):
             print("Run: ", counter)

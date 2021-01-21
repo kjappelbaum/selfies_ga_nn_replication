@@ -195,7 +195,7 @@ def collect_hist_data(results_dir):
 @click.argument(
     "results_dir",
     type=click.Path(exists=True),
-    default=os.path.join(THIS_DIR, "..", "experiment_2", "results", "results_0_0"),
+    default=os.path.join(THIS_DIR, "..", "experiment_2", "ga", "results", "results_0_0"),
 )
 def main(results_dir):
     run = wandb.init(
@@ -215,66 +215,64 @@ def main(results_dir):
     rdkit_l = 7
     rdkit_s = 4000
     kmeans_path = os.path.join(THIS_DIR, "kmeans.joblib")
-    if not os.path.exists(kmeans_path):
-        time0 = time.time()
-        print("start with kmeans")
-        print("convert to mol objects")
-        mols = [Chem.MolFromSmiles(smi) for smi in smiles_training]
-        print("convert to fingerprints")
-        x_unscaled_fp = np.array(
-            [Chem.RDKFingerprint(mol, maxPath=rdkit_l, fpSize=rdkit_s) for mol in mols]
-        ).astype(float)
-        x_unscaled_fp = np.array(x_unscaled_fp)
-        print("converted to fingerprints:")
-        print(x_unscaled_fp.shape)
+    
+    time0 = time.time()
+    print("start with kmeans")
+    print("convert to mol objects")
+    mols = [Chem.MolFromSmiles(smi) for smi in smiles_training]
+    print("convert to fingerprints")
+    x_unscaled_fp = np.array(
+        [Chem.RDKFingerprint(mol, maxPath=rdkit_l, fpSize=rdkit_s) for mol in mols]
+    ).astype(float)
+    x_unscaled_fp = np.array(x_unscaled_fp)
+    print("converted to fingerprints:")
+    print(x_unscaled_fp.shape)
 
-        print("start with kmeans")
+    print("start with kmeans")
 
-        kmeans = KMeans(n_clusters=n_clusters, random_state=0)
-        kmeans.fit(x_unscaled_fp)
-        print(kmeans.labels_.shape)
-        print(kmeans.cluster_centers_.shape)
-        joblib.dump(kmeans, kmeans_path)
-        run.log_artifact(kmeans_path, type="kmeans_model")
-        time1 = time.time()
-        print("kmeans done in %.1f seconds" % (time1 - time0))
-    else:
-        kmeans = joblib.load(kmeans_path)
+    kmeans = KMeans(n_clusters=n_clusters, random_state=0)
+    kmeans.fit(x_unscaled_fp)
+    print(kmeans.labels_.shape)
+    print(kmeans.cluster_centers_.shape)
+    joblib.dump(kmeans, kmeans_path)
+    run.log_artifact(kmeans_path, type="kmeans_model")
+    time1 = time.time()
+    print("kmeans done in %.1f seconds" % (time1 - time0))
+
 
     repeats = 5
     labels_path = os.path.join(THIS_DIR, "labels_sorted.dat")
-    if not os.path.exists(labels_path):
-        time0 = time.time()
-        print("start labeling all molecules")
+    
+    time0 = time.time()
+    print("start labeling all molecules")
 
-        labels_sorted = []
-        for g in range(len(smiles_per_generation)):
-            print(
-                "get labels for generation %i if %i"
-                % (g + 1, len(smiles_per_generation))
-            )
-            fps = np.array(
-                [
-                    Chem.RDKFingerprint(
-                        Chem.MolFromSmiles(smi), maxPath=rdkit_l, fpSize=rdkit_s
-                    )
-                    for smi in smiles_per_generation[g]
-                ]
-            ).astype(float)
-            labels_here = kmeans.predict(fps)
+    labels_sorted = []
+    for g in range(len(smiles_per_generation)):
+        print(
+            "get labels for generation %i if %i"
+            % (g + 1, len(smiles_per_generation))
+        )
+        fps = np.array(
+            [
+                Chem.RDKFingerprint(
+                    Chem.MolFromSmiles(smi), maxPath=rdkit_l, fpSize=rdkit_s
+                )
+                for smi in smiles_per_generation[g]
+            ]
+        ).astype(float)
+        labels_here = kmeans.predict(fps)
 
-            labels_here = sorted(labels_here)
-            for i in range(repeats):
-                labels_sorted.append(labels_here)
-            # if g==40:
-            #    break
-        labels_sorted = np.array(labels_sorted)
-        np.savetxt(labels_path, labels_sorted)
-        run.log_artifact(labels_path, type="k_means_derived_labels")
-        time1 = time.time()
-        print("labels done in %.1f seconds" % (time1 - time0))
-    else:
-        labels_sorted = np.loadtxt(labels_path)
+        labels_here = sorted(labels_here)
+        for i in range(repeats):
+            labels_sorted.append(labels_here)
+        # if g==40:
+        #    break
+    labels_sorted = np.array(labels_sorted)
+    np.savetxt(labels_path, labels_sorted)
+    run.log_artifact(labels_path, type="k_means_derived_labels")
+    time1 = time.time()
+    print("labels done in %.1f seconds" % (time1 - time0))
+
 
     print("start plotting")
     print("labels:")

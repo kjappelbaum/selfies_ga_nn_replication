@@ -10,7 +10,9 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors, Draw
 from rdkit.Chem import MolFromSmiles as smi2mol
 from rdkit.Chem import MolToSmiles as mol2smi
-from selfies import decoder
+from rdkit.Chem import rdMolDescriptors
+from rdkit import DataStructs
+from selfies import decoder, get_semantic_robust_alphabet
 
 manager = multiprocessing.Manager()
 lock = multiprocessing.Lock()
@@ -265,6 +267,9 @@ def smiles_alphabet(disc_enc_type):
             "[F]",
             "[O]",
         ]  # SELFIES Alphabets in zinc
+
+    elif disc_enc_type == "extended_selfies":
+        ALPHABET = list(get_semantic_robust_alphabet())
     else:
         exit("Invalid choice. Only possible choices are: smiles/selfies.")
 
@@ -604,6 +609,23 @@ def size_ring_counter(ring_ls):
                 count += 1
         ring_counter.append(count)
     return ring_counter
+
+
+def molecule_similarity(mol, target, radius=2, nBits=2048, useChirality=True):
+    """
+    Reward for a target molecule similarity, based on tanimoto similarity
+    between the ECFP fingerprints of the x molecule and target molecule
+    :param mol: rdkit mol object
+    :param target: rdkit mol object
+    :return: float, [0.0, 1.0]
+    """
+    x = rdMolDescriptors.GetMorganFingerprintAsBitVect(
+        mol, radius=radius, nBits=nBits, useChirality=useChirality
+    )
+    target = rdMolDescriptors.GetMorganFingerprintAsBitVect(
+        target, radius=radius, nBits=nBits, useChirality=useChirality
+    )
+    return DataStructs.TanimotoSimilarity(x, target)
 
 
 def get_mol_info(smi):
