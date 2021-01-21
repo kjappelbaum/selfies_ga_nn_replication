@@ -3877,3 +3877,41 @@ Best best molecule in generation  204
     sas    :  4.319598314153888
     ringP  :  0
     discrm :  [0.9744582]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 11.28405
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 11.27596
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 11.26606
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 11.25462
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 11.24190
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 11.22811
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 11.21352
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 11.19836
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 11.18291
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 11.16741
+Generation time:  12.53  seconds
+###   On generation 205 of 500
+Best best molecule in generation  205
+    smile  :  C=Cc1cccn1CC=CC(=CC=CC=CC=CC=CC=CF)OONC=C(C=CC=C1C=CC=C1)N=CC=COCS(#N)=O
+    fitness:  51.071308091458896
+    logP   :  7.968680000000008
+    sas    :  5.310382490740194
+    ringP  :  0
+    discrm :  [0.9948821]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 13.53183
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 13.53162
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 13.53180
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 13.53232
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 13.53311
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 13.53407
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 13.53516
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 13.53627
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 13.53736
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 13.53835
+Generation time:  13.38  seconds
+###   On generation 206 of 500
+Best best molecule in generation  206
+    smile  :  C=Cc1cccn1CC=CC(=CC=CC=CC=CC=CC=CF)OONC=C(C=CC=C1C=CC=C1)NOCC=COCS(#N)=O
+    fitness:  48.995247946721584
+    logP   :  7.419080000000007
+    sas    :  5.269735199347341
+    ringP  :  0
+    discrm :  [0.96014607]

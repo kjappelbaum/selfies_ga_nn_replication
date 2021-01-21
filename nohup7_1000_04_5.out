@@ -17667,3 +17667,24 @@ Best best molecule in generation  364
 -- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00299
 Generation time:  52.06  seconds
 ###   On generation 365 of 500
+O=[SH]c1cccc2ccccc12
+BETA CUTTOFF IMPOSED 1000.0 index:  365
+Best best molecule in generation  365
+    smile  :  N#CSSC1=NCC=Cc2ccccc21
+    fitness:  70.7737423934243
+    logP   :  3.3224800000000014
+    sas    :  3.5919156362864335
+    ringP  :  1
+    discrm :  [0.07512315]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.00928
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.00927
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.00926
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.00926
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.00925
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.00924
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.00923
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.00921
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.00919
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00916
+Generation time:  52.76  seconds
+###   On generation 366 of 500

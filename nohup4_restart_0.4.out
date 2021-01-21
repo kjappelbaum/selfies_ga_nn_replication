@@ -6812,3 +6812,10 @@ Best best molecule in generation  7
     discrm :  [0.3723485]
 Generation time:  59.12  seconds
 ###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CC(C)Cn1ccnc1
+    fitness:  0.4623084517193521
+    logP   :  1.5391
+    sas    :  2.256564007225556
+    ringP  :  0
+    discrm :  [0.37239006]
