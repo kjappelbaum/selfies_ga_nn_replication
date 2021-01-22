@@ -1,13 +1,13 @@
 """
 Functions that are used while a Generation is being Evaluated 
 """
-import multiprocessing
 import os
 from random import randrange
-
+from guacamol.scoring_function import ScoringFunction
 import numpy as np
 from numpy.core.arrayprint import get_printoptions
 from rdkit import Chem
+from rdkit.Chem import Draw
 
 from ...net import discriminator as D
 from ...net import evolution_functions as evo
@@ -43,6 +43,7 @@ def fitness(
     max_fitness_collector,
     watchtime: int = 5,
     similarity_threshold: float = 0.2,
+    num_processors=1,
 ):
     """Calculate fitness fo a generation in the GA
 
@@ -81,10 +82,8 @@ def fitness(
         fitness = discriminator_predictions
 
     else:
-
         molecules_here_unique = list(set(molecules_here))
 
-        # Add SAS and Ring Penalty
         scores = scoring_function.score(molecules_here_unique)
 
         # Plot fitness without discriminator
@@ -130,12 +129,7 @@ def fitness(
         with open("{}/avg_fitness_discr.txt".format(data_dir), "a+") as handle:
             handle.write(str(fitness.mean()) + "\n")
 
-    return (
-        fitness,
-        scores,
-        discriminator_predictions,
-        molecules_here_unique
-    )
+    return (fitness, scores, discriminator_predictions, molecules_here_unique)
 
 
 def obtain_fitness(
@@ -150,58 +144,62 @@ def obtain_fitness(
     writer,
     beta,
     data_dir,
+    image_dir,
     scoring_function,
     max_fitness_collector,
     watchtime: int = 5,
     similarity_threshold: float = 0.2,
+    num_processors=1,
 ):
     """Obtain fitness of generation based on choices of disc_enc_type.
     Essentially just calls 'fitness'
     """
 
-    (
-            fitness_here,
-            scores,
-            discriminator_predictions,
-            molecules_here_unique
-        ) = fitness(
-             smiles_here,
-    properties_calc_ls,
-    discriminator,
-    disc_enc_type,
-    generation_index,
-    max_molecules_len,
-    device,
-    writer,
-    beta,
-    data_dir,
-    scoring_function,
-    max_fitness_collector,
-    watchtime
-    similarity_threshold,
-        )
-
-    # Now, order the things ... 
-
-    order, fitness_ordered, smiles_ordered, selfies_ordered = order_based_on_fitness(
-        fitness_here, smiles_here, selfies_here
+    (fitness_here, scores, discriminator_predictions, _) = fitness(
+        molecules_here=smiles_here,
+        properties_calc_ls=properties_calc_ls,
+        discriminator=discriminator,
+        disc_enc_type=disc_enc_type,
+        generation_index=generation_index,
+        max_molecules_len=max_molecules_len,
+        device=device,
+        writer=writer,
+        beta=beta,
+        data_dir=data_dir,
+        scoring_function=scoring_function,
+        max_fitness_collector=max_fitness_collector,
+        watchtime=watchtime,
+        similarity_threshold=similarity_threshold,
+        num_processors=num_processors,
     )
-    scores_ordered = scores[order]
-    
+
+    # Now, order the things ...
+    (
+        order,
+        fitness_ordered,
+        smiles_ordered,
+        selfies_ordered,
+        scores_ordered,
+        discriminator_ordered,
+    ) = order_based_on_fitness(
+        fitness_here, smiles_here, selfies_here, scores, discriminator_predictions
+    )
 
     # print statement for the best molecule in the generation
     print("Best best molecule in generation ", generation_index)
     print("    smile  : ", smiles_ordered[0])
     print("    fitness: ", fitness_ordered[0])
-    print("    discrm : ", discriminator_predictions[0])
+    print("    discrm : ", discriminator_ordered[0])
 
     with open("{}/best_in_generations.txt".format(data_dir), "a+") as handle:
-        best_gen_str = "index: {},  smile: {}, fitness: {}, score: {},  discrm: {}".format(
-            generation_index,
-            smiles_ordered[0],
-            fitness_ordered[0],
-            scores_orderd[0],
-            discrm_ordered[0],
+        best_gen_str = (
+            "index: {},  smile: {}, fitness: {}, score: {},  discrm: {}".format(
+                generation_index,
+                smiles_ordered[0],
+                fitness_ordered[0],
+                scores_ordered[0],
+                discriminator_ordered[0],
+            )
         )
         handle.write(best_gen_str + "\n")
 
@@ -214,7 +212,6 @@ def obtain_fitness(
     )
 
     return (
-        fitness_here,
         order,
         fitness_ordered,
         smiles_ordered,
@@ -251,16 +248,32 @@ def show_generation_image(
             discr_scores,
         )
 
-def create_100_mol_image(
-    mol_list, file_name, fitness, discr_scores
+
+def order_based_on_fitness(
+    fitness_here, smiles_here, selfies_here, scores_here, discriminator_predictions
 ):
+    """Order elements of a lists (args) based om Decreasing fitness"""
+    order = np.argsort(scores_here)[
+        ::-1
+    ]  # Decreasing order of indices, based on fitness
+    fitness_ordered = [fitness_here[idx] for idx in order]
+    smiles_ordered = [smiles_here[idx] for idx in order]
+    selfies_ordered = [selfies_here[idx] for idx in order]
+    scores_ordered = [scores_here[idx] for idx in order]
+    discriminator_ordered = [discriminator_predictions[idx] for idx in order]
+    return (
+        order,
+        fitness_ordered,
+        smiles_ordered,
+        selfies_ordered,
+        scores_ordered,
+        discriminator_ordered,
+    )
+
+
+def create_100_mol_image(mol_list, file_name, fitness, discr_scores):
     """Create a single picture of multiple molecules in a single Grid - with properties underneath."""
     assert len(mol_list) == 100
-    if logP == None and SAS == None and RingCount == None and discr_scores == None:
-        Draw.MolsToGridImage(mol_list, molsPerRow=10, subImgSize=(200, 200)).save(
-            file_name
-        )
-        return
 
     for i, m in enumerate(mol_list):
         m.SetProp(
@@ -281,7 +294,6 @@ def create_100_mol_image(
     except Exception as e:
         print("Failed to produce image due to {}".format(e))
     return
-
 
 
 def obtain_previous_gen_mol(
@@ -307,7 +319,6 @@ def obtain_previous_gen_mol(
         return randomized_smiles, randomized_selfies
     else:
         return smiles_all[generation_index - 2], selfies_all[generation_index - 2]
-
 
 
 def apply_generation_cutoff(order, generation_size):

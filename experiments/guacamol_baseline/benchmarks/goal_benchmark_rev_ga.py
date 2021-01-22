@@ -3,6 +3,8 @@ import multiprocessing
 import time
 import click
 import torch
+from typing import List
+from joblib import delayed
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
 
@@ -35,6 +37,10 @@ def initiate_ga(
     run,
     table,
     scoring_function,
+    image_dir,
+    writer,
+    data_dir,
+    saved_models_dir,
     max_fitness_collector,
     watchtime=5,
     similarity_threshold=0.2,
@@ -89,23 +95,22 @@ def initiate_ga(
             scores_ordered,
             discriminator_predictions,
         ) = gen_func.obtain_fitness(
-            disc_enc_type,
-            smiles_here,
-            selfies_here,
-            properties_calc_ls,
-            discriminator,
-            generation_index,
-            max_molecules_len,
-            device,
-            generation_size,
-            num_processors,
-            writer,
-            beta,
-            image_dir,
-            data_dir,
-            max_fitness_collector,
-            watchtime,
-            similarity_threshold,
+            smiles_here=smiles_here,
+            selfies_here=selfies_here,
+            properties_calc_ls=properties_calc_ls,
+            discriminator=discriminator,
+            disc_enc_type=disc_enc_type,
+            generation_index=generation_index,
+            max_molecules_len=max_molecules_len,
+            device=device,
+            writer=writer,
+            beta=beta,
+            data_dir=data_dir,
+            image_dir=image_dir,
+            scoring_function=scoring_function,
+            watchtime=watchtime,
+            similarity_threshold=similarity_threshold,
+            num_processors=num_processors,
         )
 
         run.log(
@@ -180,67 +185,156 @@ def initiate_ga(
 
 
 class ChemGEGenerator(GoalDirectedGenerator):
-
-    def __init__(self, run, beta=0, watchtime=5, starting_smiles="C", similarity_threshold=0.4,num_generations=500,  generation_size=1000, max_molecule_len=81, disc_epoch_per_gen=10, disc_enc_type='properties_rdkit', disc_layers=[100,51], training_start_gen=0, device='cpu', properties_calc_ls=None):
-        self.starting_selfies = [encoder(starting_smile)]
+    def __init__(
+        self,
+        run,
+        beta=0,
+        watchtime=5,
+        similarity_threshold=0.4,
+        num_generations=500,
+        generation_size=1000,
+        max_molecule_len=81,
+        disc_epoch_per_gen=10,
+        disc_enc_type="properties_rdkit",
+        disc_layers=[100, 51],
+        training_start_gen=0,
+        device="cpu",
+        properties_calc_ls=None,
+        results_path="results",
+    ):
         self.num_generation = num_generations
         self.generation_size = generation_size
         self.max_molecule_len = max_molecule_len
         self.disc_epoch_per_gen = disc_epoch_per_gen
         self.disc_enc_type = disc_enc_type
         self.disc_layers = disc_layers
-        self.training_start_gen = training_start_gen 
-        self.device = device 
+        self.training_start_gen = training_start_gen
+        self.device = device
         self.properties_calc_ls = properties_calc_ls
-        self.beta=beta
-        self.watchtime=watchtime
-        self.similarity_threshold =similarity_threshold 
+        self.beta = beta
+        self.watchtime = watchtime
+        self.similarity_threshold = similarity_threshold
         self.num_processors = 1
-        self.run = run 
+        self.run = run
         self.table = wandb.Table(
-                columns=[
-                    "generation",
-                    "SMILES",
-                    "SELFIES",
-                    "fitness",
-                    "score",
-                    "discriminator",
-                ]
-            )
-        self.results_dir = evo.make_clean_results_dir(beta_dir)
-        self.image_dir, self.saved_models_dir, self.data_dir = evo.make_clean_directories(
-                beta, results_dir, ""
-            )
+            columns=[
+                "generation",
+                "SMILES",
+                "SELFIES",
+                "fitness",
+                "score",
+                "discriminator",
+            ]
+        )
+        self.results_dir = evo.make_clean_results_dir(
+            os.path.join(THIS_DIR, results_path)
+        )
+        (
+            self.image_dir,
+            self.saved_models_dir,
+            self.data_dir,
+        ) = evo.make_clean_directories(beta, self.results_dir, "")
+        self.max_fitness_collector = []
 
-
-    def top_k(self, smiles, scoring_function:, k):
+    def top_k(self, smiles: List[str], scoring_function: ScoringFunction, k):
         joblist = (delayed(scoring_function.score)(s) for s in smiles)
         scores = self.pool(joblist)
         scored_smiles = list(zip(scores, smiles))
         scored_smiles = sorted(scored_smiles, key=lambda x: x[0], reverse=True)
         return [smile for score, smile in scored_smiles][:k]
 
-
-    def generate_optimized_molecules(self, scoring_function: ScoringFunction, number_molecules: int,) -> List[str]:
-
+    def generate_optimized_molecules(
+        self,
+        starting_popoulation: List[str],
+        scoring_function: ScoringFunction,
+        number_molecules: int,
+    ) -> List[str]:
         """Returns a list of SMILES"""
-        best_smiles = initiate_ga( self.num_generations,
-    self.generation_size,
-    self.starting_selfies,
-    self.max_molecules_len,
-    self.disc_epochs_per_generation,
-    self.disc_enc_type,
-    self.disc_layers,
-    self.training_start_gen,
-    self.device,
-    self.properties_calc_ls,
-    self.beta,
-    self.run,
-    self.table,
-    scoring_function,
-    self.max_fitness_collector,
-    self.watchtime,
-    self.similarity_threshold,
-    self.num_processors,
-)
-    return best_smiles[:number_molecules] 
+        starting_selfies = [encoder(s) for s in starting_popoulation]
+
+        best_smiles = initiate_ga(
+            num_generations=self.num_generation,
+            generation_size=self.generation_size,
+            starting_selfies=starting_selfies,
+            max_molecules_len=self.max_molecule_len,
+            disc_epochs_per_generation=self.disc_epoch_per_gen,
+            disc_enc_type=self.disc_enc_type,
+            disc_layers=self.disc_layers,
+            training_start_gen=self.training_start_gen,
+            device=self.device,
+            properties_calc_ls=self.properties_calc_ls,
+            beta=self.beta,
+            run=self.run,
+            table=self.table,
+            scoring_function=scoring_function,
+            image_dir=self.image_dir,
+            writer=self.writer,
+            data_dir=self.data_dir,
+            saved_models_dir=self.saved_models_dir,
+            max_fitness_collector=self.max_fitness_collector,
+            watchtime=self.watchtime,
+            similarity_threshold=self.similarity_threshold,
+            num_processors=self.num_processors,
+        )
+
+        return best_smiles[:number_molecules]
+
+
+@click.command("cli")
+@click.argument("beta", type=float, default=1000)
+@click.argument("watchtime", type=int, default=5)
+@click.argument("similarity_threshold", type=float, default=0.5)
+@click.argument("output_dir", type=click.Path(), default="results")
+def cli(beta, watchtime, similarity_threshold, output_dir):
+    num_generations = 10
+    generation_size = 100
+    max_molecule_len = 81
+    disc_epoch_per_gen = 10
+    disc_enc_type = "properties_rdkit"
+    disc_layers = [100, 51]
+    training_start_gen = 0
+    properties_calc_ls = [
+        "logP",
+        "SAS",
+        "RingP",
+    ]
+
+    run = wandb.init(
+        project="ga_replication_study",
+        tags=["ga", "guacamol_benchmark", "test"],
+        config={
+            "beta": beta,
+            "num_generations": num_generations,
+            "generation_size": generation_size,
+            "max_molecules_len": max_molecule_len,
+            "disc_epochs_per_generation": disc_epoch_per_gen,
+            "disc_enc_type": disc_enc_type,
+            "disc_layers": disc_layers,
+            "training_start_gen": training_start_gen,
+            "properties_calc_ls": properties_calc_ls,
+        },
+        reinit=True,
+    )
+
+    optimiser = ChemGEGenerator(
+        run=run,
+        beta=beta,
+        watchtime=watchtime,
+        similarity_threshold=similarity_threshold,
+        results_path=output_dir,
+        num_generations=num_generations,
+        generation_size=generation_size,
+        max_molecule_len=max_molecule_len,
+        disc_epoch_per_gen=disc_epoch_per_gen,
+        disc_enc_type=disc_enc_type,
+        disc_layers=disc_layers,
+        training_start_gen=training_start_gen,
+        properties_calc_ls=properties_calc_ls,
+    )
+
+    json_file_path = os.path.join(output_dir, "goal_directed_results.json")
+    assess_goal_directed_generation(optimiser, json_output_file=json_file_path)
+
+
+if __name__ == "__main__":
+    cli()
