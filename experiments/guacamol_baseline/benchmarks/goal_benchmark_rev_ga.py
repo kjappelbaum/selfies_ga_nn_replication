@@ -20,6 +20,7 @@ THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 from guacamol.assess_goal_directed_generation import assess_goal_directed_generation
 from guacamol.goal_directed_generator import GoalDirectedGenerator
 from guacamol.scoring_function import ScoringFunction
+from guacamol.utils.chemistry import canonicalize
 
 
 def initiate_ga(
@@ -87,7 +88,6 @@ def initiate_ga(
 
         # Calculate fitness of previous generation
         (
-            fitness_here,
             order,
             fitness_ordered,
             smiles_ordered,
@@ -111,6 +111,7 @@ def initiate_ga(
             watchtime=watchtime,
             similarity_threshold=similarity_threshold,
             num_processors=num_processors,
+            max_fitness_collector=max_fitness_collector,
         )
 
         run.log(
@@ -236,21 +237,36 @@ class ChemGEGenerator(GoalDirectedGenerator):
         ) = evo.make_clean_directories(beta, self.results_dir, "")
         self.max_fitness_collector = []
 
+        torch.cuda.empty_cache()
+        self.writer = SummaryWriter()
+
+    def load_smiles_from_file(
+        self, smi_file=os.path.join(THIS_DIR, "..", "data", "guacamol_v1_all.smiles")
+    ):
+        with open(smi_file) as f:
+            return [canonicalize(s.strip()) for s in f.readlines()]
+
     def top_k(self, smiles: List[str], scoring_function: ScoringFunction, k):
-        joblist = (delayed(scoring_function.score)(s) for s in smiles)
-        scores = self.pool(joblist)
+        scores = scoring_function.score_list(smiles)
         scored_smiles = list(zip(scores, smiles))
         scored_smiles = sorted(scored_smiles, key=lambda x: x[0], reverse=True)
-        return [smile for score, smile in scored_smiles][:k]
+        return [smile for _, smile in scored_smiles][:k]
 
     def generate_optimized_molecules(
         self,
-        starting_popoulation: List[str],
+        starting_population: List[str],
         scoring_function: ScoringFunction,
         number_molecules: int,
     ) -> List[str]:
         """Returns a list of SMILES"""
-        starting_selfies = [encoder(s) for s in starting_popoulation]
+        if starting_population is not None:
+            starting_selfies = [encoder(s) for s in starting_population]
+        else:
+            starting_population = self.top_k(
+                self.load_smiles_from_file(), scoring_function, self.generation_size
+            )
+
+            starting_selfies = [encoder(s) for s in starting_population]
 
         best_smiles = initiate_ga(
             num_generations=self.num_generation,
@@ -281,13 +297,13 @@ class ChemGEGenerator(GoalDirectedGenerator):
 
 
 @click.command("cli")
-@click.argument("beta", type=float, default=1000)
+@click.argument("beta", type=float, default=0)
 @click.argument("watchtime", type=int, default=5)
 @click.argument("similarity_threshold", type=float, default=0.5)
 @click.argument("output_dir", type=click.Path(), default="results")
 def cli(beta, watchtime, similarity_threshold, output_dir):
-    num_generations = 10
-    generation_size = 100
+    num_generations = 100
+    generation_size = 500
     max_molecule_len = 81
     disc_epoch_per_gen = 10
     disc_enc_type = "properties_rdkit"
@@ -304,6 +320,7 @@ def cli(beta, watchtime, similarity_threshold, output_dir):
         tags=["ga", "guacamol_benchmark", "test"],
         config={
             "beta": beta,
+            "alphabet": "original",
             "num_generations": num_generations,
             "generation_size": generation_size,
             "max_molecules_len": max_molecule_len,
@@ -316,12 +333,14 @@ def cli(beta, watchtime, similarity_threshold, output_dir):
         reinit=True,
     )
 
+    print(run.config)
+
     optimiser = ChemGEGenerator(
         run=run,
         beta=beta,
         watchtime=watchtime,
         similarity_threshold=similarity_threshold,
-        results_path=output_dir,
+        # results_path=output_dir,
         num_generations=num_generations,
         generation_size=generation_size,
         max_molecule_len=max_molecule_len,
@@ -332,7 +351,7 @@ def cli(beta, watchtime, similarity_threshold, output_dir):
         properties_calc_ls=properties_calc_ls,
     )
 
-    json_file_path = os.path.join(output_dir, "goal_directed_results.json")
+    json_file_path = os.path.join(THIS_DIR, f"goal_directed_results_beta_{beta}.json")
     assess_goal_directed_generation(optimiser, json_output_file=json_file_path)
 
 

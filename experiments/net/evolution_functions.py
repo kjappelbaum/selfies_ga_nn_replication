@@ -57,7 +57,8 @@ def make_clean_directories(beta, root_folder, iteration):
     None    : Folders in current directory modified
     """
     image_dir = os.path.join(
-        root_folder, "images_generation_" + str(beta) + "_" + str(iteration)
+        root_folder,
+        "images_generation_" + str(beta).replace(".", "o") + "_" + str(iteration),
     )
     if not os.path.exists(image_dir):
         os.makedirs(image_dir)
@@ -66,7 +67,7 @@ def make_clean_directories(beta, root_folder, iteration):
             os.system("rm -r %s/*" % (image_dir))
 
     models_dir = os.path.join(
-        root_folder, "saved_models_" + str(beta) + "_" + str(iteration)
+        root_folder, "saved_models_" + str(beta).replace(".", "o") + "_" + str(iteration)
     )
     if not os.path.exists(models_dir):
         os.makedirs(models_dir)
@@ -74,7 +75,7 @@ def make_clean_directories(beta, root_folder, iteration):
         if len(os.listdir(models_dir)) > 0:
             os.system("rm -r %s/*" % (models_dir))
 
-    data_dir = os.path.join(root_folder, "results_" + str(beta) + "_" + str(iteration))
+    data_dir = os.path.join(root_folder, "results_" + str(beta).replace(".", "o") + "_" + str(iteration))
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
     else:

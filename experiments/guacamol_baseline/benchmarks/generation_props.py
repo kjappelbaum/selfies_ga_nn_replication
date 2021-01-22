@@ -78,56 +78,31 @@ def fitness(
     else:
         discriminator_predictions = D.do_predictions(discriminator, dataset_x, device)
 
-    if properties_calc_ls == None:
-        fitness = discriminator_predictions
+    discriminator_predictions = discriminator_predictions.flatten()
+    molecules_here_unique = list(set(molecules_here))
 
-    else:
-        molecules_here_unique = list(set(molecules_here))
+    scores = np.array(scoring_function.score_list(molecules_here))
 
-        scores = scoring_function.score(molecules_here_unique)
+    order = np.argsort(scores)[::-1]
 
-        # Plot fitness without discriminator
-        writer.add_scalar("max fitness without discr", max(fitness), generation_index)
-        writer.add_scalar("avg fitness without discr", fitness.mean(), generation_index)
+    mol, _, _ = evo.sanitize_smiles(molecules_here[int(order[0])])
 
-        order = np.argsort(scores)[::-1]
+    max_fitness_collector.append(mol)
 
-        mol, _, _ = evo.sanitize_smiles(molecules_here[int(order[0])])
+    # Impose the beta cutoff!
+    if generation_index > 20:
+        if (
+            get_pairwise_similarities(max_fitness_collector[-watchtime:])
+            > similarity_threshold
+        ):  # Check if there is a sagnation for 10 generations!
+            beta_ = beta
+            print(f"BETA CUTTOFF IMPOSED {beta_} index: ", generation_index)
 
-        max_fitness_collector.append(mol)
+    fitness = (beta_ * discriminator_predictions) + scores
 
-        # Impose the beta cutoff!
-        if generation_index > 20:
-            if (
-                get_pairwise_similarities(max_fitness_collector[-watchtime:])
-                > similarity_threshold
-            ):  # Check if there is a sagnation for 10 generations!
-                beta_ = beta
-                print(f"BETA CUTTOFF IMPOSED {beta_} index: ", generation_index)
-                with open("{}/beta_change_log.txt".format(data_dir), "a+") as handle:
-                    handle.write(str(generation_index) + "\n")
-
-        # max fitness without discriminator
-        with open("{}/max_fitness_no_discr.txt".format(data_dir), "a+") as handle:
-            handle.write(str(max(fitness)[0]) + "\n")
-
-        # avg fitness without discriminator
-        with open("{}/avg_fitness_no_discr.txt".format(data_dir), "a+") as handle:
-            handle.write(str(fitness.mean()) + "\n")
-
-        fitness = (beta_ * discriminator_predictions) + scores
-
-        # Plot fitness with discriminator
-        writer.add_scalar("max fitness with discrm", max(fitness), generation_index)
-        writer.add_scalar("avg fitness with discrm", fitness.mean(), generation_index)
-
-        # max fitness with discriminator
-        with open("{}/max_fitness_discr.txt".format(data_dir), "a+") as handle:
-            handle.write(str(max(fitness)[0]) + "\n")
-
-        # avg fitness with discriminator
-        with open("{}/avg_fitness_discr.txt".format(data_dir), "a+") as handle:
-            handle.write(str(fitness.mean()) + "\n")
+    # Plot fitness with discriminator
+    writer.add_scalar("max fitness with discrm", max(fitness), generation_index)
+    writer.add_scalar("avg fitness with discrm", fitness.mean(), generation_index)
 
     return (fitness, scores, discriminator_predictions, molecules_here_unique)
 
@@ -191,18 +166,6 @@ def obtain_fitness(
     print("    fitness: ", fitness_ordered[0])
     print("    discrm : ", discriminator_ordered[0])
 
-    with open("{}/best_in_generations.txt".format(data_dir), "a+") as handle:
-        best_gen_str = (
-            "index: {},  smile: {}, fitness: {}, score: {},  discrm: {}".format(
-                generation_index,
-                smiles_ordered[0],
-                fitness_ordered[0],
-                scores_ordered[0],
-                discriminator_ordered[0],
-            )
-        )
-        handle.write(best_gen_str + "\n")
-
     show_generation_image(
         generation_index,
         image_dir,
@@ -217,7 +180,7 @@ def obtain_fitness(
         smiles_ordered,
         selfies_ordered,
         scores_ordered,
-        discriminator_predictions[0][0],
+        discriminator_predictions[0],
     )
 
 
@@ -281,7 +244,7 @@ def create_100_mol_image(mol_list, file_name, fitness, discr_scores):
             "%s %s "
             % (
                 round(fitness[i], 3),
-                round(discr_scores[i][0], 3),
+                round(discr_scores[i], 3),
             ),
         )
     try:

@@ -1,0 +1,14 @@
+nohup: ignoring input
+2021-01-22 17:50:13.777924: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-01-22 17:50:13.777957: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+wandb: Currently logged in as: kjappelbaum (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run polar-durian-1667
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/1wq8c28z
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210122_175015-1wq8c28z
+wandb: Run `wandb offline` to turn off syncing.
+
+{'beta': 0.0, 'alphabet': 'original', 'num_generations': 100, 'generation_size': 500, 'max_molecules_len': 81, 'disc_epochs_per_generation': 10, 'disc_enc_type': 'properties_rdkit', 'disc_layers': [100, 51], 'training_start_gen': 0, 'properties_calc_ls': ['logP', 'SAS', 'RingP']}
