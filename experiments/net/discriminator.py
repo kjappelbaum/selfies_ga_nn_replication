@@ -89,9 +89,9 @@ def do_x_training_steps(
         loss = loss_func(predictions, data_y)
 
         # TensorBoard graphing (loss and weights histogram)
-        writer.add_scalar("loss", loss, graph_x_counter * steps + t)
-        with open("{}/discr_loss.txt".format(data_dir), "a+") as handle:
-            handle.write(str(float(loss)) + "\n")
+        # writer.add_scalar("loss", loss, graph_x_counter * steps + t)
+        # with open("{}/discr_loss.txt".format(data_dir), "a+") as handle:
+        #     handle.write(str(float(loss)) + "\n")
 
         optimizer.zero_grad()
         loss.backward(retain_graph=True)
