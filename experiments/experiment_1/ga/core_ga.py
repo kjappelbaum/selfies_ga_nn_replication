@@ -192,7 +192,7 @@ def main(beta):
         "RingP",
     ]
 
-    for i in range(10):
+    for i in range(1):
         run = wandb.init(
             project="ga_replication_study",
             tags=["ga", "experiment_1", "beta_sweep"],
