@@ -17,7 +17,7 @@ TEMPLATE = """#!/bin/bash
 
 source /home/kjablonk/anaconda3/bin/activate
 conda activate ga_replication
-
+export WANDB_MODE=dryrun 
 python -u -m experiments.experiment_7.ga.core_ga -- {beta} {tolerance} {watchtime} {iter}
 """
 
@@ -34,6 +34,7 @@ def main(submit):
         for watchtime in WATCHTIME:
             for similarity in SIMILARITY:
                 for repeat in range(REPEATS):
+                    repeat += 5
                     name = f"exp_7_{beta}_{watchtime}_{similarity}_{repeat}"
                     filled_script = TEMPLATE.format(
                         **{

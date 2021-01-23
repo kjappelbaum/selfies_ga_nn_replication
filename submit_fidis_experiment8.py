@@ -17,7 +17,7 @@ TEMPLATE = """#!/bin/bash
 
 source /home/kjablonk/anaconda3/bin/activate
 conda activate ga_replication
-
+export WANDB_MODE=dryrun 
 python -u -m experiments.experiment_8.ga.core_ga -- {beta} {iter}
 """
 
@@ -31,6 +31,7 @@ def main(submit):
     for beta in BETAS:
 
         for repeat in range(REPEATS):
+            repeat += 5
             name = f"exp_8_{beta}_{repeat}"
             filled_script = TEMPLATE.format(
                 **{"name": name, "beta": beta, "iter": repeat,}
