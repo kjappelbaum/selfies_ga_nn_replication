@@ -180,7 +180,7 @@ def initiate_ga(
 @click.argument("watchtime")
 def main(beta, tolerance, watchtime):
 
-    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{tolerance}_{watchtime}")
+    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{tolerance}_{watchtime}_2")
     beta = float(beta)
 
     os.mkdir(beta_dir)
@@ -205,6 +205,7 @@ def main(beta, tolerance, watchtime):
     similarity_threshold = float(tolerance)
 
     for i in range(5):
+        disc_layers = [100, 10]
         run = wandb.init(
             project="ga_replication_study",
             tags=["ga", "experiment_7", "adaptive_penalty"],
@@ -249,7 +250,7 @@ def main(beta, tolerance, watchtime):
             torch.cuda.empty_cache()
             global writer
             writer = SummaryWriter()
-
+            assert disc_layers == [100, 10]
             # Initiate the Genetic Algorithm
             smiles_all_counter = initiate_ga(
                 num_generations=num_generations,
