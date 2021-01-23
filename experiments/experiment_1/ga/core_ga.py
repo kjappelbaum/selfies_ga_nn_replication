@@ -169,8 +169,9 @@ def initiate_ga(
 
 @click.command("cli")
 @click.argument("beta")
-def main(beta):
-    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}")
+@click.argument("iteration")
+def main(beta, iteration):
+    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{iteration}")
     beta = float(beta)
 
     os.mkdir(beta_dir)
@@ -193,6 +194,7 @@ def main(beta):
     ]
 
     for i in range(10):
+        disc_layers = [100, 10]
         run = wandb.init(
             project="ga_replication_study",
             tags=["ga", "experiment_1", "beta_sweep"],
@@ -234,7 +236,7 @@ def main(beta):
             torch.cuda.empty_cache()
             global writer
             writer = SummaryWriter()
-
+            assert disc_layers == [100, 10]
             # Initiate the Genetic Algorithm
             smiles_all_counter = initiate_ga(
                 num_generations=num_generations,
