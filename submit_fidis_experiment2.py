@@ -41,7 +41,7 @@ def main(submit):
                 subprocess.call(
                     "sbatch {}".format(name + ".slurm"), shell=True, cwd="."
                 )
-                time.sleep(5)
+                time.sleep(10)
 
 
 if __name__ == "__main__":
