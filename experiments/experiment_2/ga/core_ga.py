@@ -172,7 +172,7 @@ def initiate_ga(
 
 @click.command("cli")
 @click.argument("beta")
-@click.command("iteration")
+@click.argument("iteration")
 def main(beta, iteration):
 
     beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{iteration}")
