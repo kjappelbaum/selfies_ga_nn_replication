@@ -18,7 +18,8 @@ THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 @click.command("cli")
 @click.argument("desired_delta", type=float)
-def main(desired_delta):
+@click.argument("iteration", type=float)
+def main(desired_delta, iteration):
     beta = 0
     num_generations = 20
     generation_size = 500
@@ -48,7 +49,7 @@ def main(desired_delta):
         print(f"Working on {smile}")
 
         delta_dir = os.path.join(
-            THIS_DIR, f"results_beta_{desired_delta}_{smile_number}_restart2"
+            THIS_DIR, f"results_beta_{desired_delta}_{smile_number}{iteration}"
         )
 
         os.mkdir(delta_dir)
@@ -116,7 +117,8 @@ def main(desired_delta):
 
             print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
             with open(
-                os.path.join(THIS_DIR, f"improvement_{desired_delta}_RESTART2.txt"), "a+"
+                os.path.join(THIS_DIR, f"improvement_{desired_delta}_{iteration}.txt"),
+                "a+",
             ) as handle:
                 A = save_curve[1:]
                 improvement = max(A) - save_curve[0]
