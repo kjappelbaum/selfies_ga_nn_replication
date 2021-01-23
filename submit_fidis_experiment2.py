@@ -9,7 +9,7 @@ TEMPLATE = """#!/bin/bash
 #SBATCH --mem       32GB
 #SBATCH --ntasks    1
 #SBATCH --cpus-per-task   4
-#SBATCH --time      14:00:00
+#SBATCH --time      18:00:00
 #SBATCH --partition serial
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=kevin.jablonka@epfl.ch
@@ -21,7 +21,7 @@ conda activate ga_replication
 python -u -m experiments.experiment_2ga.core_ga {beta} {iter}
 """
 
-BETAS = [-100, -50, -10, -0.1, 0, 0.1, 10, 50, 100]
+BETAS = [1000, 100, 0]
 REPEATS = 5
 
 
@@ -30,7 +30,7 @@ REPEATS = 5
 def main(submit):
     for beta in BETAS:
         for repeat in range(REPEATS):
-            name = f"exp_1_{beta}_{repeat}"
+            name = f"exp_2_{beta}_{repeat}"
             filled_script = TEMPLATE.format(
                 **{"name": name, "beta": beta, "iter": repeat}
             )
