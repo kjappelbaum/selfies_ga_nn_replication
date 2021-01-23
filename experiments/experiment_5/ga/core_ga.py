@@ -1,7 +1,7 @@
 import multiprocessing
 import os
 import time
-
+import click
 import torch
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
@@ -14,8 +14,6 @@ from ...net import evolution_functions as evo
 from . import generation_props as gen_func
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-
-
 
 
 def initiate_ga(
@@ -171,10 +169,13 @@ def initiate_ga(
     return smiles_all_counter
 
 
-if __name__ == "__main__":
-
+@click.command("cli")
+@click.argument("iteration")
+def main(iteration):
     beta_preference = [0]
-    results_dir = evo.make_clean_results_dir(THIS_DIR)
+    results_dir = evo.make_clean_results_dir(
+        os.path.join(THIS_DIR, f"results_{iteration}")
+    )
 
     exper_time = time.time()
     num_generations = 500
@@ -187,15 +188,11 @@ if __name__ == "__main__":
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
     properties_calc_ls = ["logP", "SAS", "RingP", "QED"]
 
-    for i in range(10):
+    for i in range(1):
         for beta in beta_preference:
             run = wandb.init(
                 project="ga_replication_study",
-                tags=[
-                    "ga",
-                    "experiment_5",
-                    "optimizing_two_properties",
-                ],
+                tags=["ga", "experiment_5", "optimizing_two_properties",],
                 config={
                     "run": i,
                     "beta": beta,
@@ -214,6 +211,7 @@ if __name__ == "__main__":
 
             with run:
                 max_fitness_collector = []
+                global table
                 table = wandb.Table(
                     columns=[
                         "generation",
@@ -224,12 +222,15 @@ if __name__ == "__main__":
                         "QED",
                     ]
                 )
-
+                global image_dir
+                global saved_models_dir
+                global data_dir
                 image_dir, saved_models_dir, data_dir = evo.make_clean_directories(
                     beta, results_dir, i
                 )  # clear directories
 
                 # Initialize new TensorBoard writers
+                global writer
                 torch.cuda.empty_cache()
                 writer = SummaryWriter()
 
@@ -253,3 +254,8 @@ if __name__ == "__main__":
                 run.log({"Table of best SMILES": table})
 
     print("Total Experiment time: ", (time.time() - exper_time) / 60, " mins")
+
+
+if __name__ == "__main__":
+    main()
+
