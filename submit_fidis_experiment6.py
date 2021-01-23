@@ -18,10 +18,10 @@ TEMPLATE = """#!/bin/bash
 source /home/kjablonk/anaconda3/bin/activate
 conda activate ga_replication
 
-python -u -m experiments.experiment_6.ga.core_ga {beta} {iter}
+python -u -m experiments.experiment_6.ga.core_ga -- {beta} {iter}
 """
 
-BETAS = [-100, -50, -10, -0.1, 0.1, 10, 50, 100]
+BETAS = [-100, -50, -10, -0.1]
 REPEATS = 5
 
 
