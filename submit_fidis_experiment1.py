@@ -25,7 +25,7 @@ BETAS = [-100, -50, -10, -0.1, 0, 0.1, 10, 50, 100]
 REPEATS = 5
 
 
-@click.comnand("cli")
+@click.command("cli")
 @click.option("--submit", is_flag=True)
 def main(submit):
     for beta in BETAS:
