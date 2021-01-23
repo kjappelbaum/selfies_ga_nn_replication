@@ -170,13 +170,13 @@ def initiate_ga(
                 writer,
                 data_dir,
             )
-            modelpath = D.save_model(
-                discriminator, generation_index - 1, saved_models_dir
-            )  # Save the discriminator
+            # modelpath = D.save_model(
+            #     discriminator, generation_index - 1, saved_models_dir
+            # )  # Save the discriminator
 
-            artifact = wandb.Artifact(f"model_{generation_index}", type="model")
-            artifact.add_file(modelpath)
-            run.log_artifact(artifact)
+            # artifact = wandb.Artifact(f"model_{generation_index}", type="model")
+            # artifact.add_file(modelpath)
+            # run.log_artifact(artifact)
 
         print("Generation time: ", round((time.time() - start_time), 2), " seconds")
 
@@ -234,7 +234,7 @@ class ChemGEGenerator(GoalDirectedGenerator):
             self.image_dir,
             self.saved_models_dir,
             self.data_dir,
-        ) = evo.make_clean_directories(beta, self.results_dir, "")
+        ) = evo.make_clean_directories(beta, self.results_dir, 0)
         self.max_fitness_collector = []
 
         torch.cuda.empty_cache()

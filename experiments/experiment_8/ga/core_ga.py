@@ -170,7 +170,7 @@ def initiate_ga(
 @click.command("cli")
 @click.argument("beta")
 def main(beta):
-    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}")
+    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_1")
     beta = float(beta)
 
     os.mkdir(beta_dir)
