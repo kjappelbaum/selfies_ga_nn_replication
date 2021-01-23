@@ -21,18 +21,18 @@ conda activate ga_replication
 python -u -m experiments.experiment_4.ga.core_ga {delta} {iter}
 """
 
-BETAS = [0.4, 0.6]
+DELTAS = [0.4, 0.6]
 REPEATS = 3
 
 
 @click.command("cli")
 @click.option("--submit", is_flag=True)
 def main(submit):
-    for beta in BETAS:
+    for delta in DELTAS:
         for repeat in range(REPEATS):
-            name = f"exp_4_{beta}_{repeat}"
+            name = f"exp_4_{delta}_{repeat}"
             filled_script = TEMPLATE.format(
-                **{"name": name, "beta": beta, "iter": repeat}
+                **{"name": name, "delta": delta, "iter": repeat}
             )
             with open(name + ".slurm", "w") as fh:
                 fh.write(filled_script)
