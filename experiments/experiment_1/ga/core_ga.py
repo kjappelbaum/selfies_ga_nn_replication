@@ -1,12 +1,14 @@
-import os
+# -*- coding: utf-8 -*-
 import multiprocessing
+import os
 import time
+
 import click
+
 import torch
+import wandb
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
-
-import wandb
 
 from ...datasets.prepare_data import read_dataset_encoding
 from ...net import discriminator as D

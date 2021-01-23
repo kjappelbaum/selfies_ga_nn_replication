@@ -1,6 +1,8 @@
-import click
-import time
+# -*- coding: utf-8 -*-
 import subprocess
+import time
+
+import click
 
 TEMPLATE = """#!/bin/bash
 #SBATCH --chdir ./
@@ -11,7 +13,7 @@ TEMPLATE = """#!/bin/bash
 #SBATCH --partition serial
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=kevin.jablonka@epfl.ch
-#SBATCH --job-name={name} 
+#SBATCH --job-name={name}
 
 source /home/kjablonk/anaconda3/bin/activate
 conda activate ga_replication
