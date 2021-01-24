@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 import multiprocessing
 import os
 import time
-import click
 
+import click
 import torch
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter

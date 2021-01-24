@@ -1,6 +1,8 @@
-import os
+# -*- coding: utf-8 -*-
 import multiprocessing
+import os
 import time
+
 import click
 import torch
 from selfies import decoder, encoder
