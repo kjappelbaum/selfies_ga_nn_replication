@@ -1,10 +1,12 @@
+# -*- coding: utf-8 -*-
 """
-Functions that are used while a Generation is being Evaluated 
+Functions that are used while a Generation is being Evaluated
 """
 import os
 from random import randrange
-from guacamol.scoring_function import ScoringFunction
+
 import numpy as np
+from guacamol.scoring_function import ScoringFunction
 from numpy.core.arrayprint import get_printoptions
 from rdkit import Chem
 from rdkit.Chem import Draw

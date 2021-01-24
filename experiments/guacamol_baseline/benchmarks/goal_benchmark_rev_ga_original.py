@@ -19,7 +19,8 @@ from . import generation_props_original as gen_func
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
-from guacamol.assess_goal_directed_generation import assess_goal_directed_generation
+from guacamol.assess_goal_directed_generation import \
+    assess_goal_directed_generation
 from guacamol.goal_directed_generator import GoalDirectedGenerator
 from guacamol.scoring_function import ScoringFunction
 from guacamol.utils.chemistry import canonicalize

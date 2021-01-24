@@ -115,7 +115,8 @@ def get_random_selfie_mol():
         # check if smile string is recognized by rdkit
         mol, smiles_canon, done = sanitize_smiles(decoded_smile_str)
         if mol == None or smiles_canon == "" or len(smiles_canon) > 81:
-            print(f"Invalid SELFIES: {selfie_str} decoded to {decoded_smile_str}")
+            with open("random_baseline_failures", "a+") as fh:
+                fh.write(f"{selfie_str}, {decoded_smile_str}\n")
             valid = False
             continue
 
@@ -170,7 +171,7 @@ def run_random_experiment(i):
 
 
 if __name__ == "__main__":
-    num_runs = 10
+    num_runs = 100
     counter = 0
     if not os.path.exists(os.path.join(THIS_DIR, "results")):
         os.mkdir(os.path.join(THIS_DIR, "results"))

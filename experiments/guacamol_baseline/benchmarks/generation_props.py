@@ -1,10 +1,13 @@
+# -*- coding: utf-8 -*-
 """
-Functions that are used while a Generation is being Evaluated 
+Functions that are used while a Generation is being Evaluated
 """
 import os
 from random import randrange
-from guacamol.scoring_function import ScoringFunction
+
+import ccbmlib.models as ccbm
 import numpy as np
+from guacamol.scoring_function import ScoringFunction
 from numpy.core.arrayprint import get_printoptions
 from rdkit import Chem
 from rdkit.Chem import Draw
@@ -12,7 +15,6 @@ from rdkit.Chem import Draw
 from ...net import discriminator as D
 from ...net import evolution_functions as evo
 from ...sa_scorer.sascorer import calculate_score
-import ccbmlib.models as ccbm
 
 
 def get_pairwise_similarities(mols):

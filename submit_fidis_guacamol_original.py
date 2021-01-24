@@ -9,7 +9,7 @@ TEMPLATE = """#!/bin/bash
 #SBATCH --mem       32GB
 #SBATCH --ntasks    1
 #SBATCH --cpus-per-task   4
-#SBATCH --time      18:00:00
+#SBATCH --time      48:00:00
 #SBATCH --partition serial
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=kevin.jablonka@epfl.ch
