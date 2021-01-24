@@ -12,20 +12,6 @@ from rdkit.Chem import Draw
 from ...net import discriminator as D
 from ...net import evolution_functions as evo
 from ...sa_scorer.sascorer import calculate_score
-import ccbmlib.models as ccbm
-
-
-def get_pairwise_similarities(mols):
-    pair_wise_similarities_random_baseline = []
-
-    for i, mol0 in enumerate(mols):
-        for j, mol1 in enumerate(mols):
-            if i < j:
-                m0 = ccbm.morgan(mol0, radius=2)
-                m1 = ccbm.morgan(mol1, radius=2)
-                pair_wise_similarities_random_baseline.append(ccbm.tc(m0, m1))
-
-    return np.mean(pair_wise_similarities_random_baseline)
 
 
 def fitness(
@@ -83,18 +69,11 @@ def fitness(
 
     scores = np.array(scoring_function.score_list(molecules_here))
 
-    order = np.argsort(scores)[::-1]
-
-    mol, _, _ = evo.sanitize_smiles(molecules_here[int(order[0])])
-
-    max_fitness_collector.append(mol)
+    max_fitness_collector.append(np.max(scorƒes))
 
     # Impose the beta cutoff!
     if generation_index > 20:
-        if (
-            get_pairwise_similarities(max_fitness_collector[-watchtime:])
-            > similarity_threshold
-        ):
+        if len(set(max_fitness_collector[-watchtime:])) == 1:
             beta_ = beta
             print(f"BETA CUTTOFF IMPOSED {beta_} index: ", generation_index)
 
