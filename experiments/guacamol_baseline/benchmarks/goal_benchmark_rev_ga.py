@@ -300,9 +300,8 @@ class ChemGEGenerator(GoalDirectedGenerator):
 @click.argument("beta", type=float, default=0)
 @click.argument("watchtime", type=int, default=5)
 @click.argument("similarity_threshold", type=float, default=0.5)
-@click.argument("output_dir", type=click.Path(), default="results")
-def cli(beta, watchtime, similarity_threshold, output_dir):
-    num_generations = 100
+@click.argument("num_generations", type=int, default=100)
+def cli(beta, watchtime, similarity_threshold, num_generations):
     generation_size = 500
     max_molecule_len = 81
     disc_epoch_per_gen = 10
