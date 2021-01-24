@@ -350,7 +350,10 @@ def cli(beta, watchtime, similarity_threshold, num_generations):
         properties_calc_ls=properties_calc_ls,
     )
 
-    json_file_path = os.path.join(THIS_DIR, f"goal_directed_results_beta_{beta}.json")
+    json_file_path = os.path.join(
+        THIS_DIR,
+        f"goal_directed_results_beta_{beta}_{watchtime}_{similarity_threshold}_{num_generations}.json",
+    )
     assess_goal_directed_generation(optimiser, json_output_file=json_file_path)
 
 
