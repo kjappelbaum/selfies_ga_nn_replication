@@ -21,7 +21,7 @@ python -u -m experiments.experiment_4.ga.core_ga {delta} {iter}
 """
 
 DELTAS = [0.4, 0.6]
-REPEATS = 3
+REPEATS = 1
 
 
 @click.command("cli")

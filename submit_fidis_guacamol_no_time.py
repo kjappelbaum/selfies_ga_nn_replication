@@ -9,7 +9,7 @@ TEMPLATE = """#!/bin/bash
 #SBATCH --mem       32GB
 #SBATCH --ntasks    1
 #SBATCH --cpus-per-task   4
-#SBATCH --time      18:00:00
+#SBATCH --time      14:00:00
 #SBATCH --partition serial
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=kevin.jablonka@epfl.ch
@@ -17,22 +17,21 @@ TEMPLATE = """#!/bin/bash
 
 source /home/kjablonk/anaconda3/bin/activate
 conda activate ga_replication
-python -u -m experiments.experiment_2.ga.core_ga {beta} {iter}
+python -u -m experiments.experiment_8.ga.core_ga -- {beta} {iter}
 """
 
-BETAS = [1000, 100, 0]
-REPEATS = 1
+BETAS = [0, 10, 50, 100, 1000]
+NUM_GENERATIONS = [10, 100, 200, 400]
 
 
 @click.command("cli")
 @click.option("--submit", is_flag=True)
 def main(submit):
     for beta in BETAS:
-        for repeat in range(REPEATS):
-            repeat += 10
-            name = f"exp_2_{beta}_{repeat}"
+        for num_generation in NUM_GENERATIONS:
+            name = f"exp_8_{beta}_{repeat}"
             filled_script = TEMPLATE.format(
-                **{"name": name, "beta": beta, "iter": repeat}
+                **{"name": name, "beta": beta, "iter": repeat,}
             )
             with open(name + ".slurm", "w") as fh:
                 fh.write(filled_script)

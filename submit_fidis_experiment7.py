@@ -23,7 +23,7 @@ python -u -m experiments.experiment_7.ga.core_ga -- {beta} {tolerance} {watchtim
 SIMILARITY = [0.2, 0.4, 0.8]
 WATCHTIME = [5, 10, 50]
 BETAS = [100, 500, 1000]
-REPEATS = 3
+REPEATS = 1
 
 
 @click.command("cli")

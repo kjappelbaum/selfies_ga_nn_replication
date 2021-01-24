@@ -20,7 +20,7 @@ conda activate ga_replication
 python -u -m experiments.experiment_5.ga.core_ga {iter}
 """
 
-REPEATS = 3
+REPEATS = 1
 
 
 @click.command("cli")
