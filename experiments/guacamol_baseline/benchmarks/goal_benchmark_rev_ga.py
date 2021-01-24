@@ -1,9 +1,11 @@
-import os
+# -*- coding: utf-8 -*-
 import multiprocessing
+import os
 import time
+from typing import List
+
 import click
 import torch
-from typing import List
 from joblib import delayed
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
@@ -354,7 +356,9 @@ def cli(beta, watchtime, similarity_threshold, num_generations):
         THIS_DIR,
         f"goal_directed_results_beta_{beta}_{watchtime}_{similarity_threshold}_{num_generations}.json",
     )
-    assess_goal_directed_generation(optimiser, json_output_file=json_file_path)
+    assess_goal_directed_generation(
+        optimiser, benchmark_version="v2", json_output_file=json_file_path
+    )
 
 
 if __name__ == "__main__":
