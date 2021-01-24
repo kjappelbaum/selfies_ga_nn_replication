@@ -21,7 +21,7 @@ python -u -m experiments.experiment_2.ga.core_ga {beta} {iter}
 """
 
 BETAS = [1000, 100, 0]
-REPEATS = 3
+REPEATS = 1
 
 
 @click.command("cli")

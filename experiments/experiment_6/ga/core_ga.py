@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 import multiprocessing
 import os
 import time
-import click
 
+import click
 import torch
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
@@ -172,7 +173,7 @@ def initiate_ga(
 
 @click.command("cli")
 @click.argument("beta")
-@click.argument('index')
+@click.argument("index")
 def main(beta, index):
 
     beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{index}")
@@ -197,7 +198,7 @@ def main(beta, index):
         "RingP",
     ]
 
-    for i in range(5):
+    for i in range(1):
         disc_layers = [100, 10]
 
         run = wandb.init(

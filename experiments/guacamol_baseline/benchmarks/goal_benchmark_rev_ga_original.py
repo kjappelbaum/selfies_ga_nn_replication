@@ -15,7 +15,7 @@ import wandb
 from ...datasets.prepare_data import read_dataset_encoding
 from ...net import discriminator as D
 from ...net import evolution_functions as evo
-from . import generation_props as gen_func
+from . import generation_props_original as gen_func
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -302,9 +302,8 @@ class ChemGEGenerator(GoalDirectedGenerator):
 @click.command("cli")
 @click.argument("beta", type=float, default=0)
 @click.argument("watchtime", type=int, default=5)
-@click.argument("similarity_threshold", type=float, default=0.5)
 @click.argument("num_generations", type=int, default=100)
-def cli(beta, watchtime, similarity_threshold, num_generations):
+def cli(beta, watchtime, num_generations):
     generation_size = 500
     max_molecule_len = 81
     disc_epoch_per_gen = 10
@@ -341,7 +340,7 @@ def cli(beta, watchtime, similarity_threshold, num_generations):
         run=run,
         beta=beta,
         watchtime=watchtime,
-        similarity_threshold=similarity_threshold,
+        similarity_threshold=0,
         # results_path=output_dir,
         num_generations=num_generations,
         generation_size=generation_size,
@@ -355,7 +354,7 @@ def cli(beta, watchtime, similarity_threshold, num_generations):
 
     json_file_path = os.path.join(
         THIS_DIR,
-        f"goal_directed_results_beta_{beta}_{watchtime}_{similarity_threshold}_{num_generations}.json",
+        f"goal_directed_results_ORI_beta_{beta}_{watchtime}_{num_generations}.json",
     )
     assess_goal_directed_generation(
         optimiser, benchmark_version="v2", json_output_file=json_file_path

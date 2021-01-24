@@ -1,6 +1,8 @@
-import os
+# -*- coding: utf-8 -*-
 import multiprocessing
+import os
 import time
+
 import click
 import torch
 from selfies import decoder, encoder
@@ -193,7 +195,7 @@ def main(beta, iteration):
         "RingP",
     ]
 
-    for i in range(10):
+    for i in range(1):
         disc_layers = []
         run = wandb.init(
             project="ga_replication_study",

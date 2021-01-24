@@ -1,0 +1,1495 @@
+{
+    "guacamol_version": "0.5.2",
+    "benchmark_suite_version": "v1",
+    "timestamp": "20210124-1026",
+    "results": [
+        {
+            "benchmark_name": "C11H24",
+            "score": 0.05660377358490566,
+            "optimized_molecules": [
+                [
+                    "CCCCCC(C)CCCC",
+                    1.0
+                ],
+                [
+                    "CCCCCC(C)(C)CCC",
+                    1.0
+                ],
+                [
+                    "CCCCC(C)CCC(C)C",
+                    1.0
+                ],
+                [
+                    "CCCCC(C)C(C)CCC",
+                    1.0
+                ],
+                [
+                    "CCCC(C)CC(C)CCC",
+                    1.0
+                ],
+                [
+                    "CCCC(C)C(CC)C(C)C",
+                    1.0
+                ],
+                [
+                    "CCCC(C)(CC)CC(C)C",
+                    1.0
+                ],
+                [
+                    "CCCC(C)(C)CCC(C)C",
+                    1.0
+                ],
+                [
+                    "CCC(C)(CC)CCC(C)C",
+                    1.0
+                ]
+            ],
+            "execution_time": 4737.760210990906,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_159": 0.05660377358490566,
+                "internal_similarity_max": 0.6842105263157895,
+                "internal_similarity_mean": 0.28182141460221716,
+                "internal_similarity_histogram_density": [
+                    [
+                        1.1111111111111112,
+                        0.49382716049382713,
+                        4.93827160493827,
+                        0.9876543209876545,
+                        1.4814814814814818,
+                        0.7407407407407401,
+                        0.24691358024691362,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "C7H8N2O2",
+            "score": 0.07,
+            "optimized_molecules": [
+                [
+                    "CC=NOC1=C(COC#N)C1",
+                    1.0
+                ],
+                [
+                    "CC1=NOCC=C1COC#N",
+                    1.0
+                ],
+                [
+                    "CC#COC1(C=N)CC=NO1",
+                    1.0
+                ],
+                [
+                    "CC#CC(OC#N)ON=CC",
+                    1.0
+                ],
+                [
+                    "CC#CC(O)(C#N)ON=CC",
+                    1.0
+                ],
+                [
+                    "C=C=CC(OC#N)ON=CC",
+                    1.0
+                ],
+                [
+                    "C#CC(COC#N)ON=CC",
+                    1.0
+                ]
+            ],
+            "execution_time": 7036.799416303635,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_100": 0.07,
+                "internal_similarity_max": 0.4722222222222222,
+                "internal_similarity_mean": 0.19137918342156293,
+                "internal_similarity_histogram_density": [
+                    [
+                        3.061224489795918,
+                        2.4489795918367347,
+                        2.448979591836734,
+                        1.63265306122449,
+                        0.4081632653061225,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "C9H10N2O2PF2Cl",
+            "score": 0.06,
+            "optimized_molecules": [
+                [
+                    "OONCN1C=CC=C(Cl)C=C(P)C1=C(F)F",
+                    1.0
+                ],
+                [
+                    "OONCN(C=CC=C(Cl)C#CP)C=C(F)F",
+                    1.0
+                ],
+                [
+                    "OONCN(C=C(F)F)c1ccc(Cl)cc1P",
+                    1.0
+                ],
+                [
+                    "OONCN(C=C(F)F)C=C1C=C(Cl)C=C1P",
+                    1.0
+                ],
+                [
+                    "OONC1C(P)=CC(Cl)=CC=CN1C=C(F)F",
+                    1.0
+                ],
+                [
+                    "C=CN(C=C(F)F)CNOOC=C(Cl)C#CP",
+                    1.0
+                ]
+            ],
+            "execution_time": 10545.875114679337,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_100": 0.06,
+                "internal_similarity_max": 0.5,
+                "internal_similarity_mean": 0.2545223808083964,
+                "internal_similarity_histogram_density": [
+                    [
+                        1.6666666666666667,
+                        1.1111111111111112,
+                        2.777777777777777,
+                        2.2222222222222228,
+                        1.666666666666667,
+                        0.555555555555555,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Cobimetinib MPO",
+            "score": 0.3455521253899763,
+            "optimized_molecules": [
+                [
+                    "O=C(c1ccc(F)cc1F)C1CCNC(C#Cc2coc3cc(F)ccc23)C1",
+                    0.9339246632161522
+                ]
+            ],
+            "execution_time": 8496.348358154297,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.9339246632161522,
+                "top_10": 0.09339246632161521,
+                "top_100": 0.009339246632161522,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Osimertinib MPO",
+            "score": 0.4669270833333334,
+            "optimized_molecules": [
+                [
+                    "C=CC(O)(c1ccnc(Nc2ccc(N3CCN(C)CC3)cc2OC)n1)S(N)=O",
+                    0.9037298387096775
+                ],
+                [
+                    "C=CC(O)(C(N)=O)c1ccnc(Nc2ccc(N3CCN(C)CC3)cc2OC)n1",
+                    0.9037298387096775
+                ],
+                [
+                    "C=CC(N)(c1ccnc(Nc2ccc(N3CCN(C)CC3)cc2OC)n1)S(N)=O",
+                    0.9037298387096775
+                ],
+                [
+                    "C=CC(N)(C(N)=O)c1ccnc(Nc2ccc(N3CCN(C)CC3)cc2OC)n1",
+                    0.9037298387096775
+                ],
+                [
+                    "C=CC(N)(C(N)=O)c1ccnc(Nc2ccc(N3C#CN(C)CC3)cc2OC)n1",
+                    0.9037298387096775
+                ]
+            ],
+            "execution_time": 7583.8162615299225,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.9037298387096775,
+                "top_10": 0.4518649193548388,
+                "top_100": 0.04518649193548388,
+                "internal_similarity_max": 0.8253968253968254,
+                "internal_similarity_mean": 0.5563446423070044,
+                "internal_similarity_histogram_density": [
+                    [
+                        2.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        2.399999999999998,
+                        0.8000000000000002,
+                        3.2000000000000006,
+                        1.6000000000000003,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Fexofenadine MPO",
+            "score": 0.4332888451089341,
+            "optimized_molecules": [
+                [
+                    "CC1(O)C=CC(CNCCCN2CCC(C(O)(c3ccccc3)c3cccc(O)c3)C2)=CC=CC1=O",
+                    0.9030939871570345
+                ],
+                [
+                    "CC1(O)C(=O)C=CC=C(CNCCCN2CCC(C(O)(C=C3C=CC(O)=C3)c3ccccc3)C2)C=C1O",
+                    0.9022050400916379
+                ],
+                [
+                    "O=C1CC=CC=C(CNCCCN2CCC(C(O)(C=C3C=CC(O)=C3)c3ccccc3)C2)C=CCC1O",
+                    0.9008620689655172
+                ],
+                [
+                    "O=C1CC=CC=C(CNCCCN2CCC(C(O)(C=C3C=CC(O)=C3)c3c#cccc3)C2)C=CCC1O",
+                    0.9008620689655172
+                ]
+            ],
+            "execution_time": 7337.925749063492,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.9030939871570345,
+                "top_10": 0.3607023165179707,
+                "top_100": 0.03607023165179707,
+                "internal_similarity_max": 0.7857142857142857,
+                "internal_similarity_mean": 0.42274906433979176,
+                "internal_similarity_histogram_density": [
+                    [
+                        2.5,
+                        0.0,
+                        0.0,
+                        1.2500000000000002,
+                        1.2500000000000002,
+                        2.499999999999998,
+                        1.2500000000000002,
+                        1.2500000000000002,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Physchem MPO",
+            "score": 0.6266666666666667,
+            "optimized_molecules": [
+                [
+                    "O=c1c2c(c3c(n1C(F)(F)F)=NC1=NC(C(F)(F)F)=C=NC1=C=C=C=3)=C=NC=2",
+                    1.0
+                ],
+                [
+                    "O=c1c2c(c3c(n1C(F)(F)F)=CC1=NC(C(F)(F)F)=C=NC1=C=C=C=3)=C=NC=2",
+                    1.0
+                ],
+                [
+                    "O=c1c2c(c3c(n1C(F)(F)F)=CC1=NC(C(F)(F)F)=C=C=CC=CC=31)=C=C=C=2",
+                    1.0
+                ],
+                [
+                    "O=c1c2c(c3c(n1C(F)(F)F)=CC1=NC(C(F)(F)F)=C=C=C1C=CC=3)=C=C=C=2",
+                    1.0
+                ],
+                [
+                    "O=c1c2c(c3c(n1C(F)(F)F)=CC1=NC(C(F)(F)F)=C=C=C1C=C=C=3)=C=NC=2",
+                    1.0
+                ],
+                [
+                    "O=c1[nH]c2c(c3c1=CN=C=3)=C=C=C(C(F)(F)F)C1=C=C=C(C(F)(F)F)N=C1C=2",
+                    1.0
+                ],
+                [
+                    "O=c1[nH]c2c(c3c1=CN=C=3)=C=C=C(C(F)(F)F)C1=C=C=C(C(F)(F)F)C=C1C=2",
+                    1.0
+                ],
+                [
+                    "N=c1c2c(c3c(n1C(F)(F)F)=CC1=NC(C(F)(F)F)=C=C=C1C=CC=3)=C=C=C=2",
+                    1.0
+                ]
+            ],
+            "execution_time": 10157.310562849045,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 1.0,
+                "top_10": 0.8,
+                "top_100": 0.08,
+                "internal_similarity_max": 0.7735849056603774,
+                "internal_similarity_mean": 0.340228723976801,
+                "internal_similarity_histogram_density": [
+                    [
+                        1.25,
+                        0.9375,
+                        2.187499999999999,
+                        1.5625000000000004,
+                        2.1875000000000004,
+                        0.6249999999999994,
+                        0.9375000000000002,
+                        0.31250000000000006,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Ranolazine MPO",
+            "score": 0.39428320802005007,
+            "optimized_molecules": [
+                [
+                    "CC(=CC=CC(O)=CSCCCC=CSF)OCC(C)CN1CCN(CC(=O)Nc2c(C)cccc2C)CC1",
+                    0.9695488721804512
+                ],
+                [
+                    "CC(=CC=CC(O)=CCCCCC=CSF)OCC(C)CN1CCN(CC(=O)Nc2c(C)cccc2C)CC1",
+                    0.9695488721804512
+                ]
+            ],
+            "execution_time": 3670.4376378059387,
+            "number_scoring_function_calls": 50000,
+            "metadata": {
+                "top_1": 0.9695488721804512,
+                "top_10": 0.19390977443609023,
+                "top_100": 0.019390977443609025,
+                "internal_similarity_max": 0.8354430379746836,
+                "internal_similarity_mean": 0.4177215189873418,
+                "internal_similarity_histogram_density": [
+                    [
+                        5.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        5.000000000000001,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Celecoxib rediscovery",
+            "score": 0.775,
+            "optimized_molecules": [
+                [
+                    "Cc1cc(-c2ccc(S(N)(=O)=O)cc2)n(-c2ccc(C(F)(F)F)cc2)n1",
+                    0.775
+                ]
+            ],
+            "execution_time": 5125.627054929733,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.775,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Troglitazone rediscovery",
+            "score": 0.5934065934065934,
+            "optimized_molecules": [
+                [
+                    "CC1(COc2ccc(CC3SC(=O)NC3=O)cc2)CCO1",
+                    0.5934065934065934
+                ]
+            ],
+            "execution_time": 5017.330895900726,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.5934065934065934,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Thiothixene rediscovery",
+            "score": 0.5918367346938775,
+            "optimized_molecules": [
+                [
+                    "CN1CCN(CCC=C2c3ccc(cc3)Sc3ccccc32)CC1",
+                    0.5918367346938775
+                ]
+            ],
+            "execution_time": 5619.794554948807,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.5918367346938775,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Aripiprazole similarity",
+            "score": 0.75,
+            "optimized_molecules": [
+                [
+                    "O=S1C#CCc2cc(OCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "O=C1Cc2cc(SCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "O=C1CCc2cc(SCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "O=C1CCCc2cc(SCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "O=C1CC=Cc2cc(SCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "O=C1C#CCc2cc(SCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "O=C1C#CCc2cc(OCCCN3CCN(c4ccc(Cl)c(Cl)c4)CC3)ccc2N1",
+                    1.0
+                ],
+                [
+                    "Cc1ccc(N2CCN(CCCSc3ccc4c(c3)CCC(=O)N4)CC2)cc1Cl",
+                    1.0
+                ],
+                [
+                    "Cc1cc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)ccc1NS(=O)CCS",
+                    1.0
+                ],
+                [
+                    "Cc1cc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)ccc1NC(=O)CCN",
+                    1.0
+                ],
+                [
+                    "Cc1cc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)ccc1NC(=O)CCF",
+                    1.0
+                ],
+                [
+                    "Cc1cc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)ccc1NC(=O)CC=O",
+                    1.0
+                ],
+                [
+                    "CCc1cc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)ccc1NC(C)=O",
+                    1.0
+                ],
+                [
+                    "CCc1cc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)ccc1NC(=O)CC=O",
+                    1.0
+                ],
+                [
+                    "CCS(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1C",
+                    1.0
+                ],
+                [
+                    "CCCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1C",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(F)c(Cl)c3)CC2)cc1C",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1CCN",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1CCF",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1CC=O",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1CC",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1C#N",
+                    1.0
+                ],
+                [
+                    "CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1C",
+                    1.0
+                ],
+                [
+                    "C=Cc1cc(SCCCN2CCN(c3ccc(F)c(Cl)c3)CC2)ccc1NC(=O)CC",
+                    1.0
+                ],
+                [
+                    "C#CCC(=O)Nc1ccc(SCCCN2CCN(c3ccc(Cl)c(Cl)c3)CC2)cc1C",
+                    1.0
+                ]
+            ],
+            "execution_time": 6306.134037256241,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 1.0,
+                "top_10": 1.0,
+                "top_100": 0.25,
+                "internal_similarity_max": 0.8909090909090909,
+                "internal_similarity_mean": 0.554396806097958,
+                "internal_similarity_histogram_density": [
+                    [
+                        0.4,
+                        0.0,
+                        0.12799999999999995,
+                        1.0240000000000002,
+                        1.6960000000000004,
+                        2.623999999999998,
+                        1.9840000000000004,
+                        1.4080000000000004,
+                        0.7360000000000002,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Albuterol similarity",
+            "score": 0.3624489795918367,
+            "optimized_molecules": [
+                [
+                    "CC(C)(C)NCC(O)c1ccccc1O",
+                    0.9795918367346939
+                ]
+            ],
+            "execution_time": 5039.0650107860565,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.9795918367346939,
+                "top_10": 0.09795918367346938,
+                "top_100": 0.009795918367346938,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Mestranol similarity",
+            "score": 0.35647827758554396,
+            "optimized_molecules": [
+                [
+                    "COc1ccc2c(c1)CCCC1C2CCC2(C)C1CCN2O",
+                    0.8765859284890426
+                ],
+                [
+                    "COc1ccc2c(c1)CCCC1C2CCC2(C)C(O)CCC12",
+                    0.8765859284890426
+                ]
+            ],
+            "execution_time": 5083.684360027313,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.8765859284890426,
+                "top_10": 0.17531718569780852,
+                "top_100": 0.017531718569780853,
+                "internal_similarity_max": 0.6428571428571429,
+                "internal_similarity_mean": 0.32142857142857145,
+                "internal_similarity_histogram_density": [
+                    [
+                        5.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        5.000000000000001,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "logP (target: -1.0)",
+            "score": 0.37000000000000005,
+            "optimized_molecules": [
+                [
+                    "O=CCNCC1CCNOO1",
+                    1.0
+                ]
+            ],
+            "execution_time": 5523.146988630295,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 1.0,
+                "top_10": 0.1,
+                "top_100": 0.01,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "logP (target: 8.0)",
+            "score": 0.44333333324466667,
+            "optimized_molecules": [
+                [
+                    "C=CC(F)=CC=COc1ccc(CN(Cc2ccccc2)C(=O)Nc2c(SC)cc(C)nc2SC)cc1",
+                    0.9999999998
+                ],
+                [
+                    "C=CC(F)=CC(=C)Oc1ccc(CN(Cc2ccccc2)C(=O)Nc2c(SC)cc(C)nc2SC)cc1",
+                    0.9999999998
+                ],
+                [
+                    "C=CC(=CC=CF)Oc1ccc(CN(Cc2ccccc2)C(=O)Nc2c(SC)cc(C)nc2SC)cc1",
+                    0.9999999998
+                ]
+            ],
+            "execution_time": 6227.746031522751,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.9999999998,
+                "top_10": 0.29999999994,
+                "top_100": 0.029999999994,
+                "internal_similarity_max": 0.7432432432432432,
+                "internal_similarity_mean": 0.48305990200727045,
+                "internal_similarity_histogram_density": [
+                    [
+                        3.3333333333333335,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        6.666666666666668,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "TPSA (target: 150.0)",
+            "score": 0.87,
+            "optimized_molecules": [
+                [
+                    "O=CC1NS(S)=C=CC=CC(=O)CC(O)(C#C[N+](=O)SC=C=S=CC=CS#CC[O-])C(O)=C1O",
+                    1.0
+                ],
+                [
+                    "O=C1NC2(C=CC3C4=CC2C(=O)C43)C(O)=C(O)C(O)=C2C#CS[N+](=O)S(=S=CC=CS#CC[O-])C=C12",
+                    1.0
+                ],
+                [
+                    "O=C1CC([N+](=O)SC=C=S=CC=CS#CC[O-])=C(O)C(O)=C(O)CC(=CC=CC2CC2=O)N1",
+                    1.0
+                ],
+                [
+                    "O=C1C=C=CC=CC=C(NSC(=O)C=C2C(O)=C(O)C(O)=CC2C#CS[N+](=O)[SH]=S=C=C=C=C[O-])C1",
+                    1.0
+                ],
+                [
+                    "O=C1C=C=CC=CC=C(NSC(=O)C=C2C(O)=C(O)C(O)=CC2C#CS[N+](=O)SC=C=S=C=C=C=C[O-])C1",
+                    1.0
+                ],
+                [
+                    "O=C1C=C=CC=CC=C(NC(=O)C=C2C(O)=C(O)C(O)=CC2C#CS[N+](=O)SC=C=S=C=C=C=C[O-])C1",
+                    1.0
+                ],
+                [
+                    "O=C1C=C=CC=CC=C(NC(=O)C=C2C(O)=C(O)C(O)=CC2C#CS[N+](=O)SC=C=S=C=C=C=C=C[O-])C1",
+                    1.0
+                ],
+                [
+                    "O=C(SNC1=CC=CC=C2C(=O)C12)C1=CC(O)=C(O)C(O)=CC1C#CS[N+](=O)SC=C=S=C=C=CC#C[O-]",
+                    1.0
+                ],
+                [
+                    "O=C(Nc1cc1=O)C1CC(O)=C(O)C(O)=C1C#C[N+](=O)SC=C=CC=CC#CC[O-]",
+                    1.0
+                ],
+                [
+                    "O=C(NC12C3=C=C=CC[SH]1C2C3=O)C(O)C(O)C(O)=CC(C=CS#CC[O-])S[N+](=O)SC=CS",
+                    1.0
+                ],
+                [
+                    "O=C(NC12C3=C4C=CCS41C2C3=O)C(O)C(O)C(O)=CC=[SH][N+](=O)SC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "O=C(NC12C3=C4C=CCS41C2C3=O)C(O)C(O)C(O)=CC(=CS#CC[O-])S[N+](=O)S",
+                    1.0
+                ],
+                [
+                    "O=C(CCC(O)C=CC=CC=CC=C1C=C=C=C(O)C(O)=C1C#C[N+](=O)SC=C=CC=CC#CC[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(CCC(O)C=CC1=CC=C=C(O)C(O)=C1C#C[N+](=O)SC=C=CC=CC#CC[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(CC(O)=C(O)C(O)=CC#C[N+](=O)SC=CC=CS#CC[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(CC(O)=C(O)C(O)=CC#C[N+](=O)SC=C=S=CC=CSS#C[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(CC(O)=C(O)C(O)=CC#C[N+](=O)SC=C=S=CC=CS#CC[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(CC(O)=C(O)C(O)=CC#C[N+](=O)SC=C=S=CC=CS#CC[O-])N[SH]1(S)=C2C=CC(=O)C21",
+                    1.0
+                ],
+                [
+                    "O=C(CC(O)=C(O)C(O)=CC#C[N+](=O)SC=C=S=CC=CS#CC[O-])NS1=C2C(=O)C21",
+                    1.0
+                ],
+                [
+                    "O=C(CC(O)=C(O)C(O)=CC#CC=C1C=CC=C1[N+](=O)SC=C=S=CC=CS#CC[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(C=C1CC(O)=C(O)C(O)=C1C#C[N+](=O)SC=C=CC=CC#CC[O-])Nc1cc1=O",
+                    1.0
+                ],
+                [
+                    "O=C(C=C1C(O)=C(O)C(O)=CC1C#CS[N+](=O)[SH]=S=C=C=C=C[O-])SNC1=CC=CC=C2C(=O)C12",
+                    1.0
+                ],
+                [
+                    "O=C(C=C1C(O)=C(O)C(O)=CC1C#CS[N+](=O)[SH]=S=C=C=C=C[O-])SNC#CC=CC=C1CC1=O",
+                    1.0
+                ],
+                [
+                    "O=C(C=C1C(C#CS[N+](=O)SC=C=S=C=C=C=C[O-])C=C(O)C(O)C1O)NC1=CC=CC=C2C(=O)C[SH]12",
+                    1.0
+                ],
+                [
+                    "C[N+](=O)[SH]=C=CC=CC=CC(=C=CC=CC=C=CCC1=C(O)S(O)=C(O)C=S1C(=O)NCSCC=C=O)SC=C[O-]",
+                    1.0
+                ],
+                [
+                    "C[N+](=O)[SH]=C=CC=CC=CC(=C=CC=CC=C=CCC1=C(O)S(O)=C(O)C=S1C(=O)NC1SCC1=O)SC=C[O-]",
+                    1.0
+                ],
+                [
+                    "CS[N+](=O)SC(=CS#CC[O-])C=C(O)C(O)C(O)C(=O)NC12C3=C4C=CCS41C2C3=O",
+                    1.0
+                ],
+                [
+                    "CS[N+](=O)C(=C=C=S=CC=CS#CC[O-])C#CC=C(O)C(O)=C(O)CC(=O)NC(C)=O",
+                    1.0
+                ],
+                [
+                    "CS(=CS)[N+](=O)SC(C=CS#CC[O-])C=C(O)CC(O)C(O)C(=O)NC12C3=C4C=CCS41C2C3=O",
+                    1.0
+                ],
+                [
+                    "CC=CS[N+](=O)SC(=CS#CC[O-])C=C(O)C(O)C(O)C(=O)NC12C3=C4C=CCS41C2C3=O",
+                    1.0
+                ],
+                [
+                    "CC=CS[N+](=O)SC(=CS#CC[O-])C=C(O)C(O)=C(O)C1C(=O)NC23C4=C5C=CCS52C13C4=O",
+                    1.0
+                ],
+                [
+                    "CC=C=CS[N+](=O)C(=CC=CC=CC=C(O)C(O)=C(O)CC(=O)Nc1cc1=O)CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "CC(=O)NC(=O)CCC(O)C=CC1=CC=C=C(O)C(O)=C1C#C[N+](=O)SC=C=CC=CC#CC[O-]",
+                    1.0
+                ],
+                [
+                    "CC(=O)C=CC=C=S(S)NC(=O)CC(O)=C(O)C(O)=CC#C[N+](=O)SC=C=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "CC(=O)C1=CC=CC=C=[SH]1(S)NC(=O)CC(O)=C(O)C(O)=CC#C[N+](=O)SC=C=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=[SH][N+](=O)SC(C=CS#CC[O-])C=C(O)C(O)C(O)C(=O)NC12C3=C4C=CCS41C2C3=O",
+                    1.0
+                ],
+                [
+                    "C=[SH](=C=CS[N+](=O)C#CC1=C(O)C(O)=C(O)C(NS(S)=C=CC=CC(C)=O)C1=O)S#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=CC=S=C=CS[N+](=O)SC(S#CC[O-])=C(O)C(O)=C=C(O)C1(NC(=O)C=C)C=CC2C3=CC(=O)C321",
+                    1.0
+                ],
+                [
+                    "C=CC=S=C=CS[N+](=O)SC(S#CC[O-])=C(O)C(O)=C(O)C1(NC(=O)CF)C=CC=C2C3=C1CC(=O)C23",
+                    1.0
+                ],
+                [
+                    "C=CC=S=C=CS[N+](=O)SC(S#CC[O-])=C(O)C(O)=C(O)C1(NC(=O)C=C)C=CC=C1c1cc1=O",
+                    1.0
+                ],
+                [
+                    "C=CC=S=C=CS[N+](=O)C(S#CC[O-])=C(O)C(O)=C(O)CC(=O)NC#CC(C)=O",
+                    1.0
+                ],
+                [
+                    "C=CC=S=C=CS[N+](=O)C(=CC=CC=C=C(O)C(O)=C(O)C=CC(=O)NC#CC(C)=O)S#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=CC=S=C=CS[N+](=O)C(=CC=CC=C=C(O)C(O)=C(O)C=CC(=O)NC#CC(=O)CC)S#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC2(SCC3C4=CC2C(=O)C43)C(O)=C(O)C(O)=C1C#CS[N+](=O)S(C)=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC2(C=CC3CC(=O)CC=C32)C(O)=C(O)C(O)=C1C#C[N+](=O)SC=C=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC2(C=CC3C4=CC2C(=O)C43)C(O)=C(O)C(O)=C1C#C[N+](=O)SC=C=S=CCCS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC2(C=CC3C4=CC2C(=O)C43)C(O)=C(O)C(O)=C1C#C[N+](=O)SC=C=S=C=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC2(C=CC3C4=CC2C(=O)C43)C(O)=C(O)C(O)=C1C#CS[N+](=O)S(C)=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC2(C=CC3C#CC2C(=O)C3)C(O)=C(O)C(O)=C1C#C[N+](=O)SC=C=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C1C(=O)NC(C=CC2C3=CCC(=O)C32)C(O)=C(O)C(O)=C1C#CS[N+](=O)SC=C=S=CC=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C=C(O)C(O)=C(O)CCC(=O)NC(C#CS[N+](=O)SC=C=S=CC=CC=C=CC=CC=C=C=C[O-])=CCC(C)=O",
+                    1.0
+                ],
+                [
+                    "C=C(C=S=C=CC12C(=O)C1C2(NC(=O)CC)C(O)=C(O)C(O)=CC#CS[N+](=O)S)CC=CC=C=C=C[O-]",
+                    1.0
+                ],
+                [
+                    "C#SC(C[O-])=S=[SH][N+](=O)SC#CC1C=C(O)C(O)=C(O)C1=CC(=O)SNC1=CC=CC=C2C(=O)C12",
+                    1.0
+                ],
+                [
+                    "C#C[SH]=C=CC=CC=S=C=CS[N+](=O)SC#CC(C#CC[O-])=C(O)C(O)=C(O)C1(NC(=O)CC)CCC(=O)C1",
+                    1.0
+                ],
+                [
+                    "C#CC=C[SH]=C=CC=CC=S=CC#S[N+](=O)SC#CC(C#C[O-])=C(O)C(O)=C(O)C1(NC(=O)CC)CC(=O)C1",
+                    1.0
+                ],
+                [
+                    "C#CC=C[SH]=C=CC=CC=S=C=CS[N+](=O)SC#CC(C#C[O-])=C(O)C(O)=C(O)C1(NC(=O)CC)CC(=O)C1",
+                    1.0
+                ],
+                [
+                    "C#CC=CCC(=C)C=S=C=CS[N+](=O)SC#CC(C#C[O-])=C(O)C(O)=C(O)C1(NC(=O)CC)CC(=O)C1",
+                    1.0
+                ],
+                [
+                    "C#CC=CC=C=CC=CC=S=C=CS[N+](=O)SC#CC(C#C[O-])=C(O)C(O)=C(O)C1(NC(=O)CC)CC1=O",
+                    1.0
+                ],
+                [
+                    "C#CC=CC=C=CC=CC=S=C=CS[N+](=O)SC#CC(C#C[O-])=C(O)C(O)=C(O)C1(NC(=O)CC)CC(=O)C1",
+                    1.0
+                ],
+                [
+                    "C#CC(O)C(O)=C(O)CC(=O)NC(C(C)=O)[N+](=O)SCC=S=C=CS#CC[O-]",
+                    1.0
+                ],
+                [
+                    "C#CC(O)C(O)=C(O)CC(=O)NC(C(C)=O)[N+](=O)SCC=S=C=C=C[O-]",
+                    1.0
+                ]
+            ],
+            "execution_time": 5373.570208787918,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 1.0,
+                "top_10": 1.0,
+                "top_100": 0.61,
+                "internal_similarity_max": 0.9615384615384616,
+                "internal_similarity_mean": 0.20741078010952088,
+                "internal_similarity_histogram_density": [
+                    [
+                        0.33593120128997583,
+                        6.046761623219565,
+                        2.4402042461703832,
+                        0.4837409298575653,
+                        0.2203708680462242,
+                        0.1881214727223863,
+                        0.16662187583982804,
+                        0.06449879064767537,
+                        0.048374092985756525,
+                        0.005374899220639614
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "CNS MPO",
+            "score": 0.7166666666666667,
+            "optimized_molecules": [
+                [
+                    "O=COCC(F)C=O",
+                    1.0
+                ],
+                [
+                    "O=CC1OOOCS1",
+                    1.0
+                ],
+                [
+                    "O=C1OOOOCS1",
+                    1.0
+                ],
+                [
+                    "O=C1OOOCS1",
+                    1.0
+                ],
+                [
+                    "O=C1OOOC(=O)S1",
+                    1.0
+                ],
+                [
+                    "O=C1CSCOOO1",
+                    1.0
+                ],
+                [
+                    "CCOOCOC=C=O",
+                    1.0
+                ],
+                [
+                    "CCOOCOC(F)OC=O",
+                    1.0
+                ],
+                [
+                    "CCOOCOC(F)=C=O",
+                    1.0
+                ],
+                [
+                    "CCCC(=O)OC=O",
+                    1.0
+                ],
+                [
+                    "CCC(=O)OC=O",
+                    1.0
+                ],
+                [
+                    "CC=C1C=CC=C1COOCOC=C=O",
+                    1.0
+                ],
+                [
+                    "CC1OOOC(=O)S1",
+                    1.0
+                ],
+                [
+                    "CC1OC(OC=NCF)C(=O)S1",
+                    1.0
+                ],
+                [
+                    "C#CCC(=O)OC=O",
+                    1.0
+                ]
+            ],
+            "execution_time": 6644.904158830643,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 1.0,
+                "top_10": 1.0,
+                "top_100": 0.15,
+                "internal_similarity_max": 0.85,
+                "internal_similarity_mean": 0.13532889854929295,
+                "internal_similarity_histogram_density": [
+                    [
+                        5.111111111111111,
+                        2.577777777777778,
+                        1.0666666666666662,
+                        0.5333333333333334,
+                        0.5333333333333334,
+                        0.0,
+                        0.0888888888888889,
+                        0.0,
+                        0.0888888888888889,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "QED",
+            "score": 0.3508657092000795,
+            "optimized_molecules": [
+                [
+                    "COc1cccc(C2=Cc3ccccc3C(=O)C2NC(C)=O)c1",
+                    0.9482857005407553
+                ]
+            ],
+            "execution_time": 9611.316032886505,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.9482857005407553,
+                "top_10": 0.09482857005407554,
+                "top_100": 0.009482857005407554,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        },
+        {
+            "benchmark_name": "Median molecules 1",
+            "score": 0.21459999999999999,
+            "optimized_molecules": [
+                [
+                    "CC12CCC(CC1=O)C2(C)C",
+                    0.58
+                ]
+            ],
+            "execution_time": 5816.384098529816,
+            "number_scoring_function_calls": 1641378,
+            "metadata": {
+                "top_1": 0.58,
+                "top_10": 0.057999999999999996,
+                "top_100": 0.0058,
+                "internal_similarity_max": 0.0,
+                "internal_similarity_mean": 0.0,
+                "internal_similarity_histogram_density": [
+                    [
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "internal_similarity_histogram_bins": [
+                    [
+                        0.0,
+                        0.1,
+                        0.2,
+                        0.30000000000000004,
+                        0.4,
+                        0.5,
+                        0.6000000000000001,
+                        0.7000000000000001,
+                        0.8,
+                        0.9,
+                        1.0
+                    ]
+                ]
+            }
+        }
+    ]
+}
