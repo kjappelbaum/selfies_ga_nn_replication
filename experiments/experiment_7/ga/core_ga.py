@@ -178,9 +178,12 @@ def initiate_ga(
 @click.argument("beta")
 @click.argument("tolerance")
 @click.argument("watchtime")
-def main(beta, tolerance, watchtime):
+@click.argument("iteration")
+def main(beta, tolerance, watchtime, iteration):
 
-    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{tolerance}_{watchtime}_2")
+    beta_dir = os.path.join(
+        THIS_DIR, f"results_beta_{beta}_{tolerance}_{watchtime}_{iteration}"
+    )
     beta = float(beta)
 
     os.mkdir(beta_dir)

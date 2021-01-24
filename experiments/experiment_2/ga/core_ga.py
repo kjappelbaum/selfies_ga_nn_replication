@@ -172,9 +172,10 @@ def initiate_ga(
 
 @click.command("cli")
 @click.argument("beta")
-def main(beta):
+@click.argument("iteration")
+def main(beta, iteration):
 
-    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_2")
+    beta_dir = os.path.join(THIS_DIR, f"results_beta_{beta}_{iteration}")
     beta = float(beta)
 
     os.mkdir(beta_dir)
@@ -196,7 +197,8 @@ def main(beta):
         "RingP",
     ]
 
-    for i in range(5):
+    for i in range(1):
+        disc_layers = [100, 10]
         run = wandb.init(
             project="ga_replication_study",
             tags=["ga", "experiment_2", "adaptive_penalty"],
