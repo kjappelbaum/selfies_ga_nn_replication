@@ -33050,3 +33050,22 @@ Best best molecule in generation  680
 Generation time:  52.21  seconds
 ###   On generation 681 of 1000
 BETA CUTTOFF IMPOSED 0.1 index:  681
+Best best molecule in generation  681
+    smile  :  CCCCCCCCCCCCCCCCCCCSSSSSSSSSSSSSSSSSSSSSSSSCSSSSSSSSc1ccccc1SSSSSSSSSSSSSSSSSSSSF
+    fitness:  25.422683195500625
+    logP   :  42.85939999999989
+    sas    :  5.766088717281612
+    ringP  :  0
+    discrm :  [0.00070968]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.00260
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.00271
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.00260
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.00234
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.00207
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.00191
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.00192
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.00208
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.00222
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00219
+Generation time:  55.95  seconds
+###   On generation 682 of 1000

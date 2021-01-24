@@ -50193,3 +50193,24 @@ Best best molecule in generation  406
     sas    :  5.108102358627207
     ringP  :  0
     discrm :  [0.86222386]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.56737
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.55942
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.54739
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.53405
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.52240
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.51292
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.50377
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.49314
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.48103
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.46912
+Generation time:  52.03  seconds
+###   On generation 407 of 500
+C=C(c1cocc1C)n1c2c([nH]c1=O)COC2C#CNCF
+BETA CUTTOFF IMPOSED 1000.0 index:  407
+Best best molecule in generation  407
+    smile  :  C=C(c1cccn1C)C1(CC)OC(NCC)OCC(C)(F)C1C
+    fitness:  771.3691736043726
+    logP   :  3.4913000000000025
+    sas    :  4.962419828605343
+    ringP  :  1
+    discrm :  [0.7772493]

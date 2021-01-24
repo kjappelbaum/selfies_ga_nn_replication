@@ -28252,3 +28252,23 @@ Best best molecule in generation  446
 -- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00219
 Generation time:  59.72  seconds
 ###   On generation 447 of 1000
+BETA CUTTOFF IMPOSED -10.0 index:  447
+Best best molecule in generation  447
+    smile  :  CCCCCCCCCCCCCC(=CCCCCCCCCCCCCCCCCCCCCCCCSSSSSSSc1ccccc1SSSSSSSSSSSSSSSSSSSSSSF)CC
+    fitness:  21.43579849430358
+    logP   :  35.87639999999996
+    sas    :  4.957731897435776
+    ringP  :  0
+    discrm :  [0.00277478]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.00201
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.00201
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.00200
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.00201
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.00201
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.00202
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.00203
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.00203
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.00203
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00203
+Generation time:  59.38  seconds
+###   On generation 448 of 1000

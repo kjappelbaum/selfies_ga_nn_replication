@@ -46340,3 +46340,10 @@ Best best molecule in generation  16
     discrm :  [0.5037594]
 Generation time:  54.14  seconds
 ###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCCC1CCN(C(=O)C2(C)CCCC2)CC1
+    fitness:  1.8636912468648046
+    logP   :  3.605400000000003
+    sas    :  2.304813697225171
+    ringP  :  0
+    discrm :  [0.503718]

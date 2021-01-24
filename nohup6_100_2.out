@@ -31463,3 +31463,23 @@ Best best molecule in generation  605
     sas    :  4.918652199009338
     ringP  :  0
     discrm :  [0.36509162]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.01439
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.01378
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.01399
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.01431
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.01411
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.01333
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.01236
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.01163
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.01133
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.01129
+Generation time:  58.36  seconds
+###   On generation 606 of 1000
+BETA CUTTOFF IMPOSED 100.0 index:  606
+Best best molecule in generation  606
+    smile  :  CCC=NC=CC=CC=CC=CC=C(F)C=NCC=C(S)N=O
+    fitness:  31.830119929927044
+    logP   :  5.111300000000005
+    sas    :  4.918652199009338
+    ringP  :  0
+    discrm :  [0.32049546]

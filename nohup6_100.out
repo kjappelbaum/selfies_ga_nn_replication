@@ -27099,3 +27099,15 @@ Best best molecule in generation  385
     sas    :  4.829143870698841
     ringP  :  0
     discrm :  [0.01009578]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.00752
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.00749
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.00748
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.00749
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.00750
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.00751
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.00749
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.00747
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.00744
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00742
+Generation time:  59.56  seconds
+###   On generation 386 of 1000

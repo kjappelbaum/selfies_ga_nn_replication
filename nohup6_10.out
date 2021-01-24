@@ -27379,3 +27379,24 @@ Best best molecule in generation  394
 -- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00461
 Generation time:  63.35  seconds
 ###   On generation 395 of 1000
+BETA CUTTOFF IMPOSED 10.0 index:  395
+Best best molecule in generation  395
+    smile  :  CCCCCCCC(C)=CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCc1ccccc1
+    fitness:  18.547479983832343
+    logP   :  28.551800000000075
+    sas    :  3.0966217647416183
+    ringP  :  0
+    discrm :  [0.00168833]
+-- Training of the discriminator, num_Updates[ 1 / 10]: Loss 0.00328
+-- Training of the discriminator, num_Updates[ 2 / 10]: Loss 0.00325
+-- Training of the discriminator, num_Updates[ 3 / 10]: Loss 0.00314
+-- Training of the discriminator, num_Updates[ 4 / 10]: Loss 0.00299
+-- Training of the discriminator, num_Updates[ 5 / 10]: Loss 0.00284
+-- Training of the discriminator, num_Updates[ 6 / 10]: Loss 0.00272
+-- Training of the discriminator, num_Updates[ 7 / 10]: Loss 0.00266
+-- Training of the discriminator, num_Updates[ 8 / 10]: Loss 0.00266
+-- Training of the discriminator, num_Updates[ 9 / 10]: Loss 0.00271
+-- Training of the discriminator, num_Updates[ 10 / 10]: Loss 0.00277
+Generation time:  62.54  seconds
+###   On generation 396 of 1000
+wandb: ERROR Error while calling W&B API: Error 1213: Deadlock found when trying to get lock; try restarting transaction (<Response [500]>)
