@@ -23102,3 +23102,4929 @@ Best best molecule in generation  2
     discrm :  [0.43084556]
 Generation time:  91.87  seconds
 ###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  OC(C1CCC(Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  1.1535410155751258
+    logP   :  4.259800000000003
+    sas    :  3.2786317862008856
+    ringP  :  0
+    discrm :  [0.43039066]
+Generation time:  87.84  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  OC(C1CCC(Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  1.1535410155751258
+    logP   :  4.259800000000003
+    sas    :  3.2786317862008856
+    ringP  :  0
+    discrm :  [0.43039066]
+Generation time:  87.27  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  OC(C1CCC(Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  1.1535410155751258
+    logP   :  4.259800000000003
+    sas    :  3.2786317862008856
+    ringP  :  0
+    discrm :  [0.43039066]
+Generation time:  92.43  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  FC(F)(F)C(C1=CC=CC1)C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1
+    fitness:  -0.8080216392036232
+    logP   :  3.847400000000002
+    sas    :  4.666035226563574
+    ringP  :  0
+    discrm :  [0.43077636]
+Generation time:  93.24  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CC=C1C=CC=C1C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.5190847847435884
+    logP   :  4.4036000000000035
+    sas    :  4.752354483997808
+    ringP  :  0
+    discrm :  [0.43065402]
+Generation time:  85.76  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  OC=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.4454414681315584
+    logP   :  3.899200000000002
+    sas    :  4.395251556347182
+    ringP  :  0
+    discrm :  [0.430757]
+Generation time:  92.16  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  OC=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.4454414681315584
+    logP   :  3.899200000000002
+    sas    :  4.395251556347182
+    ringP  :  0
+    discrm :  [0.430757]
+Generation time:  95.74  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  92.65  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  82.43  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  87.71  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  82.12  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  87.37  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  82.09  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C=CC=CC=C(C1CC[NH+](Cc2c(Cl)nc3ccccn23)CC1)C(F)(F)F
+    fitness:  -0.25850763471538873
+    logP   :  4.013500000000003
+    sas    :  4.30703608329551
+    ringP  :  0
+    discrm :  [0.4308814]
+Generation time:  85.39  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  Clc1nc2ccccn2c1C[NH+]1CCC(c2ccccc2)CC1
+    fitness:  0.07318813116506082
+    logP   :  2.9502000000000006
+    sas    :  3.4076768770462316
+    ringP  :  0
+    discrm :  [0.43065]
+Generation time:  77.71  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  Clc1nc2ccccn2c1C[NH+]1CCC(c2ccccc2)CC1
+    fitness:  0.07318813116506082
+    logP   :  2.9502000000000006
+    sas    :  3.4076768770462316
+    ringP  :  0
+    discrm :  [0.43065]
+Generation time:  83.75  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  Clc1nc2ccccn2c1C[NH+]1CCC(c2ccccc2)CC1
+    fitness:  0.07318813116506082
+    logP   :  2.9502000000000006
+    sas    :  3.4076768770462316
+    ringP  :  0
+    discrm :  [0.43065]
+Generation time:  80.26  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  Clc1nc2ccccn2c1C[NH+]1CCC(c2ccccc2)CC1
+    fitness:  0.07318813116506082
+    logP   :  2.9502000000000006
+    sas    :  3.4076768770462316
+    ringP  :  0
+    discrm :  [0.43065]
+Generation time:  82.39  seconds
+Total time:  27.82  mins
+Total number of unique molecules:  5578
+Total Experiment time:  27.859879132111868  mins
+IMPROVEMENT:  3.1927703458042225
+wandb: Waiting for W&B process to finish, PID 42996
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_102258-5anbda5i/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_102258-5anbda5i/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.07319
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1671
+wandb:             _timestamp 1611395450
+wandb:            improvement 3.19277
+wandb:         original_score -2.03923
+wandb:              new_score 1.15354
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▄███▄▄▄▄▅▅▅▅▅▅▅▆▆▆▆
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced azure-snow-1825: https://wandb.ai/kjappelbaum/ga_replication_study/runs/5anbda5i
+
+Working on C[N+]1(/N=C(\[S-])NN)CCOCC1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run rich-morning-1831
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/2hd6zmcd
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_105053-2hd6zmcd
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  14.84  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  77.68  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  81.25  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  79.65  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  81.9  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  83.28  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  78.57  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  77.18  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  80.17  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  80.98  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  75.25  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  77.69  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  75.95  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  81.38  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  81.92  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  81.05  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  83.22  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  80.84  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  79.52  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C[N+]1(N=C([S-])NN)CCOCC1
+    fitness:  -4.566428608534698
+    logP   :  -1.2556
+    sas    :  4.79399890406518
+    ringP  :  0
+    discrm :  [0.5579905]
+Generation time:  83.41  seconds
+Total time:  25.6  mins
+Total number of unique molecules:  1989
+Total Experiment time:  25.636981785297394  mins
+IMPROVEMENT:  0.0
+wandb: Waiting for W&B process to finish, PID 11425
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.04MB of 0.04MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_105053-2hd6zmcd/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_105053-2hd6zmcd/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -4.56643
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1538
+wandb:             _timestamp 1611396991
+wandb:            improvement 0.0
+wandb:         original_score -4.56643
+wandb:              new_score -4.56643
+wandb:               improved False
+wandb: Run history:
+wandb:          fitness ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced rich-morning-1831: https://wandb.ai/kjappelbaum/ga_replication_study/runs/2hd6zmcd
+
+Working on NC(=O)CN1c2ccccc2C(=O)N[C@H]1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run toasty-planet-1842
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/1u6485nz
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_111635-1u6485nz
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  -1.3409662660829753
+    logP   :  1.0556999999999992
+    sas    :  3.4708309352475917
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  14.67  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  -0.5913345082894466
+    logP   :  2.1593999999999998
+    sas    :  3.495695507295263
+    ringP  :  0
+    discrm :  [0.5124876]
+Generation time:  84.39  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  C=C(O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  -0.4413545292366554
+    logP   :  2.6421
+    sas    :  3.6543158756592913
+    ringP  :  0
+    discrm :  [0.51248074]
+Generation time:  82.82  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1O
+    fitness:  -0.48519976752596117
+    logP   :  1.687699999999999
+    sas    :  3.130788898411189
+    ringP  :  0
+    discrm :  [0.5124042]
+Generation time:  80.73  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCCN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  0.10545161929851568
+    logP   :  2.9804000000000013
+    sas    :  3.398595778667908
+    ringP  :  0
+    discrm :  [0.5124161]
+Generation time:  79.47  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CCCN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  0.10545161929851568
+    logP   :  2.9804000000000013
+    sas    :  3.398595778667908
+    ringP  :  0
+    discrm :  [0.5124161]
+Generation time:  83.61  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCCCN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  0.4306703975774405
+    logP   :  3.3705000000000025
+    sas    :  3.357326791152251
+    ringP  :  0
+    discrm :  [0.51220924]
+Generation time:  85.68  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CCCCN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  0.4306703975774405
+    logP   :  3.3705000000000025
+    sas    :  3.357326791152251
+    ringP  :  0
+    discrm :  [0.51220924]
+Generation time:  83.97  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CCCCN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  0.4306703975774405
+    logP   :  3.3705000000000025
+    sas    :  3.357326791152251
+    ringP  :  0
+    discrm :  [0.51220924]
+Generation time:  81.12  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CCCCN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1[O-]
+    fitness:  0.4306703975774405
+    logP   :  3.3705000000000025
+    sas    :  3.357326791152251
+    ringP  :  0
+    discrm :  [0.51220924]
+Generation time:  79.07  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  83.31  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  83.96  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  79.64  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  87.54  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  81.8  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  84.06  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  85.59  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  81.75  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  85.62  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  NC(=O)CN1c2ccccc2C(=O)NC1c1cc(Cl)cc([N+](=O)[O-])c1Nc1ccccc1
+    fitness:  0.9621318564038
+    logP   :  3.7257000000000016
+    sas    :  3.1242678902383716
+    ringP  :  0
+    discrm :  [0.5115292]
+Generation time:  86.53  seconds
+Total time:  26.59  mins
+Total number of unique molecules:  5131
+Total Experiment time:  26.62717033624649  mins
+IMPROVEMENT:  2.3030981224867753
+wandb: Waiting for W&B process to finish, PID 43764
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_111635-1u6485nz/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_111635-1u6485nz/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.96213
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1597
+wandb:             _timestamp 1611398592
+wandb:            improvement 2.3031
+wandb:         original_score -1.34097
+wandb:              new_score 0.96213
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▃▄▄▅▅▆▆▆▆██████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced toasty-planet-1842: https://wandb.ai/kjappelbaum/ga_replication_study/runs/1u6485nz
+
+Working on C[C@@H](NC(=O)c1cc(C[NH+]2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run woven-water-1843
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/wn21neuz
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_114316-wn21neuz
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC(NC(=O)c1cc(C[NH+]2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  -1.8640550225537964
+    logP   :  1.1969000000000007
+    sas    :  3.988173115582022
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  15.35  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC(NC(=O)c1cc(CC2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  1.0557150448326456
+    logP   :  3.7509000000000032
+    sas    :  3.061318500197406
+    ringP  :  0
+    discrm :  [0.5334986]
+Generation time:  80.41  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  80.91  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  82.59  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  85.43  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  86.36  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  85.56  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  83.73  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  85.03  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  84.23  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  81.73  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  86.7  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  83.86  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  82.83  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  80.98  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CC(NC(=O)c1cc(CN2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.40056134809583954
+    logP   :  2.6140000000000008
+    sas    :  2.93849792327433
+    ringP  :  0
+    discrm :  [0.53326714]
+Generation time:  86.84  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C=CC=CC=CC=CC=CC=CC=C1C=CC=C1C(NC(=O)c1cc(C[NH+]2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.14311044289801592
+    logP   :  5.566600000000006
+    sas    :  4.8846389380541515
+    ringP  :  0
+    discrm :  [0.53266466]
+Generation time:  89.17  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  C=CC=CC=CC=CC=CC=CC=C1C=CC=C1C(NC(=O)c1cc(C[NH+]2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.14311044289801592
+    logP   :  5.566600000000006
+    sas    :  4.8846389380541515
+    ringP  :  0
+    discrm :  [0.53266466]
+Generation time:  85.27  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C=CC=CC=CC=CC=CC=CC=C1C=CC=C1C(NC(=O)c1cc(C[NH+]2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.14311044289801592
+    logP   :  5.566600000000006
+    sas    :  4.8846389380541515
+    ringP  :  0
+    discrm :  [0.53266466]
+Generation time:  83.85  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C=CC=CC=CC=CC=CC=CC=C1C=CC=C1C(NC(=O)c1cc(C[NH+]2CCC(O)CC2)on1)c1cn(C)c2ccccc12
+    fitness:  0.14311044289801592
+    logP   :  5.566600000000006
+    sas    :  4.8846389380541515
+    ringP  :  0
+    discrm :  [0.53266466]
+Generation time:  85.44  seconds
+Total time:  26.94  mins
+Total number of unique molecules:  5637
+Total Experiment time:  26.98075306812922  mins
+IMPROVEMENT:  2.919770067386442
+wandb: Waiting for W&B process to finish, PID 27047
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_114316-wn21neuz/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_114316-wn21neuz/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.14311
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1618
+wandb:             _timestamp 1611400214
+wandb:            improvement 2.91977
+wandb:         original_score -1.86406
+wandb:              new_score 1.05572
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁█▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced woven-water-1843: https://wandb.ai/kjappelbaum/ga_replication_study/runs/wn21neuz
+
+Working on Cc1cscc1C[NH2+][C@H](C)CS(C)(=O)=O
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run fancy-terrain-1848
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/3lol4boa
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_121018-3lol4boa
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  Cc1cscc1C[NH2+]C(C)CS(C)(=O)=O
+    fitness:  -2.900295060501709
+    logP   :  0.5530200000000001
+    sas    :  4.471154266646352
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  15.65  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  79.62  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  82.86  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  82.61  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  80.93  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  78.81  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  84.76  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  81.33  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  81.8  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  82.23  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  81.24  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  81.65  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  84.76  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  82.5  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  86.41  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  80.16  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  82.38  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  83.72  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  88.54  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  Cc1cscc1CC(C)CS(C)(=O)=O
+    fitness:  -0.5206024445256463
+    logP   :  2.27972
+    sas    :  3.5075341763620163
+    ringP  :  0
+    discrm :  [0.5254683]
+Generation time:  84.57  seconds
+Total time:  26.44  mins
+Total number of unique molecules:  2862
+Total Experiment time:  26.485750647385917  mins
+IMPROVEMENT:  2.3796926159760625
+wandb: Waiting for W&B process to finish, PID 20075
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_121018-3lol4boa/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_121018-3lol4boa/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -0.5206
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1589
+wandb:             _timestamp 1611401807
+wandb:            improvement 2.37969
+wandb:         original_score -2.9003
+wandb:              new_score -0.5206
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁███████████████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced fancy-terrain-1848: https://wandb.ai/kjappelbaum/ga_replication_study/runs/3lol4boa
+
+Working on C[C@@H](C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCC[C@@H]1[C@@H]1CC=CS1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run dutiful-universe-1851
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/3p8f9c1d
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_123650-3p8f9c1d
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  17.26  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  87.32  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1SC1CC=CS1
+    fitness:  -5.880866522341478
+    logP   :  -0.7765999999999971
+    sas    :  6.166857205598132
+    ringP  :  0
+    discrm :  [0.49943012]
+Generation time:  94.67  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  89.47  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  90.52  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  93.32  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  89.72  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  94.79  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  97.06  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  93.07  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1C1CC=CS1
+    fitness:  -6.100392457108683
+    logP   :  -1.424799999999996
+    sas    :  5.968905818013143
+    ringP  :  0
+    discrm :  [0.49941853]
+Generation time:  96.47  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1SC1CC=CS1
+    fitness:  -5.880866522341478
+    logP   :  -0.7765999999999971
+    sas    :  6.166857205598132
+    ringP  :  0
+    discrm :  [0.49943012]
+Generation time:  92.93  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  96.69  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  101.07  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  100.07  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  91.62  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  99.67  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  98.38  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  97.65  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CC(C(=O)C1=c2ccccc2=[NH+]C1)[NH+]1CCCC1CC1CC=CS1
+    fitness:  -5.829865762487405
+    logP   :  -1.0346999999999964
+    sas    :  5.973066436367363
+    ringP  :  0
+    discrm :  [0.49936613]
+Generation time:  97.52  seconds
+Total time:  30.32  mins
+Total number of unique molecules:  3406
+Total Experiment time:  30.36036278804143  mins
+IMPROVEMENT:  0.2705266946212781
+wandb: Waiting for W&B process to finish, PID 43757
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_123650-3p8f9c1d/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_123650-3p8f9c1d/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -5.82987
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1822
+wandb:             _timestamp 1611403632
+wandb:            improvement 0.27053
+wandb:         original_score -6.10039
+wandb:              new_score -5.82987
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▁▇▁▁▁▁▁▁▁▁▇████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced dutiful-universe-1851: https://wandb.ai/kjappelbaum/ga_replication_study/runs/3p8f9c1d
+
+Working on CNS(=O)(=O)CC(=O)N[C@H]1CCCN(c2ccccc2)C1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run stellar-night-1854
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/1uss5aqz
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_130715-1uss5aqz
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CNS(=O)(=O)CC(=O)NC1CCCN(c2ccccc2)C1
+    fitness:  -0.8410710808942696
+    logP   :  0.3208000000000011
+    sas    :  2.624430394089469
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  15.83  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CNS(=O)(=O)CC(=O)CC1CCCN(c2ccccc2)C1
+    fitness:  -0.3089947156804459
+    logP   :  1.411399999999999
+    sas    :  2.8223200942198456
+    ringP  :  0
+    discrm :  [0.4344704]
+Generation time:  94.06  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CNS(=O)(=O)CC(=O)CC1CCCN(c2ccccc2)C1
+    fitness:  -0.3089947156804459
+    logP   :  1.411399999999999
+    sas    :  2.8223200942198456
+    ringP  :  0
+    discrm :  [0.4344704]
+Generation time:  98.66  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CNS(=O)(=O)CC(=O)CC1CCCN(c2ccccc2)C1
+    fitness:  -0.3089947156804459
+    logP   :  1.411399999999999
+    sas    :  2.8223200942198456
+    ringP  :  0
+    discrm :  [0.4344704]
+Generation time:  95.16  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CNS(=O)(=O)CC(=O)CC1CCCN(c2ccccc2)C1
+    fitness:  -0.3089947156804459
+    logP   :  1.411399999999999
+    sas    :  2.8223200942198456
+    ringP  :  0
+    discrm :  [0.4344704]
+Generation time:  94.16  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CNS(=O)(=O)CC(=S)C1CCCN(c2ccccc2)C1
+    fitness:  -0.21423534872891978
+    logP   :  1.8220999999999996
+    sas    :  2.9845666685085988
+    ringP  :  0
+    discrm :  [0.43460524]
+Generation time:  92.7  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CNS(=O)(=O)CC(=O)CC1CCCN(c2ccccc2)C1
+    fitness:  -0.3089947156804459
+    logP   :  1.411399999999999
+    sas    :  2.8223200942198456
+    ringP  :  0
+    discrm :  [0.4344704]
+Generation time:  89.9  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CNS(=O)(=O)CC(=O)CC1CCCN(c2ccccc2)C1
+    fitness:  -0.3089947156804459
+    logP   :  1.411399999999999
+    sas    :  2.8223200942198456
+    ringP  :  0
+    discrm :  [0.4344704]
+Generation time:  95.59  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C=C(CC1CCCN(c2ccccc2)C1)CS(=O)(=O)NC
+    fitness:  0.20033258162724732
+    logP   :  2.3985000000000003
+    sas    :  2.978382675706156
+    ringP  :  0
+    discrm :  [0.4347669]
+Generation time:  93.74  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C=C(CC1CCCN(c2ccccc2)C1)CS(=O)(=O)NC
+    fitness:  0.20033258162724732
+    logP   :  2.3985000000000003
+    sas    :  2.978382675706156
+    ringP  :  0
+    discrm :  [0.4347669]
+Generation time:  91.4  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  94.94  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  92.67  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  99.66  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  94.15  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  97.75  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  96.18  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C=C(CS(=O)(=O)NC)C1CCCN(c2ccccc2)C1
+    fitness:  -0.04433548842677204
+    logP   :  2.0084
+    sas    :  2.9527427674096973
+    ringP  :  0
+    discrm :  [0.4348449]
+Generation time:  94.32  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CNS(=O)(=O)CC(=O)CCC1CCCN(c2ccccc2)C1
+    fitness:  -0.019764834704400575
+    logP   :  1.801499999999999
+    sas    :  2.8109450385279526
+    ringP  :  0
+    discrm :  [0.4344081]
+Generation time:  94.17  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C=C(CC1CCCN(c2ccccc2)C1)CS(=O)(=O)NC
+    fitness:  0.20033258162724732
+    logP   :  2.3985000000000003
+    sas    :  2.978382675706156
+    ringP  :  0
+    discrm :  [0.4347669]
+Generation time:  94.14  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C=C(CC1CCCN(c2ccccc2)C1)CS(=O)(=O)NC
+    fitness:  0.20033258162724732
+    logP   :  2.3985000000000003
+    sas    :  2.978382675706156
+    ringP  :  0
+    discrm :  [0.4347669]
+Generation time:  100.18  seconds
+Total time:  30.32  mins
+Total number of unique molecules:  4049
+Total Experiment time:  30.365156149864198  mins
+IMPROVEMENT:  1.041403662521517
+wandb: Waiting for W&B process to finish, PID 44195
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_130715-1uss5aqz/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_130715-1uss5aqz/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.20033
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1822
+wandb:             _timestamp 1611405457
+wandb:            improvement 1.0414
+wandb:         original_score -0.84107
+wandb:              new_score 0.20033
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▅▅▅▅▅▅▅██▆▆▆▆▆▆▆▇██
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced stellar-night-1854: https://wandb.ai/kjappelbaum/ga_replication_study/runs/1uss5aqz
+
+Working on C[S@@](=O)c1ccc(C[NH+]2CCC(OC[C@H]3CCCO3)CC2)cc1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run leafy-hill-1856
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/2mtjw3xu
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_133740-2mtjw3xu
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CS(=O)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -2.462652857939301
+    logP   :  1.1669000000000007
+    sas    :  4.467793312803814
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  20.62  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  C[S](O)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.7243533322262574
+    logP   :  2.160099999999999
+    sas    :  4.437240547681942
+    ringP  :  0
+    discrm :  [0.60062593]
+Generation time:  94.25  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  96.71  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  98.34  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  97.42  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  96.25  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  94.83  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  94.54  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  98.08  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  100.44  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  95.11  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  95.62  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  94.57  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  96.02  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  95.34  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  92.46  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C[S](F)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.4952814638338698
+    logP   :  2.5716
+    sas    :  4.488390719897785
+    ringP  :  0
+    discrm :  [0.6004216]
+Generation time:  97.69  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CC[S](C)c1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.3897157175873736
+    logP   :  2.7070000000000007
+    sas    :  4.48014246831597
+    ringP  :  0
+    discrm :  [0.6004801]
+Generation time:  93.12  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C[S](C)Cc1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.3881340108960256
+    logP   :  2.458
+    sas    :  4.3327402705137725
+    ringP  :  0
+    discrm :  [0.60047966]
+Generation time:  98.23  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C[S](C)Cc1ccc(C[NH+]2CCC(OCC3CCCO3)CC2)cc1
+    fitness:  -1.3881340108960256
+    logP   :  2.458
+    sas    :  4.3327402705137725
+    ringP  :  0
+    discrm :  [0.60047966]
+Generation time:  102.99  seconds
+Total time:  30.88  mins
+Total number of unique molecules:  3916
+Total Experiment time:  30.92180895805359  mins
+IMPROVEMENT:  1.0745188470432756
+wandb: Waiting for W&B process to finish, PID 34668
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_133740-2mtjw3xu/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_133740-2mtjw3xu/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -1.38813
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1855
+wandb:             _timestamp 1611407315
+wandb:            improvement 1.07452
+wandb:         original_score -2.46265
+wandb:              new_score -1.38813
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇███
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced leafy-hill-1856: https://wandb.ai/kjappelbaum/ga_replication_study/runs/2mtjw3xu
+
+Working on CCN(CC)c1ccc(N)c(N)[nH+]1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run eternal-darkness-1857
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/3o7bqzrt
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_140839-3o7bqzrt
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -2.280409443292251
+    logP   :  0.5113000000000001
+    sas    :  3.931773376382452
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  18.59  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  95.55  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  94.45  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  94.35  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  96.04  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  100.41  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  95.52  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  95.62  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CCN(CC)c1ccc(C)c(N)[nH+]1
+    fitness:  -1.6052407927783972
+    logP   :  1.2375199999999997
+    sas    :  3.797022607151683
+    ringP  :  0
+    discrm :  [0.49261594]
+Generation time:  91.39  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  97.66  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  93.18  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  93.26  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  94.21  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  90.22  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CCCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.012035163653897
+    logP   :  1.6815999999999998
+    sas    :  3.5648222515721084
+    ringP  :  0
+    discrm :  [0.49252158]
+Generation time:  87.95  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  87.19  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  86.68  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  87.42  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.425407159703917
+    logP   :  1.2915
+    sas    :  3.6793151075468815
+    ringP  :  0
+    discrm :  [0.4925032]
+Generation time:  89.52  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CCCCCN(CC)c1ccc(N)c(N)[nH+]1
+    fitness:  -1.012035163653897
+    logP   :  1.6815999999999998
+    sas    :  3.5648222515721084
+    ringP  :  0
+    discrm :  [0.49252158]
+Generation time:  84.54  seconds
+Total time:  29.56  mins
+Total number of unique molecules:  3034
+Total Experiment time:  29.6042942126592  mins
+IMPROVEMENT:  1.2683742796383541
+wandb: Waiting for W&B process to finish, PID 50180
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_140839-3o7bqzrt/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_140839-3o7bqzrt/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -1.01204
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1776
+wandb:             _timestamp 1611409095
+wandb:            improvement 1.26837
+wandb:         original_score -2.28041
+wandb:              new_score -1.01204
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▅▅▅▅▅▅▅▅▆▆▆▆▆█▆▆▆▆█
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced eternal-darkness-1857: https://wandb.ai/kjappelbaum/ga_replication_study/runs/3o7bqzrt
+
+Working on C[NH2+]C[C@H]1C[C@H]1c1ccccc1Br
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run charmed-flower-1859
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/24wz9zch
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_143818-24wz9zch
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  18.24  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  82.57  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  87.12  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  84.63  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  83.68  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  82.2  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  82.19  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  86.51  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  82.0  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  85.13  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  88.56  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  86.34  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  86.68  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  88.26  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  91.16  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  92.97  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  90.19  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  89.49  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  94.57  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C[NH2+]CC1CC1c1ccccc1Br
+    fitness:  -1.649179767813578
+    logP   :  1.7457999999999998
+    sas    :  4.13172822327971
+    ringP  :  0
+    discrm :  [0.4954055]
+Generation time:  93.83  seconds
+Total time:  27.94  mins
+Total number of unique molecules:  1669
+Total Experiment time:  27.9814826130867  mins
+IMPROVEMENT:  0.0
+wandb: Waiting for W&B process to finish, PID 32313
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.04MB of 0.04MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_143818-24wz9zch/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_143818-24wz9zch/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -1.64918
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1679
+wandb:             _timestamp 1611410777
+wandb:            improvement 0.0
+wandb:         original_score -1.64918
+wandb:              new_score -1.64918
+wandb:               improved False
+wandb: Run history:
+wandb:          fitness ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced charmed-flower-1859: https://wandb.ai/kjappelbaum/ga_replication_study/runs/24wz9zch
+
+Working on C=CC(=O)OCC(C)(C)C[NH+](C)C
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run major-bird-1862
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/22vzz7r8
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_150620-22vzz7r8
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  C=CC(=O)OCC(C)(C)C[NH+](C)C
+    fitness:  -2.9645656699263214
+    logP   :  -0.11369999999999925
+    sas    :  4.13337541434449
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  17.26  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  92.56  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  96.9  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  100.37  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  96.7  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  98.69  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  102.81  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  94.46  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  98.56  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  95.46  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  96.86  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  95.48  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  104.97  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  96.34  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  93.23  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  101.03  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  96.42  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  100.74  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  95.45  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C=CC(=O)OCC(C)(C)CCC
+    fitness:  0.7252231416615162
+    logP   :  2.541900000000001
+    sas    :  2.626518732623719
+    ringP  :  0
+    discrm :  [0.40665796]
+Generation time:  100.09  seconds
+Total time:  31.24  mins
+Total number of unique molecules:  2322
+Total Experiment time:  31.281787995497385  mins
+IMPROVEMENT:  3.689788811587838
+wandb: Waiting for W&B process to finish, PID 37378
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.04MB of 0.04MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_150620-22vzz7r8/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_150620-22vzz7r8/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.72522
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1877
+wandb:             _timestamp 1611412657
+wandb:            improvement 3.68979
+wandb:         original_score -2.96457
+wandb:              new_score 0.72522
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁███████████████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced major-bird-1862: https://wandb.ai/kjappelbaum/ga_replication_study/runs/22vzz7r8
+
+Working on COCc1cc([C@@H](C)NC2CC[NH+]([C@@H]3CCCC[C@@H]3O)CC2)ccc1OC
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run light-durian-1865
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/3k4ua19x
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_153740-3k4ua19x
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  16.88  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.5586041]
+Generation time:  99.01  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.5586041]
+Generation time:  96.04  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.5586041]
+Generation time:  100.77  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  106.41  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  100.94  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.5586041]
+Generation time:  94.35  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3F)CC2)ccc1OC
+    fitness:  -1.2723067785176947
+    logP   :  2.8202000000000007
+    sas    :  4.449032003776639
+    ringP  :  0
+    discrm :  [0.558731]
+Generation time:  91.51  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.5586041]
+Generation time:  93.28  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCC3O)CC2)ccc1OC
+    fitness:  -1.8765057383165715
+    logP   :  1.8430000000000009
+    sas    :  4.377582253526889
+    ringP  :  0
+    discrm :  [0.5586041]
+Generation time:  97.8  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  94.48  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  88.36  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  94.98  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  88.72  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  91.61  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  90.91  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  88.11  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  84.94  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  86.04  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  COCc1cc(C(C)NC2CC[NH+](C3CCCCN3O)CC2)ccc1OC
+    fitness:  -1.8636285640331105
+    logP   :  1.7407000000000017
+    sas    :  4.30686648036095
+    ringP  :  0
+    discrm :  [0.5584004]
+Generation time:  85.36  seconds
+Total time:  29.84  mins
+Total number of unique molecules:  1882
+Total Experiment time:  29.886492029825845  mins
+IMPROVEMENT:  0.6041989597988768
+wandb: Waiting for W&B process to finish, PID 59197
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_153740-3k4ua19x/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_153740-3k4ua19x/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -1.86363
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1794
+wandb:             _timestamp 1611414454
+wandb:            improvement 0.6042
+wandb:         original_score -1.87651
+wandb:              new_score -1.27231
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced light-durian-1865: https://wandb.ai/kjappelbaum/ga_replication_study/runs/3k4ua19x
+
+Working on C[C@@H]1CN(Cc2noc(-c3ccc(F)cc3)n2)CC[C@@H]1[NH3+]
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run lunar-fog-1866
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/1h91tiu8
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_160737-1h91tiu8
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC1CN(Cc2noc(-c3ccc(F)cc3)n2)CCC1[NH3+]
+    fitness:  -1.2307196536428076
+    logP   :  1.3279999999999998
+    sas    :  3.53901381927478
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  17.04  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  0.9061546376240539
+    logP   :  3.353600000000002
+    sas    :  2.95245381927478
+    ringP  :  0
+    discrm :  [0.52797705]
+Generation time:  86.28  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC1CN(Cc2noc(-c3ccc(F)cc3)n2)CCC1F
+    fitness:  0.44930598391774634
+    logP   :  3.055600000000002
+    sas    :  3.157095357736317
+    ringP  :  0
+    discrm :  [0.52801406]
+Generation time:  87.36  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC1CN(Cc2noc(-c3ccc(F)cc3)n2)CCC1F
+    fitness:  0.44930598391774634
+    logP   :  3.055600000000002
+    sas    :  3.157095357736317
+    ringP  :  0
+    discrm :  [0.52801406]
+Generation time:  87.47  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCC1[CH]CCN(Cc2noc(-c3ccc(F)cc3)n2)C1
+    fitness:  0.5708308925224898
+    logP   :  3.3118900000000018
+    sas    :  3.2065169309479984
+    ringP  :  0
+    discrm :  [0.5279689]
+Generation time:  87.55  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CC1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  0.9061546376240539
+    logP   :  3.353600000000002
+    sas    :  2.95245381927478
+    ringP  :  0
+    discrm :  [0.52797705]
+Generation time:  90.7  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CC1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  0.9061546376240539
+    logP   :  3.353600000000002
+    sas    :  2.95245381927478
+    ringP  :  0
+    discrm :  [0.52797705]
+Generation time:  93.67  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CC1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  0.9061546376240539
+    logP   :  3.353600000000002
+    sas    :  2.95245381927478
+    ringP  :  0
+    discrm :  [0.52797705]
+Generation time:  93.83  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CC1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  0.9061546376240539
+    logP   :  3.353600000000002
+    sas    :  2.95245381927478
+    ringP  :  0
+    discrm :  [0.52797705]
+Generation time:  94.25  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CC1CCCN(Cc2noc(-c3ccc(F)cc3)n2)C1
+    fitness:  1.2733774152807744
+    logP   :  3.1076000000000015
+    sas    :  2.5030944631277716
+    ringP  :  0
+    discrm :  [0.52797467]
+Generation time:  97.63  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CC1CCCN(Cc2noc(-c3ccc(F)cc3)n2)C1
+    fitness:  1.2733774152807744
+    logP   :  3.1076000000000015
+    sas    :  2.5030944631277716
+    ringP  :  0
+    discrm :  [0.52797467]
+Generation time:  100.73  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CC1CCCN(Cc2noc(-c3ccc(F)cc3)n2)C1
+    fitness:  1.2733774152807744
+    logP   :  3.1076000000000015
+    sas    :  2.5030944631277716
+    ringP  :  0
+    discrm :  [0.52797467]
+Generation time:  97.02  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CC1CCCN(Cc2noc(-c3ccc(F)cc3)n2)C1
+    fitness:  1.2733774152807744
+    logP   :  3.1076000000000015
+    sas    :  2.5030944631277716
+    ringP  :  0
+    discrm :  [0.52797467]
+Generation time:  97.09  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CC1CN(Cc2noc(-c3ccc(F)cc3)n2)CCC1c1ccccc1
+    fitness:  1.760140670544977
+    logP   :  4.501300000000004
+    sas    :  2.916452036484408
+    ringP  :  0
+    discrm :  [0.52791864]
+Generation time:  97.61  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CC1CN(Cc2noc(-c3ccc(F)cc3)n2)CCC1c1ccccc1
+    fitness:  1.760140670544977
+    logP   :  4.501300000000004
+    sas    :  2.916452036484408
+    ringP  :  0
+    discrm :  [0.52791864]
+Generation time:  94.06  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  Cc1ccccc1C1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  1.8751809096071967
+    logP   :  4.809720000000005
+    sas    :  3.0018447405622872
+    ringP  :  0
+    discrm :  [0.5279164]
+Generation time:  102.13  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  Cc1ccccc1C1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  1.8751809096071967
+    logP   :  4.809720000000005
+    sas    :  3.0018447405622872
+    ringP  :  0
+    discrm :  [0.5279164]
+Generation time:  104.13  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  Cc1ccccc1C1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  1.8751809096071967
+    logP   :  4.809720000000005
+    sas    :  3.0018447405622872
+    ringP  :  0
+    discrm :  [0.5279164]
+Generation time:  102.3  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  Cc1ccccc1C1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  1.8751809096071967
+    logP   :  4.809720000000005
+    sas    :  3.0018447405622872
+    ringP  :  0
+    discrm :  [0.5279164]
+Generation time:  93.95  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  Cc1ccccc1C1CCN(Cc2noc(-c3ccc(F)cc3)n2)CC1C
+    fitness:  1.8751809096071967
+    logP   :  4.809720000000005
+    sas    :  3.0018447405622872
+    ringP  :  0
+    discrm :  [0.5279164]
+Generation time:  103.93  seconds
+Total time:  30.48  mins
+Total number of unique molecules:  4753
+Total Experiment time:  30.51963875691096  mins
+IMPROVEMENT:  3.105900563250004
+wandb: Waiting for W&B process to finish, PID 5483
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb: | 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_160737-1h91tiu8/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_160737-1h91tiu8/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 1.87518
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1831
+wandb:             _timestamp 1611416288
+wandb:            improvement 3.1059
+wandb:         original_score -1.23072
+wandb:              new_score 1.87518
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▆▅▅▅▆▆▆▆▇▇▇▇███████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced lunar-fog-1866: https://wandb.ai/kjappelbaum/ga_replication_study/runs/1h91tiu8
+
+Working on COc1ccc(OC)c([C@@H](O)Cc2[nH+]ccn2C)c1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run wobbly-music-1871
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/3ftg6xzv
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_163813-3ftg6xzv
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  COc1ccc(OC)c(C(O)Cc2[nH+]ccn2C)c1
+    fitness:  -1.6362697435605444
+    logP   :  1.1324999999999998
+    sas    :  3.761181332295835
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  19.58  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  97.2  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  97.59  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  100.56  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  98.35  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  100.95  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  105.73  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  99.78  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  97.58  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  COc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.8895696945636196
+    logP   :  2.2026000000000003
+    sas    :  3.768767979610784
+    ringP  :  0
+    discrm :  [0.46531573]
+Generation time:  99.23  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  99.41  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  98.4  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  100.05  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  98.48  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  99.57  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  100.8  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  102.09  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  104.91  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  101.86  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CCOc1ccc(OC)c(C(C)Cc2[nH+]ccn2C)c1
+    fitness:  -0.5820504743655093
+    logP   :  2.5927000000000007
+    sas    :  3.742201009167939
+    ringP  :  0
+    discrm :  [0.4653841]
+Generation time:  105.81  seconds
+Total time:  32.13  mins
+Total number of unique molecules:  3577
+Total Experiment time:  32.17228082021077  mins
+IMPROVEMENT:  1.0542192691950352
+wandb: Waiting for W&B process to finish, PID 45117
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_163813-3ftg6xzv/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_163813-3ftg6xzv/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -0.58205
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1931
+wandb:             _timestamp 1611418224
+wandb:            improvement 1.05422
+wandb:         original_score -1.63627
+wandb:              new_score -0.58205
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▆▆▆▆▆▆▆▆▆██████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced wobbly-music-1871: https://wandb.ai/kjappelbaum/ga_replication_study/runs/3ftg6xzv
+
+Working on Cc1nnc(S[C@H](C)C(=O)N2CCOCC2)n1C
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run sparkling-paper-1879
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/zibgxwdt
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_171027-zibgxwdt
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  Cc1nnc(SC(C)C(=O)N2CCOCC2)n1C
+    fitness:  -0.8563142651706406
+    logP   :  0.4629199999999998
+    sas    :  2.720473881526658
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  21.27  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  Cc1nnc(SC(C)C(=O)N2CCOCC2)n1C
+    fitness:  -0.8563142651706406
+    logP   :  0.4629199999999998
+    sas    :  2.720473881526658
+    ringP  :  0
+    discrm :  [0.5136419]
+Generation time:  100.76  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  Cc1nnc(SC(C)C(=O)N2CCOCC2)n1C
+    fitness:  -0.8563142651706406
+    logP   :  0.4629199999999998
+    sas    :  2.720473881526658
+    ringP  :  0
+    discrm :  [0.5136419]
+Generation time:  103.28  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  Cc1nnc(SC(C)C(=O)N2CCOCC2)n1C
+    fitness:  -0.8563142651706406
+    logP   :  0.4629199999999998
+    sas    :  2.720473881526658
+    ringP  :  0
+    discrm :  [0.5136419]
+Generation time:  98.42  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  97.73  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  89.87  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  90.06  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  89.48  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  91.3  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  85.81  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  89.03  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  83.46  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  85.55  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  83.74  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  84.47  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  85.08  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  86.62  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  86.62  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  85.9  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  C=C(C(C)Sc1nnc(C)n1C)N1CCOCC1
+    fitness:  -0.7425172104354668
+    logP   :  1.45002
+    sas    :  3.2050809584497344
+    ringP  :  0
+    discrm :  [0.5131045]
+Generation time:  82.11  seconds
+Total time:  28.68  mins
+Total number of unique molecules:  1806
+Total Experiment time:  28.717981255054475  mins
+IMPROVEMENT:  0.11379705473517376
+wandb: Waiting for W&B process to finish, PID 2415
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_171027-zibgxwdt/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_171027-zibgxwdt/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -0.74252
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1723
+wandb:             _timestamp 1611419950
+wandb:            improvement 0.1138
+wandb:         original_score -0.85631
+wandb:              new_score -0.74252
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▁▁▁████████████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced sparkling-paper-1879: https://wandb.ai/kjappelbaum/ga_replication_study/runs/zibgxwdt
+
+Working on [NH3+][C@H](Cc1ccc(O)cc1)c1ncccn1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run stellar-durian-1882
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/3qpy3x74
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_173913-3qpy3x74
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  [NH3+]C(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  -1.3357924260207101
+    logP   :  0.7078999999999995
+    sas    :  3.2624789710168542
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  16.57  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  85.54  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  86.5  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  85.34  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  89.46  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  89.95  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  94.44  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  96.51  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  91.73  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  97.73  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  97.56  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  96.65  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  99.36  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  100.3  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  99.63  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  99.16  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  100.61  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  96.46  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  98.99  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CC(Cc1ccc(O)cc1)c1ncccn1
+    fitness:  0.7000690556682737
+    logP   :  2.5284000000000004
+    sas    :  2.6394923489432767
+    ringP  :  0
+    discrm :  [0.49930087]
+Generation time:  94.86  seconds
+Total time:  30.29  mins
+Total number of unique molecules:  3445
+Total Experiment time:  30.33697715202967  mins
+IMPROVEMENT:  2.035861481688984
+wandb: Waiting for W&B process to finish, PID 30482
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_173913-3qpy3x74/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_173913-3qpy3x74/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.70007
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1820
+wandb:             _timestamp 1611421773
+wandb:            improvement 2.03586
+wandb:         original_score -1.33579
+wandb:              new_score 0.70007
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁███████████████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▃▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced stellar-durian-1882: https://wandb.ai/kjappelbaum/ga_replication_study/runs/3qpy3x74
+
+Working on CC[NH+]1CCN(C[C@@H](C)CNC(=O)NCc2sccc2C)CC1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run vivid-cosmos-1895
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/10ohttq1
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_180937-10ohttq1
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC[NH+]1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  -2.3123636592676404
+    logP   :  0.7122200000000023
+    sas    :  4.076195743301477
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  21.85  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  95.49  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  95.06  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  100.43  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  94.79  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  97.96  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  100.02  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  101.01  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  97.66  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  98.67  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  97.38  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  100.6  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CCC1CCN(CC(C)CNC(=O)NCc2sccc2C)CC1
+    fitness:  1.1963581995863755
+    logP   :  3.6138200000000023
+    sas    :  2.864069352768931
+    ringP  :  0
+    discrm :  [0.6458406]
+Generation time:  95.97  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  97.7  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  102.75  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  100.27  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  97.31  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  104.42  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  102.28  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  Cc1ccsc1CNC(=O)NCC(C)CN1CCCCC1
+    fitness:  0.880756993144108
+    logP   :  2.9777200000000015
+    sas    :  2.7530213067361426
+    ringP  :  0
+    discrm :  [0.6458065]
+Generation time:  100.13  seconds
+Total time:  31.7  mins
+Total number of unique molecules:  4195
+Total Experiment time:  31.740095059076946  mins
+IMPROVEMENT:  3.508721858854016
+wandb: Waiting for W&B process to finish, PID 13163
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_180937-10ohttq1/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_180937-10ohttq1/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness 0.88076
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1904
+wandb:             _timestamp 1611423681
+wandb:            improvement 3.50872
+wandb:         original_score -2.31236
+wandb:              new_score 1.19636
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▇███████████▇▇▇▇▇▇▇
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced vivid-cosmos-1895: https://wandb.ai/kjappelbaum/ga_replication_study/runs/10ohttq1
+
+Working on CC[C@@H](O)[C@@H]1CCCC[NH+]1Cc1nc2ccccc2n1CC
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run fearless-puddle-1960
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/17x5xssx
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_184124-17x5xssx
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CCC(O)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -1.939259871879979
+    logP   :  1.7644999999999995
+    sas    :  4.383652575948551
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  20.19  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CCC=C(O)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -1.1398699874195493
+    logP   :  2.8455000000000004
+    sas    :  4.353867803984276
+    ringP  :  0
+    discrm :  [0.518477]
+Generation time:  98.6  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.9646863946143103
+    logP   :  3.0397000000000016
+    sas    :  4.322289938585914
+    ringP  :  0
+    discrm :  [0.5185408]
+Generation time:  99.82  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CCCC=C(O)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.7961128153539001
+    logP   :  3.2356000000000016
+    sas    :  4.297200026243998
+    ringP  :  0
+    discrm :  [0.5184385]
+Generation time:  95.46  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.9646863946143103
+    logP   :  3.0397000000000016
+    sas    :  4.322289938585914
+    ringP  :  0
+    discrm :  [0.5185408]
+Generation time:  103.75  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.9646863946143103
+    logP   :  3.0397000000000016
+    sas    :  4.322289938585914
+    ringP  :  0
+    discrm :  [0.5185408]
+Generation time:  101.23  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.9646863946143103
+    logP   :  3.0397000000000016
+    sas    :  4.322289938585914
+    ringP  :  0
+    discrm :  [0.5185408]
+Generation time:  94.52  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CCCC(C)OC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.9420742172671563
+    logP   :  3.1563000000000008
+    sas    :  4.3719165378019795
+    ringP  :  0
+    discrm :  [0.518336]
+Generation time:  95.76  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CCCC=C(O)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.7961128153539001
+    logP   :  3.2356000000000016
+    sas    :  4.297200026243998
+    ringP  :  0
+    discrm :  [0.5184385]
+Generation time:  90.15  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CCCC=C(O)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.7961128153539001
+    logP   :  3.2356000000000016
+    sas    :  4.297200026243998
+    ringP  :  0
+    discrm :  [0.5184385]
+Generation time:  94.28  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CCC(C)CC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.734149237379511
+    logP   :  3.429800000000002
+    sas    :  4.35966759313423
+    ringP  :  0
+    discrm :  [0.51849484]
+Generation time:  91.54  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CCC(C)CC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.734149237379511
+    logP   :  3.429800000000002
+    sas    :  4.35966759313423
+    ringP  :  0
+    discrm :  [0.51849484]
+Generation time:  92.1  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CCC(C)CC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.734149237379511
+    logP   :  3.429800000000002
+    sas    :  4.35966759313423
+    ringP  :  0
+    discrm :  [0.51849484]
+Generation time:  87.36  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CCCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.6825707039353864
+    logP   :  3.429800000000002
+    sas    :  4.316824236490872
+    ringP  :  0
+    discrm :  [0.51849467]
+Generation time:  86.84  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CCCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.6825707039353864
+    logP   :  3.429800000000002
+    sas    :  4.316824236490872
+    ringP  :  0
+    discrm :  [0.51849467]
+Generation time:  85.69  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CCCC(C)C1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.6825707039353864
+    logP   :  3.429800000000002
+    sas    :  4.316824236490872
+    ringP  :  0
+    discrm :  [0.51849467]
+Generation time:  84.88  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCC(CC)SC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.43602469025764534
+    logP   :  3.872900000000003
+    sas    :  4.371999357347678
+    ringP  :  0
+    discrm :  [0.51830864]
+Generation time:  91.51  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CCC(CC)SC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.43602469025764534
+    logP   :  3.872900000000003
+    sas    :  4.371999357347678
+    ringP  :  0
+    discrm :  [0.51830864]
+Generation time:  85.24  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CCC(CC)SC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.43602469025764534
+    logP   :  3.872900000000003
+    sas    :  4.371999357347678
+    ringP  :  0
+    discrm :  [0.51830864]
+Generation time:  86.49  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CCC(CC)SC1CCCC[NH+]1Cc1nc2ccccc2n1CC
+    fitness:  -0.43602469025764534
+    logP   :  3.872900000000003
+    sas    :  4.371999357347678
+    ringP  :  0
+    discrm :  [0.51830864]
+Generation time:  86.31  seconds
+Total time:  29.53  mins
+Total number of unique molecules:  5226
+Total Experiment time:  29.590281923611958  mins
+IMPROVEMENT:  1.5032351816223337
+wandb: Waiting for W&B process to finish, PID 19878
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_184124-17x5xssx/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_184124-17x5xssx/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -0.43602
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1776
+wandb:             _timestamp 1611425460
+wandb:            improvement 1.50324
+wandb:         original_score -1.93926
+wandb:              new_score -0.43602
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced fearless-puddle-1960: https://wandb.ai/kjappelbaum/ga_replication_study/runs/17x5xssx
+
+Working on C[C@H]1CN(S(=O)(=O)[C@@H](C)c2cnccn2)CC[NH2+]1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run young-sunset-1975
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/tfl6754p
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_191103-tfl6754p
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -4.1817029644135095
+    logP   :  -0.8650999999999978
+    sas    :  4.703535624834524
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  20.96  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  82.67  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  80.82  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  83.49  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  85.2  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  84.17  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  83.06  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  83.66  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  86.25  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  86.79  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  90.88  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  94.8  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  95.05  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  92.61  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  96.19  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  95.04  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  93.65  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  97.84  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  97.63  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CCC1CN(S(=O)(=O)C(C)c2cnccn2)CC[NH2+]1
+    fitness:  -3.9620377391667403
+    logP   :  -0.47499999999999803
+    sas    :  4.749943975458564
+    ringP  :  0
+    discrm :  [0.51739275]
+Generation time:  97.06  seconds
+Total time:  28.8  mins
+Total number of unique molecules:  2427
+Total Experiment time:  28.835456903775533  mins
+IMPROVEMENT:  0.21966522524676924
+wandb: Waiting for W&B process to finish, PID 31587
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_191103-tfl6754p/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_191103-tfl6754p/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -3.96204
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1730
+wandb:             _timestamp 1611427193
+wandb:            improvement 0.21967
+wandb:         original_score -4.1817
+wandb:              new_score -3.96204
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁███████████████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced young-sunset-1975: https://wandb.ai/kjappelbaum/ga_replication_study/runs/tfl6754p
+
+Working on O=C([O-])C1([C@@H]2CCCC[C@H]2O)CCOCC1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run dulcet-sunset-2018
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/1tpk1am7
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_193956-1tpk1am7
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  20.26  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  96.79  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  100.02  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  99.42  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  98.53  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  99.7  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  103.64  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  106.5  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  100.55  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  101.56  seconds
+###   On generation 11 of 20
+Best best molecule in generation  11
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  99.2  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  98.63  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  100.59  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  102.6  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  102.76  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  98.27  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  98.24  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  97.2  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  105.78  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  O=C([O-])C1(C2CCCCC2O)CCOCC1
+    fitness:  -2.5607514914908225
+    logP   :  0.08419999999999916
+    sas    :  3.9140579049601723
+    ringP  :  0
+    discrm :  [0.489951]
+Generation time:  94.45  seconds
+Total time:  32.08  mins
+Total number of unique molecules:  2896
+Total Experiment time:  32.1196169813474  mins
+IMPROVEMENT:  0.0
+wandb: Waiting for W&B process to finish, PID 59825
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_193956-1tpk1am7/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_193956-1tpk1am7/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -2.56075
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1927
+wandb:             _timestamp 1611429123
+wandb:            improvement 0.0
+wandb:         original_score -2.56075
+wandb:              new_score -2.56075
+wandb:               improved False
+wandb: Run history:
+wandb:          fitness ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:       _timestamp ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▆▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced dulcet-sunset-2018: https://wandb.ai/kjappelbaum/ga_replication_study/runs/1tpk1am7
+
+Working on C[NH2+][C@]1(C(=O)[O-])CCC[C@@H](OCC2CCCCC2)C1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run olive-cherry-2084
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/2glnduhw
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_201207-2glnduhw
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  C[NH2+]C1(C(=O)[O-])CCCC(OCC2CCCCC2)C1
+    fitness:  -1000003.0724145724
+    logP   :  0.2078000000000011
+    sas    :  4.411583501341485
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  26.06  seconds
+###   On generation 2 of 20
+Best best molecule in generation  2
+    smile  :  CC=C1C=CC=C1C1(C(=O)[O-])CCCC(OCC2CCCCC2)C1
+    fitness:  -1000000.2939355454
+    logP   :  3.7047000000000025
+    sas    :  4.155290996143664
+    ringP  :  0
+    discrm :  [0.42284453]
+Generation time:  96.13  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC=C1C=CC=C1[C](CCCC(C)OCCCCCCC=S)C(=O)[O-]
+    fitness:  -1000000.0304973716
+    logP   :  4.278890000000003
+    sas    :  4.27334529610699
+    ringP  :  0
+    discrm :  [0.42305237]
+Generation time:  104.83  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC1(C)CCC(OCC2CCCCC2)C1
+    fitness:  -999998.3628340975
+    logP   :  4.1620000000000035
+    sas    :  2.8195327907966217
+    ringP  :  0
+    discrm :  [0.4239164]
+Generation time:  104.8  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CC1(C)CCC(OCC2CCCCC2)C1
+    fitness:  -999998.3628340975
+    logP   :  4.1620000000000035
+    sas    :  2.8195327907966217
+    ringP  :  0
+    discrm :  [0.4239164]
+Generation time:  95.95  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  C=CCCCCOC(C)CCCCC
+    fitness:  -999998.0812215095
+    logP   :  4.328100000000004
+    sas    :  2.6830641299842792
+    ringP  :  0
+    discrm :  [0.4249571]
+Generation time:  105.64  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CCCCCC(C)OCC1CCCCC1
+    fitness:  -999997.7275268462
+    logP   :  4.552100000000005
+    sas    :  2.5206909303315044
+    ringP  :  0
+    discrm :  [0.42431054]
+Generation time:  103.34  seconds
+###   On generation 8 of 20
+Best best molecule in generation  8
+    smile  :  C=CCCCCCOC1CCCCC1
+    fitness:  -999997.5924163893
+    logP   :  4.082100000000003
+    sas    :  2.132713231095515
+    ringP  :  0
+    discrm :  [0.42436832]
+Generation time:  101.84  seconds
+###   On generation 9 of 20
+Best best molecule in generation  9
+    smile  :  C=CCCCCCCOC1CCC(C)(C)CC1
+    fitness:  -999997.2182355487
+    logP   :  5.108300000000005
+    sas    :  2.4239742741482484
+    ringP  :  0
+    discrm :  [0.42403358]
+Generation time:  101.68  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CCCCCCCCCC1CCC(C)(C)C1
+    fitness:  -999996.8234552298
+    logP   :  5.9534000000000065
+    sas    :  2.5918730847292295
+    ringP  :  0
+    discrm :  [0.42426747]
+Generation time:  103.0  seconds
+###   On generation 11 of 20
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:16.608404, resuming normal operation.
+Best best molecule in generation  11
+    smile  :  CCCCCCCCCOC=CCCC1CCC1
+    fitness:  -999996.6446433653
+    logP   :  5.847600000000006
+    sas    :  2.3812713431516777
+    ringP  :  0
+    discrm :  [0.4238013]
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Generation time:  100.29  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CCCCCCCCCC(F)CCCCC
+    fitness:  -999996.5872697419
+    logP   :  6.045500000000006
+    sas    :  2.449722315498459
+    ringP  :  0
+    discrm :  [0.4247453]
+Generation time:  92.67  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CCCCCCCCCC(F)CCCCC
+    fitness:  -999996.5872697419
+    logP   :  6.045500000000006
+    sas    :  2.449722315498459
+    ringP  :  0
+    discrm :  [0.4247453]
+Generation time:  103.94  seconds
+###   On generation 14 of 20
+Best best molecule in generation  14
+    smile  :  CCCCCCCCCC(F)CCCCC
+    fitness:  -999996.5872697419
+    logP   :  6.045500000000006
+    sas    :  2.449722315498459
+    ringP  :  0
+    discrm :  [0.4247453]
+Generation time:  90.95  seconds
+###   On generation 15 of 20
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:17.876971, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Best best molecule in generation  15
+    smile  :  CCCCCCC(C)=CSCCCc1cccc(C)c1
+    fitness:  -999996.1858141705
+    logP   :  6.535020000000007
+    sas    :  2.403457495796296
+    ringP  :  0
+    discrm :  [0.4242928]
+Generation time:  89.71  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CCCCCCC(C)=CSCCCc1cccc(C)c1
+    fitness:  -999996.1858141705
+    logP   :  6.535020000000007
+    sas    :  2.403457495796296
+    ringP  :  0
+    discrm :  [0.4242928]
+Generation time:  94.1  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CCCCCCCC(C)=CSCCCc1cccc(C)c1
+    fitness:  -999995.904940682
+    logP   :  6.925120000000008
+    sas    :  2.3990236204321693
+    ringP  :  0
+    discrm :  [0.42414227]
+Generation time:  86.18  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CCCCCC=CC=CC=C(F)CCCCCCCCC
+    fitness:  -999995.7940726124
+    logP   :  7.673200000000007
+    sas    :  2.7458305435090935
+    ringP  :  0
+    discrm :  [0.4240848]
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Generation time:  94.6  seconds
+###   On generation 19 of 20
+wandb: Network error resolved after 0:00:17.183955, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Best best molecule in generation  19
+    smile  :  CCCCCCC=CSCC(C)c1ccc(-c2ccccc2)c(C)c1
+    fitness:  -999995.7621747345
+    logP   :  7.982820000000008
+    sas    :  2.9009889224806162
+    ringP  :  0
+    discrm :  [0.42389306]
+Generation time:  79.14  seconds
+###   On generation 20 of 20
+Best best molecule in generation  20
+    smile  :  CCCCCC=CC=CC=C(C=C1C=CC=C1C)CCCCCCCCC
+    fitness:  -999995.1966575271
+    logP   :  9.1887
+    sas    :  3.1387360210096187
+    ringP  :  0
+    discrm :  [0.4233203]
+Generation time:  82.85  seconds
+Total time:  30.96  mins
+Total number of unique molecules:  4882
+Total Experiment time:  31.00109608968099  mins
+wandb: Waiting for W&B process to finish, PID 51683
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.00MB of 0.05MB uploaded (0.00MB deduped)wandb: | 0.00MB of 0.05MB uploaded (0.00MB deduped)wandb: / 0.00MB of 0.05MB uploaded (0.00MB deduped)wandb: - 0.00MB of 0.05MB uploaded (0.00MB deduped)wandb: Network error resolved after 0:00:08.625395, resuming normal operation.
+wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb: | 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_201207-2glnduhw/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_201207-2glnduhw/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -999995.19666
+wandb:             similarity -1000000
+wandb:                  _step 21
+wandb:               _runtime 1860
+wandb:             _timestamp 1611430987
+wandb:            improvement 7.87576
+wandb:         original_score -1000003.07241
+wandb:              new_score -999995.19666
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▃▄▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇█
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▆▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced olive-cherry-2084: https://wandb.ai/kjappelbaum/ga_replication_study/runs/2glnduhw
+
+Working on CC[NH+](CCO[C@H]1CCCCO1)CC1CC[NH2+]CC1
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.12
+wandb: Syncing run desert-sponge-2262
+wandb: ⭐️ View project at https://wandb.ai/kjappelbaum/ga_replication_study
+wandb: 🚀 View run at https://wandb.ai/kjappelbaum/ga_replication_study/runs/6xn22458
+wandb: Run data is saved locally in /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_204320-6xn22458
+wandb: Run `wandb offline` to turn off syncing.
+
+###   On generation 1 of 20
+Best best molecule in generation  1
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CC[NH2+]CC1
+    fitness:  -4.947423446064274
+    logP   :  -0.5921999999999956
+    sas    :  5.4996866148946
+    ringP  :  0
+    discrm :  [0.]
+Generation time:  12.36  seconds
+###   On generation 2 of 20
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:08.698166, resuming normal operation.
+Best best molecule in generation  2
+    smile  :  CC[NH+](CCOC1CCCCC1)CC1CC[NH2+]CC1
+    fitness:  -3.878851520442089
+    logP   :  0.21390000000000275
+    sas    :  5.0850237177405795
+    ringP  :  0
+    discrm :  [0.5210763]
+Generation time:  72.78  seconds
+###   On generation 3 of 20
+Best best molecule in generation  3
+    smile  :  CC[NH+](CCOC1CCCCC1)CC1CC[NH2+]CC1
+    fitness:  -3.878851520442089
+    logP   :  0.21390000000000275
+    sas    :  5.0850237177405795
+    ringP  :  0
+    discrm :  [0.5210763]
+Generation time:  70.04  seconds
+###   On generation 4 of 20
+Best best molecule in generation  4
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  69.38  seconds
+###   On generation 5 of 20
+Best best molecule in generation  5
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  69.11  seconds
+###   On generation 6 of 20
+Best best molecule in generation  6
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  63.87  seconds
+###   On generation 7 of 20
+Best best molecule in generation  7
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.44  seconds
+###   On generation 8 of 20
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Best best molecule in generation  8
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.05  seconds
+###   On generation 9 of 20
+wandb: Network error resolved after 0:01:14.288221, resuming normal operation.
+Best best molecule in generation  9
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  60.57  seconds
+###   On generation 10 of 20
+Best best molecule in generation  10
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Generation time:  61.77  seconds
+###   On generation 11 of 20
+wandb: Network error resolved after 0:00:17.933831, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Best best molecule in generation  11
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  64.39  seconds
+###   On generation 12 of 20
+Best best molecule in generation  12
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.27  seconds
+###   On generation 13 of 20
+Best best molecule in generation  13
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  63.3  seconds
+###   On generation 14 of 20
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:16.742549, resuming normal operation.
+Best best molecule in generation  14
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Generation time:  61.32  seconds
+###   On generation 15 of 20
+Best best molecule in generation  15
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.63  seconds
+###   On generation 16 of 20
+Best best molecule in generation  16
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  64.29  seconds
+###   On generation 17 of 20
+Best best molecule in generation  17
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  60.93  seconds
+###   On generation 18 of 20
+Best best molecule in generation  18
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.44  seconds
+###   On generation 19 of 20
+Best best molecule in generation  19
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.12  seconds
+###   On generation 20 of 20
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:00:17.789233, resuming normal operation.
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+Best best molecule in generation  20
+    smile  :  CC[NH+](CCOC1CCCCO1)CC1CCCCC1
+    fitness:  -1.5761523776421191
+    logP   :  2.0146999999999995
+    sas    :  4.228832219290203
+    ringP  :  0
+    discrm :  [0.5211552]
+Generation time:  61.94  seconds
+Total time:  20.4  mins
+Total number of unique molecules:  3480
+Total Experiment time:  20.44346241950989  mins
+IMPROVEMENT:  3.371271068422155
+wandb: Waiting for W&B process to finish, PID 14447
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.05MB of 0.05MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_204320-6xn22458/logs/debug.log
+wandb: Find internal logs for this run at: /home/kjablonk/documents/replication_study/selfies_ga_nn_replication/wandb/run-20210123_204320-6xn22458/logs/debug-internal.log
+wandb: Run summary:
+wandb:                fitness -1.57615
+wandb:             similarity 0
+wandb:                  _step 21
+wandb:               _runtime 1227
+wandb:             _timestamp 1611432227
+wandb:            improvement 3.37127
+wandb:         original_score -4.94742
+wandb:              new_score -1.57615
+wandb:               improved True
+wandb: Run history:
+wandb:          fitness ▁▃▃█████████████████
+wandb:       similarity ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            _step ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
+wandb:         _runtime ▁▁▂▂▃▃▃▄▄▄▅▅▅▆▆▇▇▇████
+wandb:       _timestamp ▁▁▂▂▃▃▃▄▄▄▅▅▅▆▆▇▇▇████
+wandb:      improvement ▁
+wandb:   original_score ▁
+wandb:        new_score ▁
+wandb:         improved ▁
+wandb: 
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced desert-sponge-2262: https://wandb.ai/kjappelbaum/ga_replication_study/runs/6xn22458
+
+Working on CC(=O)N1CCc2cc(S(=O)(=O)N[C@@H](C(=O)[O-])C(C)C)ccc21
+wandb: wandb version 0.10.14 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Network error (HTTPError), entering retry loop. See wandb/debug-internal.log for full traceback.
+wandb: Network error resolved after 0:14:55.624418, resuming normal operation.

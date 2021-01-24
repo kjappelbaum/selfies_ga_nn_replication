@@ -546,3 +546,4 @@ saved_models*/
 nohup.out
 *.wandb
 wandb/
+nohup*.out
