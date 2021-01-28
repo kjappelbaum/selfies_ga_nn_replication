@@ -548,3 +548,5 @@ nohup.out
 wandb/
 nohup*.out
 random_baseline_failures
+guacamol*.out
+*.json
