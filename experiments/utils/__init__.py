@@ -5,15 +5,14 @@ from collections import OrderedDict
 
 import ccbmlib.models as ccbm
 import numpy as np
-
-import wandb
 from net import evolution_functions as evo
 from sa_scorer.sascorer import calculate_score
+
+import wandb
 
 api = wandb.Api()
 
 sys.path.append("..")
-
 
 
 def get_pairwise_similarities(mols):
@@ -89,22 +88,22 @@ def get_smiles_sizes_2(run_id):
     return sizes, mols, js
 
 
-def get_similarity_evolution(mols):
+def get_similarity_evolution(mols, upper=500):
     similarities = []
 
-    for i in range(5, 500):
+    for i in range(5, upper):
         similarities.append(np.mean(get_pairwise_similarities(mols[i - 5 : i])))
     return similarities
 
 
-def get_similarity_size_evolution(run_name):
+def get_similarity_size_evolution(run_name, upper=500):
     sizes, mols = get_smiles_sizes(run_name)
 
     result = OrderedDict(
         [
             ("mols", mols),
             ("sizes", sizes),
-            ("similarity", get_similarity_evolution(mols)),
+            ("similarity", get_similarity_evolution(mols, upper=upper)),
         ]
     )
 
