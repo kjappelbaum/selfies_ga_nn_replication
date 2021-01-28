@@ -1,36 +1,37 @@
-# Code for the replication study of "Augmenting genetic algorithms with deep neural networks for exploring the chemical space" 
+# Replication study of "Augmenting genetic algorithms with deep neural networks for exploring the chemical space"
 
-|          |           |
-|----------|-----------|
-| Original Reference | [AkshatKumar Nigam, Pascal Friederich, Mario Krenn, Alan Aspuru-Guzik, ICLR 2020](https://openreview.net/forum?id=H1lmyRNFvr)|
-| Original Code      | [On GitHub 💻](https://github.com/aspuru-guzik-group/GA/tree/paper_results)|
-| All experiments  | [Tracked using wandb](https://wandb.ai/kjappelbaum/ga_replication_study) | 
+|                    |                                                                                                                                                                                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Original Reference | [AkshatKumar Nigam, Pascal Friederich, Mario Krenn, Alan Aspuru-Guzik, ICLR 2020](https://openreview.net/forum?id=H1lmyRNFvr)                                                                                                        |
+| Original Code      | [On GitHub 💻](https://github.com/aspuru-guzik-group/GA/tree/paper_results)                                                                                                                                                          |
+| All experiments    | [Tracked using wandb](https://wandb.ai/kjappelbaum/ga_replication_study)                                                                                                                                                             |
+| Interactive Report | [On the Weights and Biases platform](https://wandb.ai/kjappelbaum/ga_replication_study/reports/A-reproducibility-study-of-Augmenting-Genetic-Algorithms-with-Deep-Neural-Networks-for-Exploring-the-Chemical-Space--Vmlldzo0MjI5NjI) |
 
-
-# Requirements 
+## Requirements
 
 The main dependencies for the GA are [PyTorch](https://pytorch.org/), [RDKit](rdkit.org), and [SELFIES](https://github.com/aspuru-guzik-group/selfies). For the similarity-triggered penalty we additionally used [ccbmlib](https://github.com/vogt-m/ccbmlib).
 
-## Linux
+### Linux
 
-To create a conda environment with all dependencies run 
+To create a conda environment with all dependencies run
 
 ```bash
 conda env create -n selfies_ga_replication -f environment_ubuntu.yml
 ```
 
-## Mac OS 
+### Mac OS
 
-To create a conda environment with all dependencies run 
+To create a conda environment with all dependencies run
 
 ```bash
 conda env create -n selfies_ga_replication -f environment_mac.yml
 ```
+
 (We used the Mac environment mostly for data analysis.)
 
-# Experiments
+## Experiments
 
-In addition to the main experiments from the paper we ran some additional ones investigating a novel adapative penalty, the influence of the model architecture, and the influence of the labeling convention. 
+In addition to the main experiments from the paper we ran some additional ones investigating a novel adapative penalty, the influence of the model architecture, and the influence of the labeling convention.
 
 1. [Experiment 1: Baseline and basic SELFIES GA](./experiment_1/README.md)
 2. [Experiment 2: Time adaptive penalty](./experiment_2/README.md)
@@ -42,7 +43,7 @@ In addition to the main experiments from the paper we ran some additional ones i
 8. [Experiment 8: Using logistic regression](./experiment_8/README.md)
 9. [guacamol_baseline](./guacamol_baseline/README.md)
 
-We re ran the experiments using [Weights and Biases](https://wandb.ai/site) tracking, if you also want to use this, you'll need to setup wandb on your machine (`pip install wandb`, followed by `wandb login`). Typically we ran experiments in the following way from the root directory 
+We re ran the experiments using [Weights and Biases](https://wandb.ai/site) tracking, if you also want to use this, you'll need to setup wandb on your machine (`pip install wandb`, followed by `wandb login`). Typically we ran experiments in the following way from the root directory
 
 ```bash
 python -m experiments.experiment_1.ga.core_ga
@@ -50,6 +51,6 @@ python -m experiments.experiment_1.ga.core_ga
 
 We ran some additional experiments on a cluster. For this we used the submission scripts in `submission_scripts`.
 
-## Analysis 
+### Analysis
 
 The analysis was performed in Jupyter notebook which are in a `analysis` subfolder for every experiment.
