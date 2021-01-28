@@ -4,6 +4,7 @@ import time
 import click
 import torch
 from typing import List
+import joblib
 from joblib import delayed
 from selfies import decoder, encoder
 from tensorboardX import SummaryWriter
@@ -202,7 +203,8 @@ class ChemGEGenerator(GoalDirectedGenerator):
         device="cpu",
         properties_calc_ls=None,
         results_path="results",
-    ):
+    ):  
+        self.pool = joblib.Parallel(n_jobs=4)
         self.num_generation = num_generations
         self.generation_size = generation_size
         self.max_molecule_len = max_molecule_len
@@ -228,7 +230,7 @@ class ChemGEGenerator(GoalDirectedGenerator):
             ]
         )
         self.results_dir = evo.make_clean_results_dir(
-            os.path.join(THIS_DIR, results_path)
+            os.path.join(THIS_DIR, results_path, f"goal_directed_results_beta_{beta}_{similarity_threshold}_{num_generation}")
         )
         (
             self.image_dir,
@@ -244,13 +246,15 @@ class ChemGEGenerator(GoalDirectedGenerator):
         self, smi_file=os.path.join(THIS_DIR, "..", "data", "guacamol_v1_all.smiles")
     ):
         with open(smi_file) as f:
-            return [canonicalize(s.strip()) for s in f.readlines()]
+            return self.pool(delayed(canonicalize)(s.strip()) for s in f)
 
     def top_k(self, smiles: List[str], scoring_function: ScoringFunction, k):
-        scores = scoring_function.score_list(smiles)
+        joblist = (delayed(scoring_function.score)(s) for s in smiles)
+        scores = self.pool(joblist)
         scored_smiles = list(zip(scores, smiles))
         scored_smiles = sorted(scored_smiles, key=lambda x: x[0], reverse=True)
-        return [smile for _, smile in scored_smiles][:k]
+        return [smile for score, smile in scored_smiles][:k]
+
 
     def generate_optimized_molecules(
         self,
@@ -351,7 +355,7 @@ def cli(beta, watchtime, similarity_threshold, num_generations):
     )
 
     json_file_path = os.path.join(
-        THIS_DIR, f"goal_directed_results_beta_{beta}_{similarity_threshold}.json"
+        THIS_DIR, f"goal_directed_results_beta_{beta}_{similarity_threshold}_{num_generation}.json"
     )
     assess_goal_directed_generation(optimiser, json_output_file=json_file_path)
 
