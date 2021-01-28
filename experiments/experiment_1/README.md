@@ -1,4 +1,6 @@
-# Unconstrained optimization and random baseline 
+# Unconstrained optimization and random baseline
 
-Unconstrained Optimization Experiment ('GA'): Unconstrained optimization and comparison with other generative models
-Random SELFIE Generation ('random_selfies'): Generating random molecules with SELFIES
+This folder contains the code for two baseline experiments
+
+- random baseline experiments (scores of randomly sampled SELFIES)
+- SELFIES-GA runs with different beta (applied all the time)
